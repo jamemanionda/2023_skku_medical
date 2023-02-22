@@ -63,15 +63,15 @@ def dicomcsv(csv_file):
         reader = csv.DictReader(csvfile)
         sorted_rows = sorted(reader, key=lambda row: row['Modification Time'])
         for row in sorted_rows:
-            print("{'File Name':<20}:           {row['File Name']}")
-            print("{'Hash':<20}:                {row['Hash']}")
-            print("{'Signature':<20}:           {row['Signature']}")
-            print("{'Patient Name':<20}:        {row['Patient Name']}")
-            print("{'Patient ID':<20}:          {row['Patient ID']}")
-            print("{'Modality':<20}:            {row['Modality']}")
-            print("{'Modification Time':<20}:   {row['Modification Time']}\n")
-            print("{'Access Time':<20}:         {row['Access Time']}\n")
-            print("{'Creation Time':<20}:       {row['Creation Time']}")
+            print("{'File Name':}:           {row['File Name']}")
+            print("{'Hash':}:                {row['Hash']}")
+            print("{'Signature':}:           {row['Signature']}")
+            print("{'Patient Name':}:        {row['Patient Name']}")
+            print("{'Patient ID':}:          {row['Patient ID']}")
+            print("{'Modality':}:            {row['Modality']}")
+            print("{'Modification Time':}:   {row['Modification Time']}\n")
+            print("{'Access Time':}:         {row['Access Time']}\n")
+            print("{'Creation Time':}:       {row['Creation Time']}")
 
 if __name__ == '__main__':
     dicom_files = ['test1.dcm', 'test2.dcm', 'test3.dcm']
