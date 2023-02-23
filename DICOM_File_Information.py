@@ -1,5 +1,8 @@
+#pip install pydicom
+
 import pydicom
 import os
+
 DICOM_Filepath = ''                         #파일 경로 입력
 dcm = pydicom.dcmread(DICOM_Filepath)
 
