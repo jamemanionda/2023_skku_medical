@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>874</width>
+    <width>888</width>
     <height>532</height>
    </rect>
   </property>
@@ -86,7 +86,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>태그 분류</string>
+     <string>파일 정보</string>
     </property>
    </widget>
    <widget class="QTextBrowser" name="dicomTags">
@@ -128,7 +128,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>영상 정보</string>
+     <string>태그 정보</string>
     </property>
    </widget>
    <widget class="QLabel" name="file_isForgery_text">
@@ -182,6 +182,11 @@
     <property name="contextMenuPolicy">
      <enum>Qt::ActionsContextMenu</enum>
     </property>
+    <column>
+     <property name="text">
+      <string notr="true">1</string>
+     </property>
+    </column>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -189,7 +194,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>874</width>
+     <width>888</width>
      <height>21</height>
     </rect>
    </property>
