@@ -1,6 +1,6 @@
 import pydicom
 import os
-DICOM_Filepath = '0002.DCM'                         #파일 경로 입력
+DICOM_Filepath = ''                         #파일 경로 입력
 dcm = pydicom.dcmread(DICOM_Filepath)
 
 DICOM_Filename = os.path.basename(DICOM_Filepath)   #파일명 추출
