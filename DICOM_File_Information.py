@@ -13,12 +13,12 @@ import pydicom
 import os
 from PySide6.QtUiTools import QUiLoader
 from PySide6.QtWidgets import QWidget, QMessageBox, QApplication, QTableWidget, QTableWidgetItem, QDialog, QFileDialog, \
-    QMainWindow
+    QMainWindow, QTreeWidgetItem
 from PySide6.QtGui import QAction, QIcon
 from qt_material import apply_stylesheet
 from mainui import Ui_MainWindow
 
-class Main(QMainWindow,Ui_MainWindow):
+class DicomInformation(QMainWindow,Ui_MainWindow):
 
     def __init__(self, parent=None, openAction=None):
         self.dicom_filepath = ''
@@ -35,18 +35,26 @@ class Main(QMainWindow,Ui_MainWindow):
         self.patient_weight = ''
         self.study_date = ''
 
-        super(Main, self).__init__(parent)
+        #UI 설정
+        super(DicomInformation, self).__init__(parent)
         self.main = QUiLoader().load('main.ui', self)
         self.setupUi(self)
         apply_stylesheet(self, 'light_pink.xml')
 
-
-    DICOM_Filepath = 'D:\\Download\\VR00001.dcm'                         #파일 경로 입력
-    dcm = pydicom.dcmread(str(DICOM_Filepath))
+        #메인 기능
+        self.mainfunction()
 
     #파일 경로 입력
     def input_dicom(self):
-        self.dicom_filepath = input("파일 경로 :")
+        dicom_filename = QFileDialog.getOpenFileName(self, 'Open File', dir='C:')
+        self.dicom_filepath = str(dicom_filename[0])
+        fileobject = self.dicom_filepath.split('/')
+        file = fileobject[len(fileobject) - 1]
+        self.fname = file
+        #self.label.setText(file)
+
+        self.get_dicom_data()
+        self.output_dicom_data()
 
     #dicom파일 데이터 획득
     def get_dicom_data(self):
@@ -72,6 +80,9 @@ class Main(QMainWindow,Ui_MainWindow):
     #dicom파일 데이터 출력
     def output_dicom_data(self):
         #파일 데이터 출력
+
+        self.dicomTags.setText(self.dicom_filename)
+
         print("File Name :", end=" ")
         print(self.dicom_filename)
         print("File Meta Information Version :", end=" ")
@@ -100,13 +111,16 @@ class Main(QMainWindow,Ui_MainWindow):
         print("Study Date :", end=" ")
         print(self.study_date)
 
-#print(dcm) #DICOM 파일의 모든 정보
+        #print(dcm) #DICOM 파일의 모든 정보
+
+    def mainfunction(self):
+        self.fileSelect.clicked.connect(self.input_dicom)
 
 
 if __name__ == '__main__':
     #app = QApplication(sys.argv)
     app = QApplication(sys.argv)
 
-    ex = Main()
+    ex = DicomInformation()
     ex.show()
     app.exec()
