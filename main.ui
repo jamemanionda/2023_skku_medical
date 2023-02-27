@@ -245,24 +245,7 @@
   </action>
  </widget>
  <resources/>
- <connections>
-  <connection>
-   <sender>fileSelect</sender>
-   <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>openFile()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>59</x>
-     <y>44</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>133</x>
-     <y>44</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
+ <connections/>
  <slots>
   <slot>openFile()</slot>
  </slots>
