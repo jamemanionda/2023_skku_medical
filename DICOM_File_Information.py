@@ -1,7 +1,7 @@
 """
  2023.02.23 # 박재현
  수정1차 : DICOM 분석
-
+ 수정3차 : DICOM Tag 주석으로 추가
  #이은지
  수정 2차 : GUI 연결(pyside import 추가,
 """
@@ -33,7 +33,7 @@ class DicomInformation(QMainWindow,Ui_MainWindow):
         self.patient_age = ''
         self.patient_height = ''
         self.patient_weight = ''
-        self.study_date = ''
+        self.series_date = ''
 
         #UI 설정
         super(DicomInformation, self).__init__(parent)
@@ -65,6 +65,11 @@ class DicomInformation(QMainWindow,Ui_MainWindow):
         self.file_meta_information_version = dcm.file_meta.get("FileMetaInformationVersion")                 #filemeta 버전
         self.media_storage_sop_class_uid = dcm.file_meta.get("MediaStorageSOPClassUID")                      #SOP class UID
         self.media_storage_sop_instance_uid = dcm.file_meta.get("MediaStorageSOPInstanceUID")                #SOP instance UID
+        """
+        MAC ID Number                               MAC 매개변수 시퀀스 항목 식별 번호
+        MAC Algorithm                               MAC 생성에 사용되는 알고리즘
+        Signature                                   암호화된 MAC
+        """
 
         #환자 데이터
         self.patient_name = dcm.get("PatientName")                                                           #환자 이름
@@ -74,8 +79,17 @@ class DicomInformation(QMainWindow,Ui_MainWindow):
         self.patient_age = dcm.get("PatientAge")                                                             #환자 나이
         self.patient_height = dcm.get("PatientSize")                                                         #환자 키
         self.patient_weight = dcm.get("PatientWeight")                                                       #환자 몸무게
-        self.study_date = dcm.get("StudyDate")                                                               #진료 시작 날짜(추정)
+        self.series_date = dcm.get("SeriesDate")                                                               #진료 시작 날짜(추정)
         #이 외의 알레르기, 흡연, 임신 등 기타 상태 확인 가능
+        """
+        Performing Physician's Name                 주치의
+        """
+
+        #병원 데이터
+        """
+        Institution Name                            병원 이름
+        Institution address                         병원 주소
+        """
 
     #dicom파일 데이터 출력
     def output_dicom_data(self):
@@ -108,8 +122,8 @@ class DicomInformation(QMainWindow,Ui_MainWindow):
         print(self.patient_height)
         print("Patient Weight :", end=" ")
         print(self.patient_weight)
-        print("Study Date :", end=" ")
-        print(self.study_date)
+        print("Series Date :", end=" ")
+        print(self.series_date)
 
         #print(dcm) #DICOM 파일의 모든 정보
 
