@@ -135,10 +135,10 @@ class DicomInformation(QMainWindow,Ui_MainWindow):
 
         #print(dcm) #DICOM 파일의 모든 정보
         """
-        app = QApplication(sys.argv)
+        #app = QApplication(sys.argv)
         form = Form(self)
         form.show()
-        exit(app.exec_())
+        #exit(app.exec_())
 
     def mainfunction(self):
         self.fileSelect.clicked.connect(self.input_dicom)
