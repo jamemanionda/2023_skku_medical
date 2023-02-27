@@ -2,6 +2,7 @@
  2023.02.23 # 박재현
  수정1차 : DICOM 분석
  수정3차 : DICOM Tag 주석으로 추가
+ 수정4차 : UI 출력을 위한 Form 클래스 추가, DicomInformation.output_dicom_data 함수에 Form 클래스 삽입, Form UI 크기 조절 필요
  #이은지
  수정 2차 : GUI 연결(pyside import 추가,
 """
