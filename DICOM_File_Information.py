@@ -11,6 +11,13 @@ import sys
 
 import pydicom
 import os
+import sys
+from PyQt5.QtWidgets import QWidget
+from PyQt5.QtWidgets import QTreeWidget
+from PyQt5.QtCore import QVariant
+from PyQt5.QtWidgets import QTreeWidgetItem
+from PyQt5.QtWidgets import QApplication
+from PyQt5.QtCore import Qt
 from PySide6.QtUiTools import QUiLoader
 from PySide6.QtWidgets import QWidget, QMessageBox, QApplication, QTableWidget, QTableWidgetItem, QDialog, QFileDialog, \
     QMainWindow, QTreeWidgetItem
@@ -96,7 +103,7 @@ class DicomInformation(QMainWindow,Ui_MainWindow):
         #파일 데이터 출력
 
         self.dicomTags.setText(self.dicom_filename)
-
+        """
         print("File Name :", end=" ")
         print(self.dicom_filename)
         print("File Meta Information Version :", end=" ")
@@ -126,10 +133,54 @@ class DicomInformation(QMainWindow,Ui_MainWindow):
         print(self.series_date)
 
         #print(dcm) #DICOM 파일의 모든 정보
+        """
+        app = QApplication(sys.argv)
+        form = Form(self)
+        form.show()
+        exit(app.exec_())
 
     def mainfunction(self):
         self.fileSelect.clicked.connect(self.input_dicom)
 
+class Form(QWidget):
+    def __init__(self, dicom):
+        QWidget.__init__(self, flags=Qt.Widget)
+        self.setWindowTitle("QTreeWidget Column")
+        self.setFixedWidth(210)
+        self.setFixedHeight(150)
+
+        # 데이터
+        data = [
+            {"type": "File",
+             "objects": [("File name", dicom.dicom_filename), ("File Meta Information Version", dicom.file_meta_information_version),
+                         ("Media Storage SOP Class UID", dicom.media_storage_sop_class_uid), ("Media Storage SOP Instance UID", dicom.media_storage_sop_instance_uid)]},
+            {"type": "Patient",
+             "objects": [("Patient Name", dicom.patient_name), ("Patient ID", dicom.patient_id),
+                         ("Patient Sex", dicom.patient_sex), ("Patient Birthday", dicom.patient_birthday),
+                         ("Patient Age", dicom.patient_age), ("Patient Height", dicom.patient_height),
+                         ("Patient Weight", dicom.patient_weight), ("Series Date", dicom.series_date)]},
+        ]
+        # QTreeView 생성 및 설정
+        self.tw = QTreeWidget(self)
+        self.tw.setColumnCount(2)
+
+        for d in data:
+            parent = self.add_tree_root(d['type'], "")
+            for child in d['objects']:
+                self.add_tree_child(parent, *child)
+
+    def add_tree_root(self, name:str, description:str):
+        item = QTreeWidgetItem(self.tw)
+        item.setText(0, name)
+        item.setText(1, description)
+        return item
+
+    def add_tree_child(self, parent:QTreeWidgetItem, name:str, description:str):
+        item = QTreeWidgetItem()
+        item.setText(0, name)
+        item.setText(1, description)
+        parent.addChild(item)
+        return item
 
 if __name__ == '__main__':
     #app = QApplication(sys.argv)
