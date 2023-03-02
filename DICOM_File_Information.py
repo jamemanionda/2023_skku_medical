@@ -83,7 +83,7 @@ class DicomInformation(QMainWindow,Ui_MainWindow):
         """
 
         #환자 데이터
-        self.patient_name = dcm.get("PatientName")                                                              #환자 이름
+        self.patient_name = dcm.get("PatientName")                                                           #환자 이름
         self.patient_id = dcm.get("PatientID")                                                               #환자 ID
         self.patient_sex = dcm.get("PatientSex")                                                             #환자 성별
         self.patient_birthday = dcm.get("PatientBirthDate")                                                  #환자 생년월일
@@ -91,13 +91,12 @@ class DicomInformation(QMainWindow,Ui_MainWindow):
         self.patient_height = dcm.get("PatientSize")                                                         #환자 키
         self.patient_weight = dcm.get("PatientWeight")                                                       #환자 몸무게
         self.series_date = dcm.get("SeriesDate")                                                             #진료 시작 날짜(추정)
+        self.performing_physician_name = dcm.get("PerformingPhysicianName")                                  #주치의
         #이 외의 알레르기, 흡연, 임신 등 기타 상태 확인 가능
 
-        self.performing_physician_name = dcm.get("PerformingPhysicianName")                                  #주치의
 
 
         #병원 데이터
-
         self.institution_name = dcm.get("InstitutionName")                                                   #병원 이름
         self.institution_address = dcm.get("InstitutionAddress")                                             #병원 주소
 
@@ -136,7 +135,6 @@ class DicomInformation(QMainWindow,Ui_MainWindow):
         print("Series Date :", end=" ")
         print(self.series_date)
 
-        #print(dcm) #DICOM 파일의 모든 정보
         """
         #app = QApplication(sys.argv)
         form = Form(self)
