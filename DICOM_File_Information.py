@@ -42,6 +42,9 @@ class DicomInformation(QMainWindow,Ui_MainWindow):
         self.patient_height = ''
         self.patient_weight = ''
         self.series_date = ''
+        self.performing_physician_name = ''
+        self.institution_name = ''
+        self.institution_address = ''
 
         #UI 설정
         super(DicomInformation, self).__init__(parent)
@@ -80,24 +83,24 @@ class DicomInformation(QMainWindow,Ui_MainWindow):
         """
 
         #환자 데이터
-        self.patient_name = dcm.get("PatientName")                                                           #환자 이름
+        self.patient_name = dcm.get("PatientName")                                                              #환자 이름
         self.patient_id = dcm.get("PatientID")                                                               #환자 ID
         self.patient_sex = dcm.get("PatientSex")                                                             #환자 성별
         self.patient_birthday = dcm.get("PatientBirthDate")                                                  #환자 생년월일
         self.patient_age = dcm.get("PatientAge")                                                             #환자 나이
         self.patient_height = dcm.get("PatientSize")                                                         #환자 키
         self.patient_weight = dcm.get("PatientWeight")                                                       #환자 몸무게
-        self.series_date = dcm.get("SeriesDate")                                                               #진료 시작 날짜(추정)
+        self.series_date = dcm.get("SeriesDate")                                                             #진료 시작 날짜(추정)
         #이 외의 알레르기, 흡연, 임신 등 기타 상태 확인 가능
-        """
-        Performing Physician's Name                 주치의
-        """
+
+        self.performing_physician_name = dcm.get("PerformingPhysicianName")                                  #주치의
+
 
         #병원 데이터
-        """
-        Institution Name                            병원 이름
-        Institution address                         병원 주소
-        """
+
+        self.institution_name = dcm.get("InstitutionName")                                                   #병원 이름
+        self.institution_address = dcm.get("InstitutionAddress")                                             #병원 주소
+
 
     #dicom파일 데이터 출력
     def output_dicom_data(self):
@@ -159,7 +162,10 @@ class Form(QWidget):
              "objects": [("Patient Name", dicom.patient_name), ("Patient ID", dicom.patient_id),
                          ("Patient Sex", dicom.patient_sex), ("Patient Birthday", dicom.patient_birthday),
                          ("Patient Age", dicom.patient_age), ("Patient Height", dicom.patient_height),
-                         ("Patient Weight", dicom.patient_weight), ("Series Date", dicom.series_date)]},
+                         ("Patient Weight", dicom.patient_weight), ("Series Date", dicom.series_date),
+                         ("Performing Physician's Name", dicom.performing_physician_name)]},
+            {"type": "Institution",
+             "objects": [("Institution Name", dicom.institution_name), ("Institution Address", dicom.institution_address)]},
         ]
         # QTreeView 생성 및 설정
         self.tw = QTreeWidget(self)
