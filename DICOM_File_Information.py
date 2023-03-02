@@ -27,7 +27,6 @@ from qt_material import apply_stylesheet
 from mainui import Ui_MainWindow
 
 class DicomInformation(QMainWindow,Ui_MainWindow):
-
     def __init__(self, parent=None, openAction=None):
         self.dicom_filepath = ''
         self.dicom_filename = ''
@@ -55,6 +54,7 @@ class DicomInformation(QMainWindow,Ui_MainWindow):
         #메인 기능
         self.mainfunction()
 
+
     #파일 경로 입력
     def input_dicom(self):
         dicom_filename = QFileDialog.getOpenFileName(self, 'Open File', dir='C:')
@@ -66,6 +66,7 @@ class DicomInformation(QMainWindow,Ui_MainWindow):
 
         self.get_dicom_data()
         self.output_dicom_data()
+
 
     #dicom파일 데이터 획득
     def get_dicom_data(self):
@@ -103,46 +104,15 @@ class DicomInformation(QMainWindow,Ui_MainWindow):
 
     #dicom파일 데이터 출력
     def output_dicom_data(self):
-        #파일 데이터 출력
-
         self.dicomTags.setText(self.dicom_filename)
-        """
-        print("File Name :", end=" ")
-        print(self.dicom_filename)
-        print("File Meta Information Version :", end=" ")
-        print(self.file_meta_information_version)
-        print("Media Storage SOP Class UID :", end=" ")
-        print(self.media_storage_sop_class_uid)
-        print("Media Storage SOP Instance UID :", end=" ")
-        print(self.media_storage_sop_instance_uid)
 
-        #환자 데이터 출력
-        #DICOM 파일에 해당 attribute가 없다면 출력값이 None
-        print("Patient Name :", end=" ")
-        print(self.patient_name)
-        print("Patient ID :", end=" ")
-        print(self.patient_id)
-        print("Patient Sex :", end=" ")
-        print(self.patient_sex)
-        print("Patient Birthday :", end=" ")
-        print(self.patient_birthday)
-        print("Patient Age :", end=" ")
-        print(self.patient_age)
-        print("Patient Height :", end=" ")
-        print(self.patient_height)
-        print("Patient Weight :", end=" ")
-        print(self.patient_weight)
-        print("Series Date :", end=" ")
-        print(self.series_date)
-
-        """
-        #app = QApplication(sys.argv)
         form = Form(self)
         form.show()
-        #exit(app.exec_())
+
 
     def mainfunction(self):
         self.fileSelect.clicked.connect(self.input_dicom)
+
 
 class Form(QWidget):
     def __init__(self, dicom):
