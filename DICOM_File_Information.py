@@ -118,8 +118,8 @@ class Form(QWidget):
     def __init__(self, dicom):
         QWidget.__init__(self, flags=Qt.Widget)
         self.setWindowTitle("QTreeWidget Column")
-        self.setFixedWidth(210)
-        self.setFixedHeight(150)
+        #self.setFixedWidth(210)
+        #self.setFixedHeight(150)
 
         # 데이터
         data = [
