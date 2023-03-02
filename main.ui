@@ -207,6 +207,7 @@
     <addaction name="actionSave"/>
     <addaction name="separator"/>
     <addaction name="actionClose"/>
+    <addaction name="separator"/>
    </widget>
    <widget class="QMenu" name="menuEdit">
     <property name="title">

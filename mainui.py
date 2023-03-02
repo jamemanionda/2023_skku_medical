@@ -106,7 +106,7 @@ class Ui_MainWindow(object):
         self.menuFile.addAction(self.actionClose)
 
         self.retranslateUi(MainWindow)
-        self.fileSelect.clicked.connect(MainWindow.openFile)
+        #self.fileSelect.clicked.connect(MainWindow.openFile)
 
         QMetaObject.connectSlotsByName(MainWindow)
     # setupUi
