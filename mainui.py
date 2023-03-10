@@ -18,14 +18,14 @@ from PySide6.QtGui import (QAction, QBrush, QColor, QConicalGradient,
     QTransform)
 from PySide6.QtWidgets import (QApplication, QGraphicsView, QHeaderView, QLabel,
     QMainWindow, QMenu, QMenuBar, QPushButton,
-    QSizePolicy, QStatusBar, QTextBrowser, QTreeWidget,
-    QTreeWidgetItem, QWidget)
+    QSizePolicy, QStatusBar, QTableWidget, QTableWidgetItem,
+    QTreeWidget, QTreeWidgetItem, QWidget)
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(888, 532)
+        MainWindow.resize(917, 532)
         self.actionNew = QAction(MainWindow)
         self.actionNew.setObjectName(u"actionNew")
         self.actionOpen = QAction(MainWindow)
@@ -47,16 +47,13 @@ class Ui_MainWindow(object):
         self.file_time_label.setGeometry(QRect(30, 100, 91, 16))
         self.dicomView = QGraphicsView(self.centralwidget)
         self.dicomView.setObjectName(u"dicomView")
-        self.dicomView.setGeometry(QRect(30, 160, 371, 321))
+        self.dicomView.setGeometry(QRect(30, 160, 361, 321))
         self.label_4 = QLabel(self.centralwidget)
         self.label_4.setObjectName(u"label_4")
         self.label_4.setGeometry(QRect(30, 140, 61, 16))
         self.dicomTags_lable = QLabel(self.centralwidget)
         self.dicomTags_lable.setObjectName(u"dicomTags_lable")
         self.dicomTags_lable.setGeometry(QRect(650, 140, 61, 16))
-        self.dicomTags = QTextBrowser(self.centralwidget)
-        self.dicomTags.setObjectName(u"dicomTags")
-        self.dicomTags.setGeometry(QRect(650, 160, 211, 321))
         self.fileSelect = QPushButton(self.centralwidget)
         self.fileSelect.setObjectName(u"fileSelect")
         self.fileSelect.setEnabled(True)
@@ -64,7 +61,7 @@ class Ui_MainWindow(object):
         self.fileSelect.setContextMenuPolicy(Qt.ActionsContextMenu)
         self.label_6 = QLabel(self.centralwidget)
         self.label_6.setObjectName(u"label_6")
-        self.label_6.setGeometry(QRect(420, 140, 61, 16))
+        self.label_6.setGeometry(QRect(400, 140, 61, 16))
         self.file_isForgery_text = QLabel(self.centralwidget)
         self.file_isForgery_text.setObjectName(u"file_isForgery_text")
         self.file_isForgery_text.setGeometry(QRect(140, 40, 261, 16))
@@ -79,12 +76,18 @@ class Ui_MainWindow(object):
         __qtreewidgetitem.setText(0, u"1");
         self.treeWidget.setHeaderItem(__qtreewidgetitem)
         self.treeWidget.setObjectName(u"treeWidget")
-        self.treeWidget.setGeometry(QRect(410, 160, 221, 321))
+        self.treeWidget.setGeometry(QRect(400, 160, 231, 321))
         self.treeWidget.setContextMenuPolicy(Qt.ActionsContextMenu)
+        self.tableWidget = QTreeWidget(self.centralwidget)
+        self.tableWidget.setObjectName(u"tableWidget")
+        self.tableWidget.setGeometry(QRect(640, 160, 241, 321))
+        font = QFont()
+        font.setPointSize(7)
+        self.tableWidget.setFont(font)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QMenuBar(MainWindow)
         self.menubar.setObjectName(u"menubar")
-        self.menubar.setGeometry(QRect(0, 0, 888, 21))
+        self.menubar.setGeometry(QRect(0, 0, 917, 21))
         self.menuFile = QMenu(self.menubar)
         self.menuFile.setObjectName(u"menuFile")
         self.menuEdit = QMenu(self.menubar)
@@ -104,9 +107,9 @@ class Ui_MainWindow(object):
         self.menuFile.addAction(self.actionSave)
         self.menuFile.addSeparator()
         self.menuFile.addAction(self.actionClose)
+        self.menuFile.addSeparator()
 
         self.retranslateUi(MainWindow)
-        #self.fileSelect.clicked.connect(MainWindow.openFile)
 
         QMetaObject.connectSlotsByName(MainWindow)
     # setupUi
@@ -121,9 +124,9 @@ class Ui_MainWindow(object):
         self.file_Forgery_Position_label.setText(QCoreApplication.translate("MainWindow", u"\ud30c\uc77c \uc704\ubcc0\uc870 \uc704\uce58", None))
         self.file_time_label.setText(QCoreApplication.translate("MainWindow", u"\uac80\uc0ac \uc2dc\uac04", None))
         self.label_4.setText(QCoreApplication.translate("MainWindow", u"\uc601\uc0c1 \ud654\uba74", None))
-        self.dicomTags_lable.setText(QCoreApplication.translate("MainWindow", u"\ud30c\uc77c \uc815\ubcf4", None))
+        self.dicomTags_lable.setText(QCoreApplication.translate("MainWindow", u"\ud0dc\uadf8 \uc815\ubcf4", None))
         self.fileSelect.setText(QCoreApplication.translate("MainWindow", u"\ud30c\uc77c \uc120\ud0dd", None))
-        self.label_6.setText(QCoreApplication.translate("MainWindow", u"\ud0dc\uadf8 \uc815\ubcf4", None))
+        self.label_6.setText(QCoreApplication.translate("MainWindow", u"\ud30c\uc77c \uc815\ubcf4", None))
         self.file_isForgery_text.setText("")
         self.file_Forgery_Position_text.setText("")
         self.file_time_text.setText("")

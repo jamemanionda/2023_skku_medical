@@ -14,5 +14,6 @@
 
 1. ui -> py
 pyside6-uic <ui경로> -o <변환할파일명.py)
+pyside6-uic main.ui -o mainui.py
 
 
