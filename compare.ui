@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>985</width>
+    <height>899</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Forensic Tool</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGraphicsView" name="dicomView">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>361</width>
+      <height>321</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>40</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>영상 화면</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dicomTags_lable">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>40</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>태그 정보</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="fileSelect">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>91</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::ActionsContextMenu</enum>
+    </property>
+    <property name="text">
+     <string>파일 선택</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>40</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>파일 정보</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="file_Forgery_Position_text">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>10</y>
+      <width>261</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTreeWidget" name="treeWidget">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>60</y>
+      <width>231</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::ActionsContextMenu</enum>
+    </property>
+    <column>
+     <property name="text">
+      <string notr="true">1</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>60</y>
+      <width>241</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>490</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>파일 정보</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>510</y>
+      <width>241</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dicomTags_lable_2">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>490</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>태그 정보</string>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="dicomView_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>510</y>
+      <width>361</width>
+      <height>321</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTreeWidget" name="treeWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>510</y>
+      <width>231</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::ActionsContextMenu</enum>
+    </property>
+    <column>
+     <property name="text">
+      <string notr="true">1</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="file_isForgery_label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>400</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>파일 위변조 여부</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="file_Forgery_Position_label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>430</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>파일 위변조 위치</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="fileSelect_2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>460</y>
+      <width>91</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::ActionsContextMenu</enum>
+    </property>
+    <property name="text">
+     <string>파일 선택</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>490</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>영상 화면</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>390</y>
+      <width>861</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout"/>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>985</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNew"/>
+    <addaction name="actionOpen"/>
+    <addaction name="actionSave"/>
+    <addaction name="separator"/>
+    <addaction name="actionClose"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>View</string>
+    </property>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuView"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNew">
+   <property name="text">
+    <string>New</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionClose">
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+ <slots>
+  <slot>openFile()</slot>
+ </slots>
+</ui>

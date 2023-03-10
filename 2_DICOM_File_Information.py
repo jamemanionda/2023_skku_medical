@@ -22,8 +22,8 @@ from PyQt5.QtWidgets import QApplication
 from PyQt5.QtCore import Qt
 from PySide6.QtUiTools import QUiLoader
 from PySide6.QtWidgets import QWidget, QMessageBox, QApplication, QTableWidget, QTableWidgetItem, QDialog, QFileDialog, \
-    QMainWindow, QTreeWidgetItem
-from PySide6.QtGui import QAction, QIcon
+    QMainWindow, QTreeWidgetItem, QGraphicsPixmapItem, QGraphicsScene
+from PySide6.QtGui import QAction, QIcon, QPixmap
 from qt_material import apply_stylesheet
 from mainui import Ui_MainWindow
 import _5_metadata
@@ -133,8 +133,18 @@ class DicomInformation(QMainWindow,Ui_MainWindow):
 
         #print(dcm) #DICOM 파일의 모든 정보
         """
+        """
+        pixmap = QPixmap(self.dicom_filepath)
+        scene = QGraphicsScene()
+        # item = QGraphicsPixmapItem(pixmap)
+        view = self.dicomView(scene)
+        # scene.addItem(item)
+        # self.dicomView.setScene(scene)
+        view.show()
+        """
     def mainfunction(self):
         self.fileSelect.clicked.connect(self.input_dicom)
+
 
 
     def tagview(self):
@@ -154,11 +164,25 @@ class DicomInformation(QMainWindow,Ui_MainWindow):
         ]
         # QTreeView 생성 및 설정
         self.tableWidget.setColumnCount(2)
+        # 0303 sy
+        pixmap = QPixmap(self.dicom_filepath)
+        print('1')
+        scene = QGraphicsScene()
+        print('2')
+        item = QGraphicsPixmapItem(pixmap)
+        print('3')
+        scene.addItem(item)
+        print('4')
+        self.dicomView.setScene(scene)
+        view = 이서연 똥구멍
+        view.show()
 
         for d in data:
             parent = self.add_tree_root(d['type'], "")
             for child in d['objects']:
                 self.add_tree_child(parent, *child)
+
+
 
     def add_tree_root(self, name: str, description: str):
         item = QTreeWidgetItem(self.tableWidget)
