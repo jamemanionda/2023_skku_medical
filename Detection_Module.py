@@ -1,3 +1,6 @@
+import UI_test
+a = UI_test.Dicom_Information()
+b = UI_test.Dicom_Information()
 class DetectionModule():
     def __init__(self):
         self.diff_vars = []
@@ -14,3 +17,6 @@ class DetectionModule():
         else:
             print("위조됨")
             print("위조 추정 위치 : ", self.diff_vars)
+
+c = DetectionModule()
+c.compare(a, b)
