@@ -3,7 +3,6 @@
 행위상세유형 나눠서
 헥사데이터 비교
 
-
 원본 vs 변조
 
 
@@ -15,5 +14,5 @@
 1. ui -> py
 pyside6-uic <ui경로> -o <변환할파일명.py)
 pyside6-uic main.ui -o mainui.py
-
-
+pyside6-uic first_window.ui -o first_window_ui.py
+pyside6-uic compare.ui -o compare_ui.py

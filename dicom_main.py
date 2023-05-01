@@ -23,9 +23,10 @@ from PyQt5.QtCore import Qt
 from PySide6.QtUiTools import QUiLoader
 from PySide6.QtWidgets import QWidget, QMessageBox, QApplication, QTableWidget, QTableWidgetItem, QDialog, QFileDialog, \
     QMainWindow, QTreeWidgetItem, QGraphicsPixmapItem, QGraphicsScene
-from PySide6.QtGui import QAction, QIcon, QPixmap
+from PySide6.QtGui import QAction, QIcon, QPixmap, QImage
 from qt_material import apply_stylesheet
 from mainui import Ui_MainWindow
+from PySide6.QtCore import QSize
 import _5_metadata
 
 class DicomInformation(QMainWindow,Ui_MainWindow):
@@ -58,44 +59,48 @@ class DicomInformation(QMainWindow,Ui_MainWindow):
         self.mainfunction()
 
 
+
     #파일 경로 입력
     def input_dicom(self):
-        dicom_filename = QFileDialog.getOpenFileName(self, 'Open File', dir='C:')
-        self.dicom_filepath = str(dicom_filename[0])
+        #dicom_filename = QFileDialog.getOpenFileName(self, 'Open File', dir='C:')
+        #self.dicom_filepath = str(dicom_filename[0])
         fileobject = self.dicom_filepath.split('/')
+        self.dicom_filepath = "I000001_1937.dcm"
         file = fileobject[len(fileobject) - 1]
         self.fname = file
         #self.label.setText(file)
-        print(_5_metadata.extract_metadata(self.dicom_filepath))
+        #print(_5_metadata.extract_metadata(self.dicom_filepath))
         self.get_dicom_data()
         self.output_dicom_data()
-        self.tagview()
+
+
 
     #dicom파일 데이터 획득
     def get_dicom_data(self):
-        dcm = pydicom.dcmread(str(self.dicom_filepath))
+        self.dcm = pydicom.dcmread(str(self.dicom_filepath))
         self.dicom_filename = os.path.basename(self.dicom_filepath)
 
         # 파일 데이터
-        self.file_meta_information_version = str(dcm.file_meta.get("FileMetaInformationVersion"))  # filemeta 버전
-        self.media_storage_sop_class_uid = str(dcm.file_meta.get("MediaStorageSOPClassUID"))  # SOP class UID
-        self.media_storage_sop_instance_uid = str(dcm.file_meta.get("MediaStorageSOPInstanceUID"))  # SOP instance UID
+        self.file_meta_information_version = str(self.dcm.file_meta.get("FileMetaInformationVersion"))  # filemeta 버전
+        self.media_storage_sop_class_uid = str(self.dcm.file_meta.get("MediaStorageSOPClassUID"))  # SOP class UID
+        self.media_storage_sop_instance_uid = str(self.dcm.file_meta.get("MediaStorageSOPInstanceUID"))  # SOP instance UID
 
         # 환자 데이터
-        self.patient_name = str(dcm.get("PatientName"))  # 환자 이름
-        self.patient_id = str(dcm.get("PatientID"))  # 환자 ID
-        self.patient_sex = str(dcm.get("PatientSex"))  # 환자 성별
-        self.patient_birthday = str(dcm.get("PatientBirthDate"))  # 환자 생년월일
-        self.patient_age = str(dcm.get("PatientAge"))  # 환자 나이
-        self.patient_height = str(dcm.get("PatientSize"))  # 환자 키
-        self.patient_weight = str(dcm.get("PatientWeight"))  # 환자 몸무게
-        self.series_date = str(dcm.get("SeriesDate"))  # 진료 시작 날짜(추정)
+        self.patient_name = str(self.dcm.get("PatientName"))  # 환자 이름
+        self.patient_id = str(self.dcm.get("PatientID"))  # 환자 ID
+        self.patient_sex = str(self.dcm.get("PatientSex"))  # 환자 성별
+        self.patient_birthday = str(self.dcm.get("PatientBirthDate"))  # 환자 생년월일
+        self.patient_age = str(self.dcm.get("PatientAge"))  # 환자 나이
+        self.patient_height = str(self.dcm.get("PatientSize"))  # 환자 키
+        self.patient_weight = str(self.dcm.get("PatientWeight"))  # 환자 몸무게
+        self.series_date = str(self.dcm.get("SeriesDate"))  # 진료 시작 날짜(추정)
         # 이 외의 알레르기, 흡연, 임신 등 기타 상태 확인 가능
-        self.performing_physician_name = str(dcm.get("PerformingPhysicianName"))  # 주치의
+        self.performing_physician_name = str(self.dcm.get("PerformingPhysicianName"))  # 주치의
 
         # 병원 데이터
-        self.institution_name = str(dcm.get("InstitutionName"))  # 병원 이름
-        self.institution_address = str(dcm.get("InstitutionAddress"))  # 병원 주소
+        self.institution_name = str(self.dcm.get("InstitutionName"))  # 병원 이름
+        self.institution_address = str(self.dcm.get("InstitutionAddress"))  # 병원 주소
+        self.tagview()
 
     #dicom파일 데이터 출력
     def output_dicom_data(self):
@@ -173,19 +178,21 @@ class DicomInformation(QMainWindow,Ui_MainWindow):
         print('3')
         scene.addItem(item)
         print('4')
-        self.dicomView.setScene(scene)
-        view = 이서연 똥구멍
-        view.show()
+
 
         for d in data:
             parent = self.add_tree_root(d['type'], "")
             for child in d['objects']:
                 self.add_tree_child(parent, *child)
 
+        dicomImage = QImage(self.dcm.pixel_array, self.dcm.pixel_array.shape[1], self.dcm.pixel_array.shape[0],
+                            QImage.Format_Grayscale8)
+        self.setDicomImage(dicomImage)
+        #self.display_video_in_dicom_view()
 
 
     def add_tree_root(self, name: str, description: str):
-        item = QTreeWidgetItem(self.tableWidget)
+        item = QTreeWidgetItem(self.treeWidget)
         item.setText(0, name)
         item.setText(1, description)
         return item
@@ -196,8 +203,12 @@ class DicomInformation(QMainWindow,Ui_MainWindow):
         item.setText(1, description)
         parent.addChild(item)
         return item
+    def setDicomImage(self, image):
+        scene = QGraphicsScene(self)
+        scene.addPixmap(QPixmap.fromImage(image))
 
-
+        self.dicomView.setScene(scene)
+        #self.dicomView.fitInView(QSize(200, 200), Qt.KeepAspectRatio)
 
 
 

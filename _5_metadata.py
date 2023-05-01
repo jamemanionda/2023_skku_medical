@@ -1,36 +1,28 @@
-import os
-import datetime
+import struct
+import os.path
+import time
 
-# 만든시간을 타임 스탬프로 출력
-def extract_metadata(path):
-    ctime = timestamp(os.path.getctime(path))
-    # 수정시간을 타임 스탬프로 출력
-    mtime = timestamp(os.path.getmtime(path))
-    # 마지막 엑세스시간을 타임 스탬프로 출력
-    atime = timestamp(os.path.getatime(path))
-    # 파일크기
-
-    filesize = os.path.getsize(path)
+def extract_dicom_signature(filepath):
+    # 파일의 MAC 타임 정보 추출
+    mtime = os.path.getmtime(filepath) # 수정 시간 (Modification time)
+    atime = os.path.getatime(filepath) # 접근 시간 (Access time)
+    ctime = os.path.getctime(filepath) # 생성 시간 (Creation time)
 
 
-    return ctime, mtime, atime, filesize
 
-def timestamp(time):
-    realtime = datetime.datetime.fromtimestamp(time)
-    return realtime
-
-
-def signature():
-    #for dicom_file in dicom_files:
-    try:
-        hash = hash_check(dicom_file)
-        real_signature = signature_check(dicom_file)
-        dicom_file_info = dicom(dicom_file)
-        if real_signature:
-            signature_ch = "이 DICOM 파일의 시그니처는 변조되었습니다."
+def extract_dicom_signature(filename):
+    with open(filename, 'rb') as f:
+        # DICOM signature is located at byte offset 128
+        f.seek(128)
+        signature = f.read(4)
+        # Convert the signature to string format
+        signature_str = struct.unpack('4s', signature)[0].decode('utf-8')
+        if signature_str == 'DICM':
+            return True
         else:
-            signature_ch = "이 DICOM 파일의 시그니처는 변조되지 않았습니다."
+            return False
 
 
-    except Exception as e:
-        print("더없음 : {e}")
+
+
+#extract_dicom_signature("I000001_1937.dcm")

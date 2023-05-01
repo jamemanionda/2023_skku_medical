@@ -66,7 +66,7 @@
      <enum>Qt::ActionsContextMenu</enum>
     </property>
     <property name="text">
-     <string>파일 선택</string>
+     <string>파일1 선택</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_6">
@@ -110,6 +110,11 @@
     <column>
      <property name="text">
       <string notr="true">1</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>2</string>
      </property>
     </column>
    </widget>
@@ -196,6 +201,11 @@
       <string notr="true">1</string>
      </property>
     </column>
+    <column>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </column>
    </widget>
    <widget class="QLabel" name="file_isForgery_label_2">
     <property name="geometry">
@@ -239,7 +249,7 @@
      <enum>Qt::ActionsContextMenu</enum>
     </property>
     <property name="text">
-     <string>파일 선택</string>
+     <string>파일2 선택</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_5">
@@ -255,16 +265,82 @@
      <string>영상 화면</string>
     </property>
    </widget>
-   <widget class="QWidget" name="verticalLayoutWidget">
+   <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>390</y>
-      <width>861</width>
-      <height>61</height>
+      <x>140</x>
+      <y>400</y>
+      <width>251</width>
+      <height>16</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout"/>
+    <property name="styleSheet">
+     <string notr="true">background : rgb(217, 213, 200)</string>
+    </property>
+    <property name="text">
+     <string>의심</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>430</y>
+      <width>251</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background : rgb(217, 213, 200)</string>
+    </property>
+    <property name="text">
+     <string>메타데이터(생성시간)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="file_isForgery_label_3">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>420</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>값 분석</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="val1">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>400</y>
+      <width>251</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background : rgb(217, 213, 200)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="val2">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>430</y>
+      <width>251</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background : rgb(217, 213, 200)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">

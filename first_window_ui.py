@@ -16,8 +16,7 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QImage, QKeySequence, QLinearGradient, QPainter,
     QPalette, QPixmap, QRadialGradient, QTransform)
 from PySide6.QtWidgets import (QAbstractButton, QApplication, QComboBox, QDialog,
-    QDialogButtonBox, QFrame, QLabel, QSizePolicy,
-    QWidget)
+    QDialogButtonBox, QLabel, QSizePolicy, QWidget)
 
 class Ui_Dialog(object):
     def setupUi(self, Dialog):
@@ -32,14 +31,12 @@ class Ui_Dialog(object):
         self.comboBox = QComboBox(Dialog)
         self.comboBox.setObjectName(u"comboBox")
         self.comboBox.setGeometry(QRect(70, 30, 271, 22))
-        self.frame_icon = QFrame(Dialog)
-        self.frame_icon.setObjectName(u"frame_icon")
-        self.frame_icon.setGeometry(QRect(70, 90, 271, 161))
-        self.frame_icon.setFrameShape(QFrame.StyledPanel)
-        self.frame_icon.setFrameShadow(QFrame.Raised)
         self.label_description = QLabel(Dialog)
         self.label_description.setObjectName(u"label_description")
         self.label_description.setGeometry(QRect(70, 60, 271, 16))
+        self.descrip_pic = QLabel(Dialog)
+        self.descrip_pic.setObjectName(u"descrip_pic")
+        self.descrip_pic.setGeometry(QRect(80, 80, 241, 171))
 
         self.retranslateUi(Dialog)
 
@@ -49,5 +46,6 @@ class Ui_Dialog(object):
     def retranslateUi(self, Dialog):
         Dialog.setWindowTitle(QCoreApplication.translate("Dialog", u"Dialog", None))
         self.label_description.setText("")
+        self.descrip_pic.setText("")
     # retranslateUi
 
