@@ -1,0 +1,1261 @@
+2023-04-04 오전 10:22:06 [14856]  <Information>  'Program Start' 
+
+2023-04-04 오전 10:22:06 [14856]  <Information>  'Open' 
+
+2023-04-04 오전 10:22:06 [14856]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2023-04-04 오전 10:22:06 [14856]  <Information>  'Server Version : 1.0 ' 
+
+2023-04-04 오전 10:22:06 [14856]  <Information>  'NeedUpdate : False ' 
+
+2023-04-04 오전 10:22:06 [14856]  <Information>  '******* Application_Startup *******' 
+
+2023-04-04 오전 10:22:07 [14856]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오전 10:22:07 [14856]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-04-04 오전 10:22:08 [14856]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오전 10:22:08 [14856]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-04 오전 10:22:08 [14856]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오전 10:22:08 [14856]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-04-04 오전 10:22:08 [14856]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오전 10:22:08 [14856]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-04 오전 10:22:09 [14856]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오전 10:22:09 [14856]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오전 10:22:09 [14856]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오전 10:22:09 [14856]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오전 10:22:09 [14856]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-04 오전 10:22:09 [14856]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오전 10:22:09 [14856]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오전 10:22:09 [14856]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오전 10:22:09 [14856]  <Information>  'Open' 
+
+2023-04-04 오전 10:22:09 [14856]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2023-04-04 오전 10:22:09 [14856]  <Information>  '1. ConnectDB UserID : ' 
+
+2023-04-04 오전 10:22:09 [14856]  <Information>  '2. ConnectDB UserID : ' 
+
+2023-04-04 오전 10:25:27 [14856]  <Information>  'config numvalue : 2' 
+
+2023-04-04 오전 10:25:27 [14856]  <Information>  'PasswordChangeTerm : 0' 
+
+2023-04-04 오전 10:25:30 [14856]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오전 10:25:30 [14856]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오전 10:25:30 [14856]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오전 10:25:30 [14856]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오전 10:25:30 [14856]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-04 오전 10:25:30 [14856]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오전 10:25:30 [14856]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오전 10:25:30 [14856]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오전 10:25:30 [14856]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오전 10:25:30 [14856]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오전 10:25:30 [14856]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오전 10:25:30 [14856]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오전 10:25:30 [14856]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-04 오전 10:25:30 [14856]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오전 10:25:30 [14856]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오전 10:25:30 [14856]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오전 10:25:31 [14856]  <Information>  'Server Patches ver : 1' 
+
+2023-04-04 오전 10:25:31 [14856]  <Information>  'Local Patches ver : 0' 
+
+2023-04-04 오전 10:25:31 [14856]  <Information>  'Server Patches Path : \\115.145.56.182\ViewRexUpdate' 
+
+2023-04-04 오전 10:25:31 [14856]  <Information>  'Use NetworkShared' 
+
+2023-04-04 오전 10:25:31 [14856]  <Information>  'Connect UpdateFolder : \\115.145.56.182\ViewRexUpdate' 
+
+2023-04-04 오전 10:25:31 [14856]  <Information>  '====== Start DisplayImages' 
+
+2023-04-04 오전 10:25:31 [14856]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오전 10:25:31 [14856]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오전 10:25:31 [14856]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오전 10:25:31 [14856]  <Information>  '====== End DisplayImages' 
+
+2023-04-04 오전 10:25:31 [14856]  <Information>  '====== Start DisplayImages' 
+
+2023-04-04 오전 10:25:31 [14856]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오전 10:25:31 [14856]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오전 10:25:31 [14856]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오전 10:25:31 [14856]  <Information>  '====== End DisplayImages' 
+
+2023-04-04 오전 10:27:05 [14856]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Status != 9 ' 
+
+2023-04-04 오전 10:27:05 [14856]  <Information>  'startdate : 2023-04-04 오전 12:00:00' 
+
+2023-04-04 오전 10:27:05 [14856]  <Information>  'enddate : 2023-04-04 오후 11:59:59' 
+
+2023-04-04 오전 10:27:06 [14856]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Status != 9 ' 
+
+2023-04-04 오전 10:27:06 [14856]  <Information>  'startdate : 2023-04-04 오전 12:00:00' 
+
+2023-04-04 오전 10:27:06 [14856]  <Information>  'enddate : 2023-04-04 오후 11:59:59' 
+
+2023-04-04 오전 10:27:12 [14856]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Status != 9 ' 
+
+2023-04-04 오전 10:27:12 [14856]  <Information>  'startdate : 2023-04-04 오전 12:00:00' 
+
+2023-04-04 오전 10:27:12 [14856]  <Information>  'enddate : 2023-04-04 오후 11:59:59' 
+
+2023-04-04 오전 10:27:13 [14856]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Status != 9 ' 
+
+2023-04-04 오전 10:27:13 [14856]  <Information>  'startdate : 2023-04-04 오전 12:00:00' 
+
+2023-04-04 오전 10:27:13 [14856]  <Information>  'enddate : 2023-04-04 오후 11:59:59' 
+
+2023-04-04 오전 10:27:39 [14856]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Status != 9 ' 
+
+2023-04-04 오전 10:27:39 [14856]  <Information>  'startdate : 2019-01-01 오전 12:00:00' 
+
+2023-04-04 오전 10:27:39 [14856]  <Information>  'enddate : 2023-04-04 오후 11:59:59' 
+
+2023-04-04 오전 10:27:40 [14856]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오전 10:27:40 [14856]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-04-04 오전 10:27:40 [14856]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-04-04 오전 10:27:40 [14856]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-04-04 오전 10:27:40 [14856]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오전 10:27:43 [14856]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오전 10:27:43 [14856]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-04-04 오전 10:27:43 [14856]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-04-04 오전 10:27:43 [14856]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-04-04 오전 10:27:43 [14856]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오전 10:33:44 [14856]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오전 10:33:44 [14856]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오전 10:46:10 [14856]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오전 10:46:10 [14856]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오전 10:46:34 [14856]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오전 10:46:34 [14856]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오전 10:46:38 [14856]  <Information>  'Export file Start' 
+
+2023-04-04 오전 10:46:41 [14856]  <Information>  'Export AllowModality : ' 
+
+2023-04-04 오전 10:46:41 [14856]  <Information>  'Check study security' 
+
+2023-04-04 오전 10:46:41 [14856]  <Information>  'Get Series Count : 1' 
+
+2023-04-04 오전 10:46:41 [14856]  <Information>  'Export series count : 1' 
+
+2023-04-04 오전 10:46:41 [14856]  <Information>  'include overlay jpeg : True' 
+
+2023-04-04 오전 10:46:41 [14856]  <Information>  'ExportDicomWindow series count : 1' 
+
+2023-04-04 오전 10:46:41 [14856]  <Information>  'Export Root Path : ' 
+
+2023-04-04 오전 10:46:41 [14856]  <Information>  'ExportDicomWindow add fileDios count : Series oID - 187 , FileDios Count - 1' 
+
+2023-04-04 오전 10:46:46 [14856]  <Information>  'Export file end' 
+
+2023-04-04 오전 10:49:33 [14856]  <Information>  'ExportDicomWindow series count : 1' 
+
+2023-04-04 오전 10:49:33 [14856]  <Information>  'Export Root Path : ' 
+
+2023-04-04 오전 10:49:33 [14856]  <Information>  'ExportDicomWindow add fileDios count : Series oID - 187 , FileDios Count - 1' 
+
+2023-04-04 오전 10:49:56 [14856]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오전 10:49:56 [14856]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오전 10:50:10 [14856]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오전 10:50:10 [14856]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오전 10:50:25 [14856]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오전 10:50:25 [14856]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오전 10:50:32 [14856]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오전 10:50:32 [14856]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오전 10:50:37 [14856]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오전 10:50:37 [14856]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-04-04 오전 10:50:37 [14856]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-04-04 오전 10:50:37 [14856]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-04-04 오전 10:50:37 [14856]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오전 10:50:45 [14856]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오전 10:50:45 [14856]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-04-04 오전 10:50:45 [14856]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-04-04 오전 10:50:45 [14856]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-04-04 오전 10:50:45 [14856]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오전 10:50:49 [14856]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오전 10:50:49 [14856]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오전 10:51:25 [14856]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오전 10:51:25 [14856]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-04-04 오전 10:51:25 [14856]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-04-04 오전 10:51:25 [14856]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-04-04 오전 10:51:25 [14856]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오전 10:51:25 [14856]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오전 10:51:25 [14856]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오전 10:51:25 [14856]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오전 10:51:25 [14856]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-04-04 오전 10:51:26 [14856]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-04-04 오전 10:51:26 [14856]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-04-04 오전 10:51:26 [14856]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오전 10:51:28 [14856]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오전 10:51:28 [14856]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오전 10:53:29 [14856]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오전 10:53:29 [14856]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오전 10:54:06 [14856]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오전 10:54:06 [14856]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 6:53:52 [14856]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 6:53:52 [14856]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 6:54:06 [14856]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 6:54:06 [14856]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 6:56:13 [14856]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 6:56:13 [14856]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 6:56:17 [14856]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 6:56:17 [14856]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 6:56:19 [14856]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 6:56:19 [14856]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-04-04 오후 6:56:19 [14856]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-04-04 오후 6:56:19 [14856]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-04-04 오후 6:56:19 [14856]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 6:56:20 [14856]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 6:56:20 [14856]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-04-04 오후 6:56:20 [14856]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-04-04 오후 6:56:20 [14856]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-04-04 오후 6:56:20 [14856]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 6:56:37 [14856]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 6:56:37 [14856]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 6:57:02 [14856]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 6:57:02 [14856]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 6:57:02 [14856]  <Information>  'Close Studies that PatientID is Different : 100006220' 
+
+2023-04-04 오후 6:57:02 [14856]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 6:57:02 [14856]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오후 6:57:02 [14856]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 6:57:02 [14856]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 6:57:02 [14856]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오후 6:57:02 [14856]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 6:57:02 [14856]  <Information>  'Multi Load 1 StudyID : 56' 
+
+2023-04-04 오후 6:57:02 [14856]  <Information>  'Multi Load 2 StudyID : 1' 
+
+2023-04-04 오후 6:57:02 [14856]  <Information>  'Series Load Start PT/1 - 2' 
+
+2023-04-04 오후 6:57:02 [14856]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 6:57:02 [14856]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-04-04 오후 6:57:02 [14856]  <Information>  'Series Load End PT/1 - 2' 
+
+2023-04-04 오후 6:57:02 [14856]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-04-04 오후 6:57:02 [14856]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-04-04 오후 6:57:02 [14856]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 6:57:02 [14856]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-04 오후 6:57:02 [14856]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 6:57:02 [14856]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-04-04 오후 6:57:02 [14856]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-04-04 오후 6:57:02 [14856]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-04-04 오후 6:57:03 [14856]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-04-04 오후 6:57:03 [14856]  <Information>  'Multi Load 3 load ' 
+
+2023-04-04 오후 6:57:03 [14856]  <Information>  'Multi Load 3' 
+
+2023-04-04 오후 6:57:03 [14856]  <Information>  'Multi Load 4' 
+
+2023-04-04 오후 6:57:07 [14856]  <Information>  'Close Studies that PatientID is Different : 100006220' 
+
+2023-04-04 오후 6:57:07 [14856]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 6:57:07 [14856]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-04-04 오후 6:57:07 [14856]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-04-04 오후 6:57:07 [14856]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-04-04 오후 6:57:07 [14856]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오후 6:57:07 [14856]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 6:57:07 [14856]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 6:57:07 [14856]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오후 6:57:07 [14856]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 6:57:07 [14856]  <Information>  'Multi Load 1 StudyID : 56' 
+
+2023-04-04 오후 6:57:07 [14856]  <Information>  'Multi Load 2 StudyID : 1' 
+
+2023-04-04 오후 6:57:07 [14856]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-04-04 오후 6:57:07 [14856]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-04-04 오후 6:57:07 [14856]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 6:57:07 [14856]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-04-04 오후 6:57:07 [14856]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-04-04 오후 6:57:07 [14856]  <Information>  'ImageGridControl._SetImageCollection.m_Controller - 1 / 1' 
+
+2023-04-04 오후 6:57:07 [14856]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 6:57:07 [14856]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 6:57:07 [14856]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-04 오후 6:57:07 [14856]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-04-04 오후 6:57:07 [14856]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-04-04 오후 6:57:07 [14856]  <Information>  'Multi Load 3 load ' 
+
+2023-04-04 오후 6:57:07 [14856]  <Information>  'Multi Load 3' 
+
+2023-04-04 오후 6:57:07 [14856]  <Information>  'Multi Load 4' 
+
+2023-04-04 오후 6:57:25 [14856]  <Information>  'DisplayImages' 
+
+2023-04-04 오후 6:57:25 [14856]  <Information>  'Count IsActiveGridControl' 
+
+2023-04-04 오후 6:57:25 [14856]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-04-04 오후 6:57:25 [14856]  <Information>  'containActiveGrid - False - 0' 
+
+2023-04-04 오후 6:57:25 [14856]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 6:57:25 [14856]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-04-04 오후 6:57:25 [14856]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오후 6:57:25 [14856]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 6:57:25 [14856]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 6:57:25 [14856]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-04 오후 6:57:26 [14856]  <Information>  'SearchPatientHistory.GetStudyInformation' 
+
+2023-04-04 오후 6:57:26 [14856]  <Information>  'SearchPatientHistory.GetStudyInformation : 
+PID(100006220)
+HistoryPopUpDelay(ShortStyle)
+StudyList Count(13)' 
+
+2023-04-04 오후 6:57:27 [14856]  <Information>  'Multi Load 1 StudyID : 62' 
+
+2023-04-04 오후 6:57:27 [14856]  <Information>  'Multi Load 2 StudyID : 3' 
+
+2023-04-04 오후 6:57:27 [14856]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-04-04 오후 6:57:27 [14856]  <Information>  'Series Load Start DR/1 - 1' 
+
+2023-04-04 오후 6:57:27 [14856]  <Information>  'Series Load End DR/1 - 1' 
+
+2023-04-04 오후 6:57:27 [14856]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-04-04 오후 6:57:28 [14856]  <Information>  'Series Load Start DR/1 - 1' 
+
+2023-04-04 오후 6:57:28 [14856]  <Information>  'Series Load End DR/1 - 1' 
+
+2023-04-04 오후 6:57:28 [14856]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-04-04 오후 6:57:28 [14856]  <Information>  'Series Load Start DR/1 - 1' 
+
+2023-04-04 오후 6:57:28 [14856]  <Information>  'Series Load End DR/1 - 1' 
+
+2023-04-04 오후 6:57:28 [14856]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-04-04 오후 6:57:28 [14856]  <Information>  'Multi Load 3 load ' 
+
+2023-04-04 오후 6:57:28 [14856]  <Information>  'Multi Load 3' 
+
+2023-04-04 오후 6:57:28 [14856]  <Information>  'Multi Load 4' 
+
+2023-04-04 오후 6:57:37 [14856]  <Information>  '******* Application_Exit *******' 
+
+2023-04-04 오후 6:57:37 [14856]  <Information>  'BackgroundFrameLoader Termiate.' 
+
+2023-04-04 오후 7:18:09 [10036]  <Information>  'Program Start' 
+
+2023-04-04 오후 7:18:09 [10036]  <Information>  'Open' 
+
+2023-04-04 오후 7:18:09 [10036]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2023-04-04 오후 7:18:09 [10036]  <Information>  'Server Version : 1.0 ' 
+
+2023-04-04 오후 7:18:09 [10036]  <Information>  'NeedUpdate : False ' 
+
+2023-04-04 오후 7:18:09 [10036]  <Information>  '******* Application_Startup *******' 
+
+2023-04-04 오후 7:18:10 [10036]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 7:18:10 [10036]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-04-04 오후 7:18:11 [10036]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 7:18:11 [10036]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-04 오후 7:18:12 [10036]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 7:18:12 [10036]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-04-04 오후 7:18:12 [10036]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 7:18:12 [10036]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-04 오후 7:18:12 [10036]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 7:18:12 [10036]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오후 7:18:12 [10036]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 7:18:12 [10036]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 7:18:12 [10036]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-04 오후 7:18:12 [10036]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 7:18:12 [10036]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오후 7:18:12 [10036]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 7:18:12 [10036]  <Information>  'Open' 
+
+2023-04-04 오후 7:18:12 [10036]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2023-04-04 오후 7:18:12 [10036]  <Information>  '1. ConnectDB UserID : ' 
+
+2023-04-04 오후 7:18:12 [10036]  <Information>  '2. ConnectDB UserID : ' 
+
+2023-04-04 오후 7:18:18 [10036]  <Information>  'config numvalue : 2' 
+
+2023-04-04 오후 7:18:24 [10036]  <Information>  'config numvalue : 2' 
+
+2023-04-04 오후 7:18:24 [10036]  <Information>  'PasswordChangeTerm : 0' 
+
+2023-04-04 오후 7:18:27 [10036]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 7:18:27 [10036]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오후 7:18:27 [10036]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 7:18:27 [10036]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 7:18:27 [10036]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-04 오후 7:18:27 [10036]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 7:18:27 [10036]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오후 7:18:27 [10036]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 7:18:27 [10036]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 7:18:27 [10036]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오후 7:18:27 [10036]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 7:18:27 [10036]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 7:18:27 [10036]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-04 오후 7:18:27 [10036]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 7:18:27 [10036]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오후 7:18:27 [10036]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 7:18:27 [10036]  <Information>  'Server Patches ver : 1' 
+
+2023-04-04 오후 7:18:27 [10036]  <Information>  'Local Patches ver : 0' 
+
+2023-04-04 오후 7:18:27 [10036]  <Information>  'Server Patches Path : \\115.145.56.182\ViewRexUpdate' 
+
+2023-04-04 오후 7:18:27 [10036]  <Information>  'Use NetworkShared' 
+
+2023-04-04 오후 7:18:27 [10036]  <Information>  'Connect UpdateFolder : \\115.145.56.182\ViewRexUpdate' 
+
+2023-04-04 오후 7:18:28 [10036]  <Information>  '====== Start DisplayImages' 
+
+2023-04-04 오후 7:18:28 [10036]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 7:18:28 [10036]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오후 7:18:28 [10036]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 7:18:28 [10036]  <Information>  '====== End DisplayImages' 
+
+2023-04-04 오후 7:18:28 [10036]  <Information>  '====== Start DisplayImages' 
+
+2023-04-04 오후 7:18:28 [10036]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 7:18:28 [10036]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오후 7:18:28 [10036]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 7:18:28 [10036]  <Information>  '====== End DisplayImages' 
+
+2023-04-04 오후 7:18:32 [10036]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Status != 9 ' 
+
+2023-04-04 오후 7:18:32 [10036]  <Information>  'startdate : 2023-04-04 오전 12:00:00' 
+
+2023-04-04 오후 7:18:32 [10036]  <Information>  'enddate : 2023-04-04 오후 11:59:59' 
+
+2023-04-04 오후 7:18:41 [10036]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Status != 9 ' 
+
+2023-04-04 오후 7:18:41 [10036]  <Information>  'startdate : 2023-04-04 오전 12:00:00' 
+
+2023-04-04 오후 7:18:41 [10036]  <Information>  'enddate : 2023-04-04 오후 11:59:59' 
+
+2023-04-04 오후 7:18:49 [10036]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Status != 9 ' 
+
+2023-04-04 오후 7:18:49 [10036]  <Information>  'startdate : 2023-04-04 오전 12:00:00' 
+
+2023-04-04 오후 7:18:49 [10036]  <Information>  'enddate : 2023-04-04 오후 11:59:59' 
+
+2023-04-04 오후 7:19:06 [10036]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Status != 9 ' 
+
+2023-04-04 오후 7:19:06 [10036]  <Information>  'startdate : 2023-03-05 오전 12:00:00' 
+
+2023-04-04 오후 7:19:06 [10036]  <Information>  'enddate : 2023-04-04 오후 11:59:59' 
+
+2023-04-04 오후 7:19:06 [10036]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 7:19:06 [10036]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-04-04 오후 7:19:06 [10036]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-04-04 오후 7:19:06 [10036]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-04-04 오후 7:19:06 [10036]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 7:19:11 [10036]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 7:19:11 [10036]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-04-04 오후 7:19:11 [10036]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-04-04 오후 7:19:11 [10036]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-04-04 오후 7:19:11 [10036]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 7:19:12 [10036]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 7:19:12 [10036]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 7:19:12 [10036]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 7:19:12 [10036]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-04-04 오후 7:19:12 [10036]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-04-04 오후 7:19:12 [10036]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-04-04 오후 7:19:12 [10036]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 7:19:13 [10036]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 7:19:13 [10036]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 7:19:13 [10036]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 7:19:13 [10036]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 7:19:15 [10036]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 7:19:15 [10036]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 7:19:16 [10036]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 7:19:16 [10036]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-04-04 오후 7:19:16 [10036]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-04-04 오후 7:19:16 [10036]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-04-04 오후 7:19:16 [10036]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 7:19:16 [10036]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 7:19:16 [10036]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-04-04 오후 7:19:16 [10036]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-04-04 오후 7:19:16 [10036]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-04-04 오후 7:19:16 [10036]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 7:19:19 [10036]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 7:19:19 [10036]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 7:19:19 [10036]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 7:19:19 [10036]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-04-04 오후 7:19:19 [10036]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-04-04 오후 7:19:19 [10036]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-04-04 오후 7:19:19 [10036]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 7:19:20 [10036]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 7:19:20 [10036]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 7:19:24 [10036]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 7:19:24 [10036]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 7:19:25 [10036]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 7:19:25 [10036]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-04-04 오후 7:19:25 [10036]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-04-04 오후 7:19:25 [10036]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-04-04 오후 7:19:25 [10036]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 7:19:26 [10036]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 7:19:26 [10036]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-04-04 오후 7:19:26 [10036]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-04-04 오후 7:19:26 [10036]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-04-04 오후 7:19:26 [10036]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 7:19:27 [10036]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 7:19:27 [10036]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 7:19:27 [10036]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 7:19:27 [10036]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-04-04 오후 7:19:27 [10036]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-04-04 오후 7:19:27 [10036]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-04-04 오후 7:19:27 [10036]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 7:19:28 [10036]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 7:19:28 [10036]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-04-04 오후 7:19:28 [10036]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-04-04 오후 7:19:28 [10036]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-04-04 오후 7:19:28 [10036]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 7:19:54 [10036]  <Information>  'config numvalue : 2' 
+
+2023-04-04 오후 7:20:27 [10036]  <Information>  'Export file Start' 
+
+2023-04-04 오후 7:20:35 [10036]  <Information>  'Export AllowModality : ' 
+
+2023-04-04 오후 7:20:35 [10036]  <Information>  'removed 62' 
+
+2023-04-04 오후 7:20:35 [10036]  <Information>  'Export series count : 0' 
+
+2023-04-04 오후 7:20:35 [10036]  <Information>  'Export file end' 
+
+2023-04-04 오후 7:20:37 [10036]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 7:20:37 [10036]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 7:21:46 [10036]  <Information>  'Close Studies that PatientID is Different : 100006220' 
+
+2023-04-04 오후 7:21:46 [10036]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 7:21:46 [10036]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오후 7:21:46 [10036]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 7:21:46 [10036]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 7:21:46 [10036]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오후 7:21:46 [10036]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 7:21:46 [10036]  <Information>  'Multi Load 1 StudyID : 58' 
+
+2023-04-04 오후 7:21:46 [10036]  <Information>  'Multi Load 2 StudyID : 1' 
+
+2023-04-04 오후 7:21:46 [10036]  <Information>  'Series Load Start DR/2 - 1' 
+
+2023-04-04 오후 7:21:46 [10036]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 7:21:46 [10036]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-04-04 오후 7:21:46 [10036]  <Information>  'Series Load End DR/2 - 1' 
+
+2023-04-04 오후 7:21:46 [10036]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-04-04 오후 7:21:46 [10036]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-04-04 오후 7:21:46 [10036]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 7:21:46 [10036]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-04 오후 7:21:46 [10036]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 7:21:46 [10036]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-04-04 오후 7:21:46 [10036]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-04-04 오후 7:21:46 [10036]  <Information>  'ImageGridControl._SetImageCollection.m_Controller - 1 / 1' 
+
+2023-04-04 오후 7:21:46 [10036]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 7:21:46 [10036]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 7:21:46 [10036]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'Multi Load 3 load ' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'Multi Load 3' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'Multi Load 4' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'Multi Load 1 StudyID : 60' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'Multi Load 2 StudyID : 1' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'Series Load Start US/1 - 1' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'Series Load End US/1 - 1' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'Multi Load 3 load ' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'Multi Load 3' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'Multi Load 4' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'Multi Load 1 StudyID : 55' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'Multi Load 2 StudyID : 2' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'Series Load Start DR/1 - 1' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'Series Load End DR/1 - 1' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'Series Load Start DR/1 - 2' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'Series Load End DR/1 - 2' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'Multi Load 3 load ' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'Multi Load 3' 
+
+2023-04-04 오후 7:21:47 [10036]  <Information>  'Multi Load 4' 
+
+2023-04-04 오후 7:21:51 [10036]  <Information>  '******* Application_Exit *******' 
+
+2023-04-04 오후 7:21:51 [10036]  <Information>  'BackgroundFrameLoader Termiate.' 
+
+2023-04-04 오후 7:22:01 [6444]  <Information>  'Program Start' 
+
+2023-04-04 오후 7:22:01 [6444]  <Information>  'Open' 
+
+2023-04-04 오후 7:22:01 [6444]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2023-04-04 오후 7:22:01 [6444]  <Information>  'Server Version : 1.0 ' 
+
+2023-04-04 오후 7:22:01 [6444]  <Information>  'NeedUpdate : False ' 
+
+2023-04-04 오후 7:22:01 [6444]  <Information>  '******* Application_Startup *******' 
+
+2023-04-04 오후 7:22:02 [6444]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 7:22:02 [6444]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-04-04 오후 7:22:03 [6444]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 7:22:03 [6444]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-04 오후 7:22:03 [6444]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 7:22:03 [6444]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-04-04 오후 7:22:03 [6444]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 7:22:03 [6444]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-04 오후 7:22:03 [6444]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 7:22:03 [6444]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오후 7:22:03 [6444]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 7:22:03 [6444]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 7:22:03 [6444]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-04 오후 7:22:04 [6444]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 7:22:04 [6444]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오후 7:22:04 [6444]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 7:22:04 [6444]  <Information>  'Open' 
+
+2023-04-04 오후 7:22:04 [6444]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2023-04-04 오후 7:22:04 [6444]  <Information>  '1. ConnectDB UserID : ' 
+
+2023-04-04 오후 7:22:04 [6444]  <Information>  '2. ConnectDB UserID : ' 
+
+2023-04-04 오후 7:22:19 [6444]  <Information>  'config numvalue : 2' 
+
+2023-04-04 오후 7:22:19 [6444]  <Information>  'PasswordChangeTerm : 0' 
+
+2023-04-04 오후 7:22:22 [6444]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 7:22:22 [6444]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오후 7:22:22 [6444]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 7:22:22 [6444]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 7:22:22 [6444]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-04 오후 7:22:22 [6444]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 7:22:22 [6444]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오후 7:22:22 [6444]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 7:22:22 [6444]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 7:22:22 [6444]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오후 7:22:22 [6444]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 7:22:22 [6444]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 7:22:22 [6444]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-04 오후 7:22:22 [6444]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 7:22:22 [6444]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오후 7:22:22 [6444]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 7:22:23 [6444]  <Information>  'Server Patches ver : 1' 
+
+2023-04-04 오후 7:22:23 [6444]  <Information>  'Local Patches ver : 0' 
+
+2023-04-04 오후 7:22:23 [6444]  <Information>  'Server Patches Path : \\115.145.56.182\ViewRexUpdate' 
+
+2023-04-04 오후 7:22:23 [6444]  <Information>  'Use NetworkShared' 
+
+2023-04-04 오후 7:22:23 [6444]  <Information>  'Connect UpdateFolder : \\115.145.56.182\ViewRexUpdate' 
+
+2023-04-04 오후 7:22:23 [6444]  <Information>  '====== Start DisplayImages' 
+
+2023-04-04 오후 7:22:23 [6444]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 7:22:23 [6444]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오후 7:22:23 [6444]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 7:22:23 [6444]  <Information>  '====== End DisplayImages' 
+
+2023-04-04 오후 7:22:23 [6444]  <Information>  '====== Start DisplayImages' 
+
+2023-04-04 오후 7:22:23 [6444]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 7:22:23 [6444]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오후 7:22:23 [6444]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 7:22:23 [6444]  <Information>  '====== End DisplayImages' 
+
+2023-04-04 오후 7:22:51 [6444]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Status != 9 ' 
+
+2023-04-04 오후 7:22:51 [6444]  <Information>  'startdate : 2020-09-01 오전 12:00:00' 
+
+2023-04-04 오후 7:22:51 [6444]  <Information>  'enddate : 2020-09-01 오후 11:59:59' 
+
+2023-04-04 오후 7:23:03 [6444]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Status != 9 ' 
+
+2023-04-04 오후 7:23:03 [6444]  <Information>  'startdate : 2020-09-01 오전 12:00:00' 
+
+2023-04-04 오후 7:23:03 [6444]  <Information>  'enddate : 2020-09-01 오후 11:59:59' 
+
+2023-04-04 오후 7:23:09 [6444]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Status != 9 ' 
+
+2023-04-04 오후 7:23:09 [6444]  <Information>  'startdate : 2023-03-06 오전 12:00:00' 
+
+2023-04-04 오후 7:23:09 [6444]  <Information>  'enddate : 2023-04-04 오후 11:59:59' 
+
+2023-04-04 오후 7:23:10 [6444]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 7:23:10 [6444]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-04-04 오후 7:23:10 [6444]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-04-04 오후 7:23:10 [6444]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-04-04 오후 7:23:10 [6444]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 7:23:11 [6444]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 7:23:11 [6444]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-04-04 오후 7:23:11 [6444]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-04-04 오후 7:23:11 [6444]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-04-04 오후 7:23:11 [6444]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 7:23:22 [6444]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 7:23:22 [6444]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 7:23:22 [6444]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 7:23:22 [6444]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 7:24:02 [6444]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 7:24:02 [6444]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 7:24:26 [6444]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오후 7:24:26 [6444]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오후 7:24:44 [6444]  <Information>  'Close Studies that PatientID is Different : 100006220' 
+
+2023-04-04 오후 7:24:44 [6444]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 7:24:44 [6444]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오후 7:24:44 [6444]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 7:24:44 [6444]  <Information>  'Multi Load 1 StudyID : 58' 
+
+2023-04-04 오후 7:24:44 [6444]  <Information>  'Multi Load 2 StudyID : 1' 
+
+2023-04-04 오후 7:24:44 [6444]  <Information>  'Series Load Start DR/2 - 1' 
+
+2023-04-04 오후 7:24:44 [6444]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 7:24:44 [6444]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-04-04 오후 7:24:44 [6444]  <Information>  'Series Load End DR/2 - 1' 
+
+2023-04-04 오후 7:24:44 [6444]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-04-04 오후 7:24:44 [6444]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-04-04 오후 7:24:44 [6444]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 7:24:44 [6444]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-04 오후 7:24:44 [6444]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 7:24:44 [6444]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-04-04 오후 7:24:44 [6444]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-04-04 오후 7:24:44 [6444]  <Information>  'ImageGridControl._SetImageCollection.m_Controller - 1 / 1' 
+
+2023-04-04 오후 7:24:44 [6444]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 7:24:44 [6444]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 7:24:44 [6444]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-04 오후 7:24:44 [6444]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-04-04 오후 7:24:44 [6444]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-04-04 오후 7:24:45 [6444]  <Information>  'Multi Load 3 load ' 
+
+2023-04-04 오후 7:24:45 [6444]  <Information>  'Multi Load 3' 
+
+2023-04-04 오후 7:24:45 [6444]  <Information>  'Multi Load 4' 
+
+2023-04-04 오후 7:24:49 [6444]  <Information>  '******* Application_Exit *******' 
+
+2023-04-04 오후 7:24:49 [6444]  <Information>  'BackgroundFrameLoader Termiate.' 
+
+2023-04-04 오후 7:24:50 [808]  <Information>  'Program Start' 
+
+2023-04-04 오후 7:24:50 [808]  <Information>  'Open' 
+
+2023-04-04 오후 7:24:50 [808]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2023-04-04 오후 7:24:51 [808]  <Information>  'Server Version : 1.0 ' 
+
+2023-04-04 오후 7:24:51 [808]  <Information>  'NeedUpdate : False ' 
+
+2023-04-04 오후 7:24:51 [808]  <Information>  '******* Application_Startup *******' 
+
+2023-04-04 오후 7:24:51 [808]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 7:24:51 [808]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-04-04 오후 7:24:52 [808]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 7:24:52 [808]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-04 오후 7:24:52 [808]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 7:24:53 [808]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-04-04 오후 7:24:53 [808]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 7:24:53 [808]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-04 오후 7:24:53 [808]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 7:24:53 [808]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오후 7:24:53 [808]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 7:24:53 [808]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오후 7:24:53 [808]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-04 오후 7:24:53 [808]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오후 7:24:53 [808]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오후 7:24:53 [808]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오후 7:24:53 [808]  <Information>  'Open' 
+
+2023-04-04 오후 7:24:53 [808]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2023-04-04 오후 7:24:53 [808]  <Information>  '1. ConnectDB UserID : ' 
+
+2023-04-04 오후 7:24:53 [808]  <Information>  '2. ConnectDB UserID : ' 
+

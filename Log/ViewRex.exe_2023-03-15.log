@@ -1,0 +1,151 @@
+2023-03-17 오후 3:14:39 [10960]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-17 오후 3:14:39 [10960]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-17 오후 3:14:39 [10960]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-17 오후 3:14:39 [10960]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-17 오후 3:14:39 [10960]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-17 오후 3:14:39 [10960]  <Information>  'Close Studies that PatientID is Different : 000001234' 
+
+2023-03-17 오후 3:14:39 [10960]  <Information>  '_SetImageCollection' 
+
+2023-03-17 오후 3:14:39 [10960]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-17 오후 3:14:39 [10960]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-17 오후 3:14:39 [10960]  <Information>  '_SetImageCollection' 
+
+2023-03-17 오후 3:14:39 [10960]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-17 오후 3:14:39 [10960]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-17 오후 3:14:39 [10960]  <Information>  'Multi Load 1 StudyID : 47' 
+
+2023-03-17 오후 3:14:39 [10960]  <Information>  'Multi Load 2 StudyID : 15' 
+
+2023-03-17 오후 3:14:39 [10960]  <Information>  'Series Load Start BD/1 - 1' 
+
+2023-03-17 오후 3:14:39 [10960]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-17 오후 3:14:39 [10960]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-03-17 오후 3:14:39 [10960]  <Information>  'Series Load End BD/1 - 1' 
+
+2023-03-17 오후 3:14:39 [10960]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-17 오후 3:14:39 [10960]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-17 오후 3:14:39 [10960]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-17 오후 3:14:39 [10960]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-17 오후 3:14:39 [10960]  <Information>  '_SetImageCollection' 
+
+2023-03-17 오후 3:14:39 [10960]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-17 오후 3:14:39 [10960]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-17 오후 3:14:39 [10960]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-17 오후 3:14:39 [10960]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-17 오후 3:14:39 [10960]  <Information>  'Series Load Start BD/1 - 1' 
+
+2023-03-17 오후 3:14:39 [10960]  <Information>  'Series Load End BD/1 - 1' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Series Load Start BD/1 - 1' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Series Load End BD/1 - 1' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Series Load Start BD/1 - 1' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Series Load End BD/1 - 1' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Series Load Start BD/1 - 1' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Series Load End BD/1 - 1' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Series Load Start BD/1 - 1' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Series Load End BD/1 - 1' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Series Load Start BD/1 - 1' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Series Load End BD/1 - 1' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Series Load Start BD/1 - 36' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Series Load End BD/1 - 36' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Series Load Start BD/1 - 1' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Series Load End BD/1 - 1' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Series Load Start BD/1 - 1' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Series Load End BD/1 - 1' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Series Load Start BD/1 - 1' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Series Load End BD/1 - 1' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Series Load Start BD/1 - 1' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Series Load End BD/1 - 1' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Series Load Start BD/1 - 1' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Series Load End BD/1 - 1' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Series Load Start BD/1 - 1' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Series Load End BD/1 - 1' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Series Load Start BD/1 - 1' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Series Load End BD/1 - 1' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Multi Load 3 load ' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Multi Load 3' 
+
+2023-03-17 오후 3:14:40 [10960]  <Information>  'Multi Load 4' 
+
+2023-03-18 오후 2:54:39 [10960]  <Information>  '******* Application_Exit *******' 
+
+2023-03-18 오후 2:54:39 [10960]  <Information>  'BackgroundFrameLoader Termiate.' 
+

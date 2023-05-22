@@ -1,0 +1,323 @@
+2023-04-04 오전 8:00:37 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오전 8:00:37 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오전 8:00:58 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오전 8:00:58 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오전 8:44:55 [3576]  <Information>  'Export file Start' 
+
+2023-04-04 오전 8:45:01 [3576]  <Information>  'Export AllowModality : ' 
+
+2023-04-04 오전 8:45:01 [3576]  <Information>  'Check study security' 
+
+2023-04-04 오전 8:45:01 [3576]  <Information>  'Get Series Count : 3' 
+
+2023-04-04 오전 8:45:01 [3576]  <Information>  'Export series count : 3' 
+
+2023-04-04 오전 8:45:01 [3576]  <Information>  'include overlay jpeg : True' 
+
+2023-04-04 오전 8:45:01 [3576]  <Information>  'ExportDicomWindow series count : 3' 
+
+2023-04-04 오전 8:45:01 [3576]  <Information>  'Export Root Path : ' 
+
+2023-04-04 오전 8:45:01 [3576]  <Information>  'ExportDicomWindow add fileDios count : Series oID - 191 , FileDios Count - 1' 
+
+2023-04-04 오전 8:45:01 [3576]  <Information>  'ExportDicomWindow add fileDios count : Series oID - 198 , FileDios Count - 1' 
+
+2023-04-04 오전 8:45:01 [3576]  <Information>  'ExportDicomWindow add fileDios count : Series oID - 199 , FileDios Count - 1' 
+
+2023-04-04 오전 8:45:34 [3576]  <Information>  'Export file end' 
+
+2023-04-04 오전 8:48:14 [3576]  <Information>  '
+RefreshMainListData Time Check 1.1 ' 
+
+2023-04-04 오전 8:48:14 [3576]  <Information>  '
+RefreshMainListData Time Check 2.1 ' 
+
+2023-04-04 오전 8:48:14 [3576]  <Information>  '
+RefreshMainListData Time Check 2.2 ' 
+
+2023-04-04 오전 8:48:14 [3576]  <Information>  '
+RefreshMainListData Time Check 3 ' 
+
+2023-04-04 오전 8:48:15 [3576]  <Information>  '
+RefreshMainListData Time Check 4 ' 
+
+2023-04-04 오전 8:48:15 [3576]  <Information>  '
+RefreshMainListData Time Check 5 ' 
+
+2023-04-04 오전 8:49:21 [3576]  <Information>  '[DXWindow_Unloaded] 시작' 
+
+2023-04-04 오전 8:49:21 [3576]  <Information>  '[DXWindow_Unloaded] UnLock Success' 
+
+2023-04-04 오전 8:49:21 [3576]  <Information>  '[DXWindow_Unloaded] Speech Mike Dispose' 
+
+2023-04-04 오전 8:49:21 [3576]  <Information>  '[NormalList Save] Start' 
+
+2023-04-04 오전 8:49:21 [3576]  <Information>  '[NormalList Save] SaveConfig End' 
+
+2023-04-04 오전 8:49:21 [3576]  <Information>  '[NormalList Save] GetSideWidth Start' 
+
+2023-04-04 오전 8:49:21 [3576]  <Information>  '[NormalList Save] GetSideWidth End' 
+
+2023-04-04 오전 8:49:21 [3576]  <Information>  '[DXWindow_Unloaded] SaveConfiguration' 
+
+2023-04-04 오전 8:49:21 [3576]  <Information>  '[DXWindow_Unloaded] End' 
+
+2023-04-04 오전 8:49:33 [3576]  <Information>  'CVRMessageSend in' 
+
+2023-04-04 오전 8:49:33 [3576]  <Error>  '개체 이름 'SMS_QUEUE'이(가) 유효하지 않습니다.
+					
+					Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action]) / Line Number : 0
+					Void ThrowExceptionAndWarning(System.Data.SqlClient.TdsParserStateObject, Boolean, Boolean) / Line Number : 0
+					Boolean TryRun(System.Data.SqlClient.RunBehavior, System.Data.SqlClient.SqlCommand, System.Data.SqlClient.SqlDataReader, System.Data.SqlClient.BulkCopySimpleResultSet, System.Data.SqlClient.TdsParserStateObject, Boolean ByRef) / Line Number : 0
+					Boolean TryConsumeMetaData() / Line Number : 0
+					System.Data.SqlClient._SqlMetaDataSet get_MetaData() / Line Number : 0
+					Void FinishExecuteReader(System.Data.SqlClient.SqlDataReader, System.Data.SqlClient.RunBehavior, System.String, Boolean, Boolean, Boolean) / Line Number : 0
+					System.Data.SqlClient.SqlDataReader RunExecuteReaderTds(System.Data.CommandBehavior, System.Data.SqlClient.RunBehavior, Boolean, Boolean, Int32, System.Threading.Tasks.Task ByRef, Boolean, Boolean, System.Data.SqlClient.SqlDataReader, Boolean) / Line Number : 0
+					System.Data.SqlClient.SqlDataReader RunExecuteReader(System.Data.CommandBehavior, System.Data.SqlClient.RunBehavior, Boolean, System.String, System.Threading.Tasks.TaskCompletionSource`1[System.Object], Int32, System.Threading.Tasks.Task ByRef, Boolean ByRef, Boolean, Boolean) / Line Number : 0
+					System.Data.SqlClient.SqlDataReader RunExecuteReader(System.Data.CommandBehavior, System.Data.SqlClient.RunBehavior, Boolean, System.String) / Line Number : 0
+					System.Data.SqlClient.SqlDataReader ExecuteReader(System.Data.CommandBehavior, System.String) / Line Number : 0
+					Int32 FillInternal(System.Data.DataSet, System.Data.DataTable[], Int32, Int32, System.String, System.Data.IDbCommand, System.Data.CommandBehavior) / Line Number : 0
+					Int32 Fill(System.Data.DataSet, Int32, Int32, System.String, System.Data.IDbCommand, System.Data.CommandBehavior) / Line Number : 0
+					Int32 Fill(System.Data.DataSet) / Line Number : 0
+					DataSetClass ExecuteDataSet[DataSetClass](DataSetClass, System.String[]) / Line Number : 0
+					Boolean ExistSMSQueue(Int32, System.String) / Line Number : 0
+' 
+
+2023-04-04 오전 8:49:35 [3576]  <Information>  'Open' 
+
+2023-04-04 오전 8:49:35 [3576]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2023-04-04 오전 8:49:35 [3576]  <Error>  '개체 이름 'SMS_QUEUE'이(가) 유효하지 않습니다.
+					
+					System.String INSERT_SMS_QUEUE(SMS_QUEUE, System.Data.IDbTransaction[]) / Line Number : 0
+' 
+
+2023-04-04 오전 8:49:39 [3576]  <Information>  '[DXWindow_Unloaded] 시작' 
+
+2023-04-04 오전 8:49:39 [3576]  <Information>  '[DXWindow_Unloaded] UnLock Success' 
+
+2023-04-04 오전 8:49:39 [3576]  <Information>  '[DXWindow_Unloaded] Speech Mike Dispose' 
+
+2023-04-04 오전 8:49:39 [3576]  <Information>  '[NormalList Save] Start' 
+
+2023-04-04 오전 8:49:39 [3576]  <Information>  '[NormalList Save] SaveConfig End' 
+
+2023-04-04 오전 8:49:39 [3576]  <Information>  '[NormalList Save] GetSideWidth Start' 
+
+2023-04-04 오전 8:49:39 [3576]  <Information>  '[NormalList Save] GetSideWidth End' 
+
+2023-04-04 오전 8:49:39 [3576]  <Information>  '[DXWindow_Unloaded] SaveConfiguration' 
+
+2023-04-04 오전 8:49:39 [3576]  <Information>  '[DXWindow_Unloaded] End' 
+
+2023-04-04 오전 9:03:39 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오전 9:03:39 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오전 10:15:00 [3576]  <Information>  '[DXWindow_Unloaded] 시작' 
+
+2023-04-04 오전 10:15:00 [3576]  <Information>  '[DXWindow_Unloaded] UnLock Success' 
+
+2023-04-04 오전 10:15:00 [3576]  <Information>  '[DXWindow_Unloaded] Speech Mike Dispose' 
+
+2023-04-04 오전 10:15:00 [3576]  <Information>  '[NormalList Save] Start' 
+
+2023-04-04 오전 10:15:00 [3576]  <Information>  '[NormalList Save] SaveConfig End' 
+
+2023-04-04 오전 10:15:00 [3576]  <Information>  '[NormalList Save] GetSideWidth Start' 
+
+2023-04-04 오전 10:15:00 [3576]  <Information>  '[NormalList Save] GetSideWidth End' 
+
+2023-04-04 오전 10:15:00 [3576]  <Information>  '[DXWindow_Unloaded] SaveConfiguration' 
+
+2023-04-04 오전 10:15:00 [3576]  <Information>  '[DXWindow_Unloaded] End' 
+
+2023-04-04 오전 10:15:01 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오전 10:15:01 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오전 10:15:04 [3576]  <Error>  '개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+					
+					Boolean <GetNormalList>b__0(Employee) / Line Number : 0
+					Boolean MoveNext() / Line Number : 0
+					TSource FirstOrDefault[TSource](System.Collections.Generic.IEnumerable`1[TSource]) / Line Number : 0
+					Void GetNormalList(System.String, System.String, Employee[]) / Line Number : 0
+					Void InitReportWindow(System.String, Int32) / Line Number : 0
+' 
+
+2023-04-04 오전 10:15:11 [3576]  <Information>  '[DXWindow_Unloaded] 시작' 
+
+2023-04-04 오전 10:15:11 [3576]  <Information>  '[DXWindow_Unloaded] UnLock Success' 
+
+2023-04-04 오전 10:15:11 [3576]  <Information>  '[DXWindow_Unloaded] Speech Mike Dispose' 
+
+2023-04-04 오전 10:15:11 [3576]  <Information>  '[NormalList Save] Start' 
+
+2023-04-04 오전 10:15:11 [3576]  <Information>  '[NormalList Save] SaveConfig End' 
+
+2023-04-04 오전 10:15:11 [3576]  <Information>  '[NormalList Save] GetSideWidth Start' 
+
+2023-04-04 오전 10:15:11 [3576]  <Information>  '[NormalList Save] GetSideWidth End' 
+
+2023-04-04 오전 10:15:11 [3576]  <Information>  '[DXWindow_Unloaded] SaveConfiguration' 
+
+2023-04-04 오전 10:15:11 [3576]  <Information>  '[DXWindow_Unloaded] End' 
+
+2023-04-04 오전 10:15:38 [3576]  <Information>  'Close Studies that PatientID is Different : 100006220' 
+
+2023-04-04 오전 10:15:38 [3576]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오전 10:15:38 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오전 10:15:38 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오전 10:15:38 [3576]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오전 10:15:38 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오전 10:15:38 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오전 10:15:38 [3576]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오전 10:15:38 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오전 10:15:38 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오전 10:15:38 [3576]  <Information>  'CloseImages' 
+
+2023-04-04 오전 10:15:38 [3576]  <Information>  'Series Load Start MR/1 - 1' 
+
+2023-04-04 오전 10:15:38 [3576]  <Information>  'Series Load End MR/1 - 1' 
+
+2023-04-04 오전 10:15:38 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-04-04 오전 10:15:46 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오전 10:15:46 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오전 10:16:01 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오전 10:16:01 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-04-04 오전 10:16:01 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-04-04 오전 10:16:01 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-04-04 오전 10:16:01 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오전 10:16:02 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오전 10:16:02 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-04-04 오전 10:16:02 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-04-04 오전 10:16:02 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-04-04 오전 10:16:02 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오전 10:16:13 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-04 오전 10:16:13 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-04-04 오전 10:16:13 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-04-04 오전 10:16:13 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-04-04 오전 10:16:13 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  'Close Studies that PatientID is Different : 88888' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  'CloseImages' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  'CloseImages' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  'CloseImages' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  'CloseImages' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  'CloseImages' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  'CloseImages' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  'CloseImages' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  'CloseImages' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  'Series Load Start OT/1 - 2' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  'Series Load End OT/1 - 2' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  '_SetImageCollection' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-04-04 오전 10:20:02 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-04-04 오전 10:20:47 [3576]  <Error>  'Failed to get export dicom dir () : 값은 null일 수 없습니다.
+매개 변수 이름: path' 
+
+2023-04-04 오전 10:21:42 [3576]  <Information>  '[DXWindow_Unloaded] 시작' 
+
+2023-04-04 오전 10:21:42 [3576]  <Information>  '[DXWindow_Unloaded] UnLock Success' 
+
+2023-04-04 오전 10:21:42 [3576]  <Information>  '[DXWindow_Unloaded] Speech Mike Dispose' 
+
+2023-04-04 오전 10:21:42 [3576]  <Information>  '[NormalList Save] Start' 
+
+2023-04-04 오전 10:21:42 [3576]  <Information>  '[NormalList Save] SaveConfig End' 
+
+2023-04-04 오전 10:21:42 [3576]  <Information>  '[NormalList Save] GetSideWidth Start' 
+
+2023-04-04 오전 10:21:42 [3576]  <Information>  '[NormalList Save] GetSideWidth End' 
+
+2023-04-04 오전 10:21:42 [3576]  <Information>  '[DXWindow_Unloaded] SaveConfiguration' 
+
+2023-04-04 오전 10:21:42 [3576]  <Information>  '[DXWindow_Unloaded] End' 
+
+2023-04-04 오전 10:21:45 [3576]  <Information>  '******* Application_Exit *******' 
+
+2023-04-04 오전 10:21:45 [3576]  <Information>  'BackgroundFrameLoader Termiate.' 
+

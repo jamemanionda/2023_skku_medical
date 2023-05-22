@@ -1,0 +1,2622 @@
+2023-03-29 오후 2:41:51 [3576]  <Information>  'Program Start' 
+
+2023-03-29 오후 2:41:51 [3576]  <Information>  'Open' 
+
+2023-03-29 오후 2:41:51 [3576]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2023-03-29 오후 2:41:51 [3576]  <Information>  'Server Version : 1.0 ' 
+
+2023-03-29 오후 2:41:51 [3576]  <Information>  'NeedUpdate : False ' 
+
+2023-03-29 오후 2:41:51 [3576]  <Information>  '******* Application_Startup *******' 
+
+2023-03-29 오후 2:41:52 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:41:52 [3576]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-03-29 오후 2:41:54 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:41:54 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 2:41:54 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:41:54 [3576]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-03-29 오후 2:41:54 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:41:54 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 2:41:54 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:41:54 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:41:54 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:41:54 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:41:54 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 2:41:54 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:41:54 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:41:54 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:41:54 [3576]  <Information>  'Open' 
+
+2023-03-29 오후 2:41:54 [3576]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2023-03-29 오후 2:41:54 [3576]  <Information>  '1. ConnectDB UserID : ' 
+
+2023-03-29 오후 2:41:54 [3576]  <Information>  '2. ConnectDB UserID : ' 
+
+2023-03-29 오후 2:41:57 [3576]  <Information>  'config numvalue : 2' 
+
+2023-03-29 오후 2:42:03 [3576]  <Information>  'config numvalue : 2' 
+
+2023-03-29 오후 2:42:03 [3576]  <Information>  'PasswordChangeTerm : 0' 
+
+2023-03-29 오후 2:42:04 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:42:04 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:42:04 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:42:04 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:42:04 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 2:42:04 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:42:04 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:42:04 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:42:04 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:42:04 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:42:04 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:42:04 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:42:04 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 2:42:04 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:42:04 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:42:04 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:42:05 [3576]  <Information>  'Server Patches ver : 1' 
+
+2023-03-29 오후 2:42:05 [3576]  <Information>  'Local Patches ver : 0' 
+
+2023-03-29 오후 2:42:05 [3576]  <Information>  'Server Patches Path : \\115.145.56.182\ViewRexUpdate' 
+
+2023-03-29 오후 2:42:05 [3576]  <Information>  'Use NetworkShared' 
+
+2023-03-29 오후 2:42:05 [3576]  <Information>  'Connect UpdateFolder : \\115.145.56.182\ViewRexUpdate' 
+
+2023-03-29 오후 2:42:05 [3576]  <Information>  '====== Start DisplayImages' 
+
+2023-03-29 오후 2:42:05 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:42:05 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:42:05 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:42:05 [3576]  <Information>  '====== End DisplayImages' 
+
+2023-03-29 오후 2:42:05 [3576]  <Information>  '====== Start DisplayImages' 
+
+2023-03-29 오후 2:42:05 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:42:05 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:42:05 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:42:05 [3576]  <Information>  '====== End DisplayImages' 
+
+2023-03-29 오후 2:42:14 [3576]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Removed = 0  AND ( s.Status != -1 AND s.Status != 9 ) ' 
+
+2023-03-29 오후 2:42:14 [3576]  <Information>  'startdate : 2023-03-29 오전 12:00:00' 
+
+2023-03-29 오후 2:42:14 [3576]  <Information>  'enddate : 2023-03-29 오후 11:59:59' 
+
+2023-03-29 오후 2:43:19 [3576]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Removed = 0  AND ( s.Status != -1 AND s.Status != 9 ) ' 
+
+2023-03-29 오후 2:43:19 [3576]  <Information>  'startdate : 2023-03-29 오전 12:00:00' 
+
+2023-03-29 오후 2:43:19 [3576]  <Information>  'enddate : 2023-03-29 오후 11:59:59' 
+
+2023-03-29 오후 2:43:23 [3576]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Removed = 0  AND ( s.Status != -1 AND s.Status != 9 ) ' 
+
+2023-03-29 오후 2:43:23 [3576]  <Information>  'startdate : 2023-02-28 오전 12:00:00' 
+
+2023-03-29 오후 2:43:23 [3576]  <Information>  'enddate : 2023-03-29 오후 11:59:59' 
+
+2023-03-29 오후 2:43:24 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 2:43:24 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-29 오후 2:43:24 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-29 오후 2:43:24 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-29 오후 2:43:24 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  'Close Studies that PatientID is Different : 8282' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  'Series Load Start DR/1 - 1' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  'Series Load End DR/1 - 1' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller - 1 / 1' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 2:44:45 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:44:46 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:44:50 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 2:44:50 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-29 오후 2:44:50 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-29 오후 2:44:50 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-29 오후 2:44:50 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 2:44:50 [3576]  <Information>  'Close Studies that PatientID is Different : 456456' 
+
+2023-03-29 오후 2:44:50 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:44:50 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 2:44:50 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:44:50 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:44:50 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:44:50 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:44:50 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:44:51 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 2:44:51 [3576]  <Information>  'CloseImages' 
+
+2023-03-29 오후 2:44:51 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:44:51 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:44:51 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:44:51 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:44:51 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:44:51 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:44:51 [3576]  <Information>  'Series Load Start DR/1 - 2' 
+
+2023-03-29 오후 2:44:51 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:44:51 [3576]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-03-29 오후 2:44:51 [3576]  <Information>  'Series Load End DR/1 - 2' 
+
+2023-03-29 오후 2:44:51 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 2:44:51 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 2:44:51 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:44:51 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 2:44:51 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 2:44:51 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller - 1 / 1' 
+
+2023-03-29 오후 2:44:51 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:44:51 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:44:51 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 2:44:51 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:44:51 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'Close Studies that PatientID is Different : 88888' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'CloseImages' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'Series Load Start DR/1 - 1' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'Series Load End DR/1 - 1' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller - 1 / 1' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:44:55 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:44:59 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 2:44:59 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-29 오후 2:44:59 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-29 오후 2:44:59 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-29 오후 2:44:59 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 2:44:59 [3576]  <Information>  'Close Studies that PatientID is Different : 100006220' 
+
+2023-03-29 오후 2:44:59 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:44:59 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 2:44:59 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:44:59 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:44:59 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:44:59 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:44:59 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:44:59 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 2:44:59 [3576]  <Information>  'CloseImages' 
+
+2023-03-29 오후 2:44:59 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:44:59 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:44:59 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:44:59 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:44:59 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:44:59 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:44:59 [3576]  <Information>  'Series Load Start MR/1 - 1' 
+
+2023-03-29 오후 2:44:59 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:45:00 [3576]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-03-29 오후 2:45:00 [3576]  <Information>  'Series Load End MR/1 - 1' 
+
+2023-03-29 오후 2:45:00 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 2:45:00 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 2:45:00 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:45:00 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 2:45:00 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 2:45:00 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller - 3 / 3' 
+
+2023-03-29 오후 2:45:00 [3576]  <Information>  'GridPanel.GridLayout.Set - 3 / 3' 
+
+2023-03-29 오후 2:45:00 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:45:00 [3576]  <Information>  'Difference newvalue and oldvalue 
+newValue - 3 / 3
+oldValue - 1 / 1' 
+
+2023-03-29 오후 2:45:00 [3576]  <Information>  'GridPanel.GridLayout - 3 / 3' 
+
+2023-03-29 오후 2:45:00 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:00 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:45:02 [3576]  <Information>  'Close Studies that PatientID is Different : 100006220' 
+
+2023-03-29 오후 2:45:02 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:45:02 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 2:45:02 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:02 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:45:02 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:45:02 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:45:02 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:45:02 [3576]  <Information>  'Difference newvalue and oldvalue 
+newValue - 1 / 1
+oldValue - 3 / 3' 
+
+2023-03-29 오후 2:45:02 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 2:45:02 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:45:02 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:45:02 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:45:02 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:45:02 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:45:02 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:45:02 [3576]  <Information>  'Series Load Start PT/1 - 2' 
+
+2023-03-29 오후 2:45:02 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:45:02 [3576]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-03-29 오후 2:45:02 [3576]  <Information>  'Series Load End PT/1 - 2' 
+
+2023-03-29 오후 2:45:02 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 2:45:02 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 2:45:02 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:45:02 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 2:45:02 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 2:45:02 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:03 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:45:03 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 2:45:03 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 2:45:03 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:04 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:45:04 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:04 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:45:05 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:05 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:45:05 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:05 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:45:06 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:06 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:45:06 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:06 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:45:06 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:06 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:45:07 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:07 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:45:10 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 2:45:10 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 2:45:10 [3576]  <Information>  'Close Studies that PatientID is Different : 100006220' 
+
+2023-03-29 오후 2:45:10 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:45:10 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 2:45:10 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:10 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:45:10 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:45:10 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:45:10 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:45:10 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:45:10 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:45:10 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:45:10 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:45:10 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:45:10 [3576]  <Information>  'Series Load Start DR/1 - 1' 
+
+2023-03-29 오후 2:45:10 [3576]  <Information>  'Series Load End DR/1 - 1' 
+
+2023-03-29 오후 2:45:10 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 2:45:10 [3576]  <Information>  'Series Load Start DR/1 - 1' 
+
+2023-03-29 오후 2:45:10 [3576]  <Information>  'Series Load End DR/1 - 1' 
+
+2023-03-29 오후 2:45:10 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 2:45:11 [3576]  <Information>  'Series Load Start DR/1 - 1' 
+
+2023-03-29 오후 2:45:11 [3576]  <Information>  'Series Load End DR/1 - 1' 
+
+2023-03-29 오후 2:45:11 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 2:45:15 [3576]  <Information>  'DisplayImages' 
+
+2023-03-29 오후 2:45:15 [3576]  <Information>  'Count IsActiveGridControl' 
+
+2023-03-29 오후 2:45:15 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 2:45:15 [3576]  <Information>  'containActiveGrid - False - 0' 
+
+2023-03-29 오후 2:45:15 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:45:15 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 2:45:15 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 2:45:15 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller - 1 / 1' 
+
+2023-03-29 오후 2:45:15 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:45:15 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:45:15 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 2:45:15 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:15 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:45:16 [3576]  <Information>  'DisplayImages' 
+
+2023-03-29 오후 2:45:16 [3576]  <Information>  'Count IsActiveGridControl' 
+
+2023-03-29 오후 2:45:16 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 2:45:16 [3576]  <Information>  'containActiveGrid - False - 0' 
+
+2023-03-29 오후 2:45:16 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:45:16 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 2:45:16 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller - 1 / 1' 
+
+2023-03-29 오후 2:45:16 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:45:16 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:45:16 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 2:45:16 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:16 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:45:16 [3576]  <Information>  'DisplayImages' 
+
+2023-03-29 오후 2:45:16 [3576]  <Information>  'Count IsActiveGridControl' 
+
+2023-03-29 오후 2:45:16 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 2:45:16 [3576]  <Information>  'containActiveGrid - False - 0' 
+
+2023-03-29 오후 2:45:16 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:45:16 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 2:45:16 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:16 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:45:17 [3576]  <Information>  'DisplayImages' 
+
+2023-03-29 오후 2:45:17 [3576]  <Information>  'Count IsActiveGridControl' 
+
+2023-03-29 오후 2:45:17 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 2:45:17 [3576]  <Information>  'containActiveGrid - False - 0' 
+
+2023-03-29 오후 2:45:17 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:45:17 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 2:45:17 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:17 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:45:18 [3576]  <Information>  'DisplayImages' 
+
+2023-03-29 오후 2:45:18 [3576]  <Information>  'Count IsActiveGridControl' 
+
+2023-03-29 오후 2:45:18 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 2:45:18 [3576]  <Information>  'containActiveGrid - False - 0' 
+
+2023-03-29 오후 2:45:18 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:45:18 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 2:45:18 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:45:18 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:45:18 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:45:18 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 2:45:18 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:18 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:45:24 [3576]  <Information>  'DisplayImages' 
+
+2023-03-29 오후 2:45:24 [3576]  <Information>  'Count IsActiveGridControl' 
+
+2023-03-29 오후 2:45:24 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 2:45:24 [3576]  <Information>  'containActiveGrid - False - 0' 
+
+2023-03-29 오후 2:45:24 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:45:24 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 2:45:24 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller - 1 / 1' 
+
+2023-03-29 오후 2:45:24 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:45:24 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:45:24 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 2:45:24 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:24 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:45:25 [3576]  <Information>  'DisplayImages' 
+
+2023-03-29 오후 2:45:25 [3576]  <Information>  'Count IsActiveGridControl' 
+
+2023-03-29 오후 2:45:25 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 2:45:25 [3576]  <Information>  'containActiveGrid - False - 0' 
+
+2023-03-29 오후 2:45:25 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:45:25 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 2:45:25 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller - 1 / 1' 
+
+2023-03-29 오후 2:45:25 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:45:25 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:45:25 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 2:45:25 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:25 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:45:26 [3576]  <Information>  'DisplayImages' 
+
+2023-03-29 오후 2:45:26 [3576]  <Information>  'Count IsActiveGridControl' 
+
+2023-03-29 오후 2:45:26 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 2:45:26 [3576]  <Information>  'containActiveGrid - False - 0' 
+
+2023-03-29 오후 2:45:26 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:45:26 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 2:45:26 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:45:26 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:45:26 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:45:26 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 2:45:26 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:26 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:45:26 [3576]  <Information>  'DisplayImages' 
+
+2023-03-29 오후 2:45:26 [3576]  <Information>  'Count IsActiveGridControl' 
+
+2023-03-29 오후 2:45:26 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 2:45:26 [3576]  <Information>  'containActiveGrid - False - 0' 
+
+2023-03-29 오후 2:45:26 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:45:26 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 2:45:26 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:45:26 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:45:26 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:45:26 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 2:45:26 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:26 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:45:27 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:27 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:45:27 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:27 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:45:28 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:28 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:45:28 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:28 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:45:32 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 2:45:32 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 2:45:32 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 2:45:32 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 2:45:32 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 2:45:32 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  'Close Studies that PatientID is Different : 100006220' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  'Series Load Start DR/1 - 1' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  'Series Load End DR/1 - 1' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller - 1 / 1' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:33 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:45:39 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 2:45:39 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 2:45:46 [3576]  <Information>  'Close Studies that PatientID is Different : 100006220' 
+
+2023-03-29 오후 2:45:46 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:45:46 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 2:45:46 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:46 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:45:46 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:45:46 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:45:46 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:45:46 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 2:45:46 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:45:46 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:45:46 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:45:46 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:45:46 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:45:46 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:45:46 [3576]  <Information>  'Series Load Start XA/1 - 2' 
+
+2023-03-29 오후 2:45:46 [3576]  <Information>  'Series Load End XA/1 - 2' 
+
+2023-03-29 오후 2:45:46 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 2:45:49 [3576]  <Information>  'DisplayImages' 
+
+2023-03-29 오후 2:45:49 [3576]  <Information>  'Count IsActiveGridControl' 
+
+2023-03-29 오후 2:45:49 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 2:45:49 [3576]  <Information>  'containActiveGrid - False - 0' 
+
+2023-03-29 오후 2:45:49 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:45:49 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 2:45:49 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 2:45:49 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller - 1 / 1' 
+
+2023-03-29 오후 2:45:49 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:45:49 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:45:49 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 2:45:49 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:45:49 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:54:53 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 2:54:53 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 2:54:54 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 2:54:54 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-29 오후 2:54:54 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-29 오후 2:54:54 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-29 오후 2:54:54 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 2:58:23 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 2:58:23 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-29 오후 2:58:23 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-29 오후 2:58:23 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-29 오후 2:58:23 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 2:58:24 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 2:58:24 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-29 오후 2:58:24 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-29 오후 2:58:24 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-29 오후 2:58:24 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 2:58:26 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 2:58:26 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-29 오후 2:58:26 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-29 오후 2:58:26 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-29 오후 2:58:26 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 2:58:27 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 2:58:27 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 2:58:43 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 2:58:43 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 2:59:22 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 2:59:22 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 2:59:22 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 2:59:22 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-29 오후 2:59:22 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-29 오후 2:59:22 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-29 오후 2:59:22 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 2:59:22 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 2:59:22 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 2:59:27 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 2:59:27 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-29 오후 2:59:27 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-29 오후 2:59:27 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-29 오후 2:59:27 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 2:59:32 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 2:59:32 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 2:59:32 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 2:59:32 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-29 오후 2:59:32 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-29 오후 2:59:32 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-29 오후 2:59:32 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 2:59:33 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 2:59:33 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-29 오후 2:59:33 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-29 오후 2:59:33 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-29 오후 2:59:33 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 2:59:54 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 2:59:54 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'Close Studies that PatientID is Different : 100006220' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'Series Load Start DR/1 - 1' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'Series Load End DR/1 - 1' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller - 1 / 1' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'Series Load Start DR/1 - 2' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'Series Load End DR/1 - 2' 
+
+2023-03-29 오후 2:59:55 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:03:59 [3576]  <Information>  'Associate accept received from ubpacs (115.145.56.180:104)' 
+
+2023-03-29 오후 3:04:00 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.2.392.200036.9116.6.24.12542094.2993.20220624064539973.3.627' 
+
+2023-03-29 오후 3:04:01 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.31382.65996' 
+
+2023-03-29 오후 3:04:02 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.31800.66001' 
+
+2023-03-29 오후 3:04:03 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.31382.65996' 
+
+2023-03-29 오후 3:04:04 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.23323.64859' 
+
+2023-03-29 오후 3:04:04 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.2.724.33963612.20230326.14108598676737703855' 
+
+2023-03-29 오후 3:04:05 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.31382.65996' 
+
+2023-03-29 오후 3:04:06 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.31800.66001' 
+
+2023-03-29 오후 3:04:07 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.13463.65983' 
+
+2023-03-29 오후 3:04:08 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.21509.541' 
+
+2023-03-29 오후 3:04:09 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.23009.64854' 
+
+2023-03-29 오후 3:04:09 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.23172.64857' 
+
+2023-03-29 오후 3:04:09 [3576]  <Information>  'Release response received from ubpacs (115.145.56.180:104)' 
+
+2023-03-29 오후 3:04:12 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:04:12 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:04:12 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:04:13 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:04:13 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:04:13 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:04:13 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:04:13 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:04:25 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:04:25 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:04:25 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:04:25 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:04:32 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 3:04:32 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-29 오후 3:04:32 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-29 오후 3:04:32 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-29 오후 3:04:32 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 3:04:36 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 3:04:36 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-29 오후 3:04:36 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-29 오후 3:04:36 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-29 오후 3:04:36 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 3:04:43 [3576]  <Information>  'DisplayImages' 
+
+2023-03-29 오후 3:04:43 [3576]  <Information>  'Count IsActiveGridControl' 
+
+2023-03-29 오후 3:04:43 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:04:43 [3576]  <Information>  'containActiveGrid - False - 0' 
+
+2023-03-29 오후 3:04:43 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:04:43 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 3:04:43 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:04:43 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:04:43 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 3:04:43 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller - 3 / 3' 
+
+2023-03-29 오후 3:04:43 [3576]  <Information>  'GridPanel.GridLayout.Set - 3 / 3' 
+
+2023-03-29 오후 3:04:43 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:04:43 [3576]  <Information>  'Difference newvalue and oldvalue 
+newValue - 3 / 3
+oldValue - 1 / 1' 
+
+2023-03-29 오후 3:04:43 [3576]  <Information>  'GridPanel.GridLayout - 3 / 3' 
+
+2023-03-29 오후 3:04:43 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:04:43 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:04:52 [3576]  <Information>  'Associate accept received from ubpacs (115.145.56.180:104)' 
+
+2023-03-29 오후 3:04:52 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.2.392.200036.9116.6.24.12542094.2993.20220624064539973.3.627' 
+
+2023-03-29 오후 3:04:53 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.31382.65996' 
+
+2023-03-29 오후 3:04:54 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.31800.66001' 
+
+2023-03-29 오후 3:04:54 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.31382.65996' 
+
+2023-03-29 오후 3:04:55 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.23323.64859' 
+
+2023-03-29 오후 3:04:56 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.2.724.33963612.20230326.14108598676737703855' 
+
+2023-03-29 오후 3:04:56 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.31382.65996' 
+
+2023-03-29 오후 3:04:57 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.31800.66001' 
+
+2023-03-29 오후 3:04:58 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.13463.65983' 
+
+2023-03-29 오후 3:04:59 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.21509.541' 
+
+2023-03-29 오후 3:05:00 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.23009.64854' 
+
+2023-03-29 오후 3:05:00 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.23172.64857' 
+
+2023-03-29 오후 3:05:00 [3576]  <Information>  'Release response received from ubpacs (115.145.56.180:104)' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'Close Studies that PatientID is Different : 100006220' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'Difference newvalue and oldvalue 
+newValue - 1 / 1
+oldValue - 3 / 3' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'Series Load Start DR/2 - 1' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'Series Load End DR/2 - 1' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller - 1 / 1' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 3:08:35 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 3:08:43 [3576]  <Information>  'Associate accept received from ubpacs (115.145.56.180:104)' 
+
+2023-03-29 오후 3:08:44 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.2.392.200036.9116.6.24.12542094.2993.20220624064539973.3.627' 
+
+2023-03-29 오후 3:08:44 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.31382.65996' 
+
+2023-03-29 오후 3:08:45 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.31800.66001' 
+
+2023-03-29 오후 3:08:46 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.31382.65996' 
+
+2023-03-29 오후 3:08:47 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.23323.64859' 
+
+2023-03-29 오후 3:08:47 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.2.724.33963612.20230326.14108598676737703855' 
+
+2023-03-29 오후 3:08:48 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.31382.65996' 
+
+2023-03-29 오후 3:08:49 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.31800.66001' 
+
+2023-03-29 오후 3:08:50 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.13463.65983' 
+
+2023-03-29 오후 3:08:51 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.21509.541' 
+
+2023-03-29 오후 3:08:52 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.23009.64854' 
+
+2023-03-29 오후 3:08:52 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.23172.64857' 
+
+2023-03-29 오후 3:08:52 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.2.392.200036.9116.2.6.1.44063.1805205071.1656821906.871126' 
+
+2023-03-29 오후 3:08:52 [3576]  <Information>  'Release response received from ubpacs (115.145.56.180:104)' 
+
+2023-03-29 오후 3:09:11 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 3:09:11 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 3:09:12 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 3:09:12 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 3:09:13 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 3:09:13 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-29 오후 3:09:13 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-29 오후 3:09:13 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-29 오후 3:09:13 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 3:09:17 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 3:09:17 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-29 오후 3:09:17 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-29 오후 3:09:17 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-29 오후 3:09:17 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  'Close Studies that PatientID is Different : 100006220' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  'Series Load Start DR/1 - 1' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  'Series Load End DR/1 - 1' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller - 1 / 1' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:09:18 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:09:19 [3576]  <Information>  'Series Load Start DR/1 - 1' 
+
+2023-03-29 오후 3:09:19 [3576]  <Information>  'Series Load End DR/1 - 1' 
+
+2023-03-29 오후 3:09:19 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:09:19 [3576]  <Information>  'Series Load Start DR/1 - 1' 
+
+2023-03-29 오후 3:09:19 [3576]  <Information>  'Series Load End DR/1 - 1' 
+
+2023-03-29 오후 3:09:19 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:09:34 [3576]  <Information>  'Associate accept received from ubpacs (115.145.56.180:104)' 
+
+2023-03-29 오후 3:09:35 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.31382.65996' 
+
+2023-03-29 오후 3:09:35 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.23323.64859' 
+
+2023-03-29 오후 3:09:36 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.2.724.33963612.20230326.14108598676737703855' 
+
+2023-03-29 오후 3:09:36 [3576]  <Information>  'Release response received from ubpacs (115.145.56.180:104)' 
+
+2023-03-29 오후 3:09:57 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:09:57 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:09:57 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:09:57 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:09:57 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:09:57 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:09:57 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:09:57 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:09:58 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:09:58 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:09:58 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:09:58 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:10:01 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 3:10:01 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-29 오후 3:10:01 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-29 오후 3:10:01 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-29 오후 3:10:01 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 3:10:36 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 3:10:36 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-29 오후 3:10:36 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-29 오후 3:10:36 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-29 오후 3:10:36 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 3:10:41 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 3:10:41 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 3:10:43 [3576]  <Information>  'Close Studies that PatientID is Different : 100006220' 
+
+2023-03-29 오후 3:10:43 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:10:43 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 3:10:43 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:10:43 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:10:43 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:10:43 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:10:43 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:10:43 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 3:10:43 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:10:43 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:10:43 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:10:43 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:10:43 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:10:43 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:10:43 [3576]  <Information>  'CloseImages' 
+
+2023-03-29 오후 3:10:43 [3576]  <Information>  'CloseImages' 
+
+2023-03-29 오후 3:10:43 [3576]  <Information>  'CloseImages' 
+
+2023-03-29 오후 3:10:43 [3576]  <Information>  'Series Load Start DR/1 - 1' 
+
+2023-03-29 오후 3:10:43 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:10:44 [3576]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-03-29 오후 3:10:44 [3576]  <Information>  'Series Load End DR/1 - 1' 
+
+2023-03-29 오후 3:10:44 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:10:44 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:10:44 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:10:44 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 3:10:44 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 3:10:44 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller - 1 / 1' 
+
+2023-03-29 오후 3:10:44 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:10:44 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:10:44 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 3:10:44 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:10:44 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:10:44 [3576]  <Information>  'Series Load Start DR/1 - 1' 
+
+2023-03-29 오후 3:10:44 [3576]  <Information>  'Series Load End DR/1 - 1' 
+
+2023-03-29 오후 3:10:44 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:10:44 [3576]  <Information>  'Series Load Start DR/1 - 1' 
+
+2023-03-29 오후 3:10:44 [3576]  <Information>  'Series Load End DR/1 - 1' 
+
+2023-03-29 오후 3:10:44 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:10:49 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 3:10:49 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 3:10:50 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 3:10:50 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  'Close Studies that PatientID is Different : 100006220' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  'Series Load Start US/1 - 1' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  'Series Load End US/1 - 1' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller - 2 / 2' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  'GridPanel.GridLayout.Set - 2 / 2' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  'Difference newvalue and oldvalue 
+newValue - 2 / 2
+oldValue - 1 / 1' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  'GridPanel.GridLayout - 2 / 2' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:10:51 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:10:57 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 3:10:57 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 3:10:59 [3576]  <Information>  'Close Studies that PatientID is Different : 100006220' 
+
+2023-03-29 오후 3:10:59 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:10:59 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 3:10:59 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:10:59 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:10:59 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:10:59 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:10:59 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:10:59 [3576]  <Information>  'Difference newvalue and oldvalue 
+newValue - 1 / 1
+oldValue - 2 / 2' 
+
+2023-03-29 오후 3:10:59 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 3:10:59 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:10:59 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:10:59 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:10:59 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:10:59 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:10:59 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:10:59 [3576]  <Information>  'Series Load Start MR/1 - 1' 
+
+2023-03-29 오후 3:10:59 [3576]  <Information>  'Series Load End MR/1 - 1' 
+
+2023-03-29 오후 3:10:59 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:11:01 [3576]  <Information>  'DisplayImages' 
+
+2023-03-29 오후 3:11:01 [3576]  <Information>  'Count IsActiveGridControl' 
+
+2023-03-29 오후 3:11:01 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:11:01 [3576]  <Information>  'containActiveGrid - False - 0' 
+
+2023-03-29 오후 3:11:01 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:11:01 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 3:11:01 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 3:11:01 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller - 2 / 2' 
+
+2023-03-29 오후 3:11:01 [3576]  <Information>  'GridPanel.GridLayout.Set - 2 / 2' 
+
+2023-03-29 오후 3:11:01 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:11:01 [3576]  <Information>  'Difference newvalue and oldvalue 
+newValue - 2 / 2
+oldValue - 1 / 1' 
+
+2023-03-29 오후 3:11:02 [3576]  <Information>  'GridPanel.GridLayout - 2 / 2' 
+
+2023-03-29 오후 3:11:02 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:11:02 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:11:02 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:11:02 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:11:12 [3576]  <Information>  'Associate accept received from ubpacs (115.145.56.180:104)' 
+
+2023-03-29 오후 3:11:13 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.31382.65996' 
+
+2023-03-29 오후 3:11:13 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.23323.64859' 
+
+2023-03-29 오후 3:11:14 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.2.724.33963612.20230326.14108598676737703855' 
+
+2023-03-29 오후 3:11:14 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.2.392.200036.9116.6.24.12542094.2993.20220624064539973.3.627' 
+
+2023-03-29 오후 3:11:15 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.2.392.200036.9116.6.24.12542094.2993.20220624064539973.3.627' 
+
+2023-03-29 오후 3:11:15 [3576]  <Information>  'Release response received from ubpacs (115.145.56.180:104)' 
+
+2023-03-29 오후 3:11:59 [3576]  <Information>  'Associate accept received from ubpacs (115.145.56.180:104)' 
+
+2023-03-29 오후 3:12:00 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.31382.65996' 
+
+2023-03-29 오후 3:12:01 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.23323.64859' 
+
+2023-03-29 오후 3:12:01 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.2.724.33963612.20230326.14108598676737703855' 
+
+2023-03-29 오후 3:12:02 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.2.392.200036.9116.6.24.12542094.2993.20220624064539973.3.627' 
+
+2023-03-29 오후 3:12:02 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.2.392.200036.9116.6.24.12542094.2993.20220624064539973.3.627' 
+
+2023-03-29 오후 3:12:02 [3576]  <Information>  'Release response received from ubpacs (115.145.56.180:104)' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'Close Studies that PatientID is Different : 456456' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'Difference newvalue and oldvalue 
+newValue - 1 / 1
+oldValue - 2 / 2' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'CloseImages' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'CloseImages' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'CloseImages' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'CloseImages' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'CloseImages' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'Series Load Start DR/1 - 2' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'Series Load End DR/1 - 2' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller - 1 / 1' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 3:12:34 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:12:35 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:12:35 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:12:35 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:12:36 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:12:36 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:12:36 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:12:36 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:12:36 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:12:36 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:12:36 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:12:36 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:12:37 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:12:37 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:12:37 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:12:37 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:22:51 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 3:22:51 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-29 오후 3:22:51 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-29 오후 3:22:51 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-29 오후 3:22:51 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 3:22:54 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 3:22:54 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-29 오후 3:22:54 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-29 오후 3:22:54 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-29 오후 3:22:54 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 3:22:56 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:22:56 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:22:58 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:22:58 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:22:58 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:22:58 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 3:22:58 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:22:58 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:22:58 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:22:58 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  'Close Studies that PatientID is Different : 100006220' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  'Series Load Start DR/1 - 1' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  'Series Load End DR/1 - 1' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller - 1 / 1' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  'Series Load Start DR/1 - 1' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  'Series Load End DR/1 - 1' 
+
+2023-03-29 오후 3:23:02 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'Close Studies that PatientID is Different : 456456' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'CloseImages' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'CloseImages' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'Series Load Start DR/1 - 2' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'Series Load End DR/1 - 2' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller - 1 / 1' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:23:06 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:23:07 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 3:23:07 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:23:07 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:23:51 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 3:23:51 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-29 오후 3:23:51 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-29 오후 3:23:51 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-29 오후 3:23:51 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 3:23:51 [3576]  <Information>  'Close Studies that PatientID is Different : 100006220' 
+
+2023-03-29 오후 3:23:51 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:23:51 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 3:23:51 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:23:51 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:23:51 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:23:51 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:23:51 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:23:51 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 3:23:52 [3576]  <Information>  'CloseImages' 
+
+2023-03-29 오후 3:23:52 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:23:52 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:23:52 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:23:52 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:23:52 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:23:52 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:23:52 [3576]  <Information>  'Series Load Start DR/1 - 2' 
+
+2023-03-29 오후 3:23:52 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:23:52 [3576]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-03-29 오후 3:23:52 [3576]  <Information>  'Series Load End DR/1 - 2' 
+
+2023-03-29 오후 3:23:52 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:23:52 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:23:52 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:23:52 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 3:23:52 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 3:23:52 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller - 1 / 1' 
+
+2023-03-29 오후 3:23:52 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:23:52 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:23:52 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 3:23:52 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:23:52 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  'Close Studies that PatientID is Different : 100006220' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  'Series Load Start MR/1 - 1' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  'Series Load End MR/1 - 1' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller - 3 / 3' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  'GridPanel.GridLayout.Set - 3 / 3' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:23:56 [3576]  <Information>  'Difference newvalue and oldvalue 
+newValue - 3 / 3
+oldValue - 1 / 1' 
+
+2023-03-29 오후 3:23:57 [3576]  <Information>  'GridPanel.GridLayout - 3 / 3' 
+
+2023-03-29 오후 3:23:57 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:23:57 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  'Close Studies that PatientID is Different : 100006220' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  'Difference newvalue and oldvalue 
+newValue - 1 / 1
+oldValue - 3 / 3' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  'Series Load Start DR/1 - 1' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  'Series Load End DR/1 - 1' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller - 1 / 1' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 3:24:09 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:24:10 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:24:10 [3576]  <Information>  'Series Load Start DR/1 - 2' 
+
+2023-03-29 오후 3:24:10 [3576]  <Information>  'Series Load End DR/1 - 2' 
+
+2023-03-29 오후 3:24:10 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:24:16 [3576]  <Information>  'Associate accept received from ubpacs (115.145.56.180:104)' 
+
+2023-03-29 오후 3:24:17 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.31382.65996' 
+
+2023-03-29 오후 3:24:18 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.31800.66001' 
+
+2023-03-29 오후 3:24:19 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.2.392.200036.9116.6.24.12542094.2993.20220624064539973.3.627' 
+
+2023-03-29 오후 3:24:20 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.21509.541' 
+
+2023-03-29 오후 3:24:21 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.23009.64854' 
+
+2023-03-29 오후 3:24:21 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.23172.64857' 
+
+2023-03-29 오후 3:24:21 [3576]  <Information>  'Release response received from ubpacs (115.145.56.180:104)' 
+
+2023-03-29 오후 3:24:38 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 3:24:38 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 3:24:39 [3576]  <Information>  'Close Studies that PatientID is Different : 100006220' 
+
+2023-03-29 오후 3:24:39 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:24:39 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 3:24:39 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:24:39 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:24:39 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:24:39 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:24:39 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:24:39 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 3:24:39 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:24:39 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:24:39 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:24:39 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:24:39 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:24:39 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:24:39 [3576]  <Information>  'Series Load Start US/1 - 1' 
+
+2023-03-29 오후 3:24:39 [3576]  <Information>  'Series Load End US/1 - 1' 
+
+2023-03-29 오후 3:24:39 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:24:46 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 3:24:46 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-29 오후 3:24:46 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-29 오후 3:24:46 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-29 오후 3:24:46 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'Close Studies that PatientID is Different : 100006220' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'CloseImages' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'CloseImages' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'Series Load Start DR/1 - 1' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'Series Load End DR/1 - 1' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller - 1 / 1' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'Series Load Start DR/1 - 2' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'Series Load End DR/1 - 2' 
+
+2023-03-29 오후 3:24:47 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:24:48 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:24:48 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:24:48 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:24:48 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:24:49 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:24:49 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:24:49 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:24:49 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:24:49 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:24:49 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:24:49 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:24:49 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:24:49 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:24:49 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:24:54 [3576]  <Information>  'Associate accept received from ubpacs (115.145.56.180:104)' 
+
+2023-03-29 오후 3:24:55 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.31382.65996' 
+
+2023-03-29 오후 3:24:56 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.31800.66001' 
+
+2023-03-29 오후 3:24:56 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.2.392.200036.9116.6.24.12542094.2993.20220624064539973.3.627' 
+
+2023-03-29 오후 3:24:57 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.2.392.200036.9116.6.24.12542094.2993.20220624064539973.3.627' 
+
+2023-03-29 오후 3:24:58 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.21509.541' 
+
+2023-03-29 오후 3:24:59 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.23009.64854' 
+
+2023-03-29 오후 3:24:59 [3576]  <Information>  'CStore response received from ubpacs (115.145.56.180:104) - Success - 1.3.6.1.4.1.19179.1.144240935922147.3.23172.64857' 
+
+2023-03-29 오후 3:24:59 [3576]  <Information>  'Release response received from ubpacs (115.145.56.180:104)' 
+
+2023-03-29 오후 3:25:06 [3576]  <Information>  'DisplayImages' 
+
+2023-03-29 오후 3:25:06 [3576]  <Information>  'Count IsActiveGridControl' 
+
+2023-03-29 오후 3:25:06 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:25:06 [3576]  <Information>  'containActiveGrid - False - 0' 
+
+2023-03-29 오후 3:25:06 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:25:06 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 3:25:06 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:25:06 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:25:07 [3576]  <Information>  'DisplayImages' 
+
+2023-03-29 오후 3:25:07 [3576]  <Information>  'Count IsActiveGridControl' 
+
+2023-03-29 오후 3:25:07 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:25:07 [3576]  <Information>  'containActiveGrid - False - 0' 
+
+2023-03-29 오후 3:25:07 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:25:07 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller not null' 
+
+2023-03-29 오후 3:25:07 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:25:07 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:25:07 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:25:07 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 3:25:07 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:25:07 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:25:15 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 3:25:15 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 3:25:17 [3576]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-29 오후 3:25:17 [3576]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-29 오후 3:25:17 [3576]  <Information>  'Close Studies that PatientID is Different : 100006220' 
+
+2023-03-29 오후 3:25:17 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:25:17 [3576]  <Information>  'ImageGridControl._SetImageCollection difference ImageCollection' 
+
+2023-03-29 오후 3:25:17 [3576]  <Information>  'ImageControl.OnFrameChanged' 
+
+2023-03-29 오후 3:25:17 [3576]  <Information>  'ImageGridControl.ImageControl_FrameChanged' 
+
+2023-03-29 오후 3:25:17 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:25:17 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:25:17 [3576]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-29 오후 3:25:17 [3576]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-29 오후 3:25:17 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:25:17 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:25:17 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:25:17 [3576]  <Information>  '_SetImageCollection' 
+
+2023-03-29 오후 3:25:17 [3576]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-29 오후 3:25:17 [3576]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-29 오후 3:25:17 [3576]  <Information>  'Series Load Start DR/1 - 1' 
+
+2023-03-29 오후 3:25:17 [3576]  <Information>  'Series Load End DR/1 - 1' 
+
+2023-03-29 오후 3:25:17 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:25:18 [3576]  <Information>  'Series Load Start DR/1 - 1' 
+
+2023-03-29 오후 3:25:18 [3576]  <Information>  'Series Load End DR/1 - 1' 
+
+2023-03-29 오후 3:25:18 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+
+2023-03-29 오후 3:25:18 [3576]  <Information>  'Series Load Start DR/1 - 1' 
+
+2023-03-29 오후 3:25:18 [3576]  <Information>  'Series Load End DR/1 - 1' 
+
+2023-03-29 오후 3:25:18 [3576]  <Information>  'ImageGridControl.IsActiveGridControl' 
+

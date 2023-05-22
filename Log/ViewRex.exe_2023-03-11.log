@@ -1,0 +1,272 @@
+2023-03-11 오후 1:34:11 [9832]  <Information>  'Program Start' 
+
+2023-03-11 오후 1:34:11 [9832]  <Information>  'Open' 
+
+2023-03-11 오후 1:34:11 [9832]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2023-03-11 오후 1:34:11 [9832]  <Information>  'Server Version : 1.0 ' 
+
+2023-03-11 오후 1:34:11 [9832]  <Information>  'NeedUpdate : False ' 
+
+2023-03-11 오후 1:34:11 [9832]  <Information>  '******* Application_Startup *******' 
+
+2023-03-11 오후 1:34:12 [9832]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-11 오후 1:34:12 [9832]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-03-11 오후 1:34:13 [9832]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-11 오후 1:34:13 [9832]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-11 오후 1:34:13 [9832]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-11 오후 1:34:13 [9832]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-03-11 오후 1:34:13 [9832]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-11 오후 1:34:13 [9832]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-11 오후 1:34:13 [9832]  <Information>  '_SetImageCollection' 
+
+2023-03-11 오후 1:34:13 [9832]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-11 오후 1:34:13 [9832]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-11 오후 1:34:13 [9832]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-11 오후 1:34:13 [9832]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-11 오후 1:34:14 [9832]  <Information>  '_SetImageCollection' 
+
+2023-03-11 오후 1:34:14 [9832]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-11 오후 1:34:14 [9832]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-11 오후 1:34:14 [9832]  <Information>  'Open' 
+
+2023-03-11 오후 1:34:14 [9832]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2023-03-11 오후 1:34:14 [9832]  <Information>  '1. ConnectDB UserID : ' 
+
+2023-03-11 오후 1:34:14 [9832]  <Information>  '2. ConnectDB UserID : ' 
+
+2023-03-11 오후 1:34:20 [9832]  <Information>  'config numvalue : 2' 
+
+2023-03-11 오후 1:34:20 [9832]  <Information>  'PasswordChangeTerm : 0' 
+
+2023-03-11 오후 1:34:22 [9832]  <Information>  '_SetImageCollection' 
+
+2023-03-11 오후 1:34:22 [9832]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-11 오후 1:34:22 [9832]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-11 오후 1:34:22 [9832]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-11 오후 1:34:22 [9832]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-11 오후 1:34:22 [9832]  <Information>  '_SetImageCollection' 
+
+2023-03-11 오후 1:34:22 [9832]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-11 오후 1:34:22 [9832]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-11 오후 1:34:22 [9832]  <Information>  '_SetImageCollection' 
+
+2023-03-11 오후 1:34:22 [9832]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-11 오후 1:34:22 [9832]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-11 오후 1:34:22 [9832]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-11 오후 1:34:22 [9832]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-11 오후 1:34:22 [9832]  <Information>  '_SetImageCollection' 
+
+2023-03-11 오후 1:34:22 [9832]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-11 오후 1:34:22 [9832]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-11 오후 1:34:23 [9832]  <Information>  'Server Patches ver : 1' 
+
+2023-03-11 오후 1:34:23 [9832]  <Information>  'Local Patches ver : 0' 
+
+2023-03-11 오후 1:34:23 [9832]  <Information>  'Server Patches Path : \\115.145.56.182\ViewRexUpdate' 
+
+2023-03-11 오후 1:34:23 [9832]  <Information>  'Use NetworkShared' 
+
+2023-03-11 오후 1:34:23 [9832]  <Information>  'Connect UpdateFolder : \\115.145.56.182\ViewRexUpdate' 
+
+2023-03-11 오후 1:34:23 [9832]  <Information>  '====== Start DisplayImages' 
+
+2023-03-11 오후 1:34:23 [9832]  <Information>  '_SetImageCollection' 
+
+2023-03-11 오후 1:34:23 [9832]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-11 오후 1:34:23 [9832]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-11 오후 1:34:23 [9832]  <Information>  '====== End DisplayImages' 
+
+2023-03-11 오후 1:34:23 [9832]  <Information>  '====== Start DisplayImages' 
+
+2023-03-11 오후 1:34:23 [9832]  <Information>  '_SetImageCollection' 
+
+2023-03-11 오후 1:34:23 [9832]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-11 오후 1:34:23 [9832]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-11 오후 1:34:23 [9832]  <Information>  '====== End DisplayImages' 
+
+2023-03-11 오후 1:34:34 [9832]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Status != 9 ' 
+
+2023-03-11 오후 1:34:34 [9832]  <Information>  'startdate : 2023-03-11 오전 12:00:00' 
+
+2023-03-11 오후 1:34:34 [9832]  <Information>  'enddate : 2023-03-11 오후 11:59:59' 
+
+2023-03-11 오후 1:34:34 [9832]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-11 오후 1:34:34 [9832]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-11 오후 1:34:34 [9832]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-11 오후 1:34:34 [9832]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-11 오후 1:34:34 [9832]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-11 오후 1:35:04 [9832]  <Information>  'GetPatient cnt: SELECT COUNT(PatientID) CNT FROM Patient WHERE ( PatientID LIKE @PatientID  OR LastName LIKE @LastName ) AND Removed = 0 ' 
+
+2023-03-11 오후 1:35:04 [9832]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID LIKE @PatientID OR PatientID LIKE @LastName ) AND Removed = 0 ' 
+
+2023-03-11 오후 1:35:49 [9832]  <Information>  '******* Application_Exit *******' 
+
+2023-03-11 오후 1:35:49 [9832]  <Information>  'BackgroundFrameLoader Termiate.' 
+
+2023-03-11 오후 1:35:51 [11236]  <Information>  'Program Start' 
+
+2023-03-11 오후 1:35:51 [11236]  <Information>  'Open' 
+
+2023-03-11 오후 1:35:51 [11236]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2023-03-11 오후 1:35:51 [11236]  <Information>  'Server Version : 1.0 ' 
+
+2023-03-11 오후 1:35:51 [11236]  <Information>  'NeedUpdate : False ' 
+
+2023-03-11 오후 1:35:51 [11236]  <Information>  '******* Application_Startup *******' 
+
+2023-03-11 오후 1:35:51 [11236]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-11 오후 1:35:51 [11236]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-03-11 오후 1:35:53 [11236]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-11 오후 1:35:53 [11236]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-11 오후 1:35:53 [11236]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-11 오후 1:35:53 [11236]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-03-11 오후 1:35:53 [11236]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-11 오후 1:35:53 [11236]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-11 오후 1:35:53 [11236]  <Information>  '_SetImageCollection' 
+
+2023-03-11 오후 1:35:53 [11236]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-11 오후 1:35:53 [11236]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-11 오후 1:35:53 [11236]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-11 오후 1:35:53 [11236]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-11 오후 1:35:53 [11236]  <Information>  '_SetImageCollection' 
+
+2023-03-11 오후 1:35:53 [11236]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-11 오후 1:35:53 [11236]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-11 오후 1:35:53 [11236]  <Information>  'Open' 
+
+2023-03-11 오후 1:35:53 [11236]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2023-03-11 오후 1:35:53 [11236]  <Information>  '1. ConnectDB UserID : ' 
+
+2023-03-11 오후 1:35:53 [11236]  <Information>  '2. ConnectDB UserID : ' 
+
+2023-03-11 오후 1:35:57 [11236]  <Information>  'config numvalue : 2' 
+
+2023-03-11 오후 1:35:57 [11236]  <Information>  'PasswordChangeTerm : 0' 
+
+2023-03-11 오후 1:36:00 [11236]  <Information>  '_SetImageCollection' 
+
+2023-03-11 오후 1:36:00 [11236]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-11 오후 1:36:00 [11236]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-11 오후 1:36:00 [11236]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-11 오후 1:36:00 [11236]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-11 오후 1:36:00 [11236]  <Information>  '_SetImageCollection' 
+
+2023-03-11 오후 1:36:00 [11236]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-11 오후 1:36:00 [11236]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-11 오후 1:36:00 [11236]  <Information>  '_SetImageCollection' 
+
+2023-03-11 오후 1:36:00 [11236]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-11 오후 1:36:00 [11236]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-11 오후 1:36:00 [11236]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-03-11 오후 1:36:00 [11236]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-03-11 오후 1:36:00 [11236]  <Information>  '_SetImageCollection' 
+
+2023-03-11 오후 1:36:00 [11236]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-11 오후 1:36:00 [11236]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-11 오후 1:36:00 [11236]  <Information>  'Server Patches ver : 1' 
+
+2023-03-11 오후 1:36:00 [11236]  <Information>  'Local Patches ver : 0' 
+
+2023-03-11 오후 1:36:00 [11236]  <Information>  'Server Patches Path : \\115.145.56.182\ViewRexUpdate' 
+
+2023-03-11 오후 1:36:00 [11236]  <Information>  'Use NetworkShared' 
+
+2023-03-11 오후 1:36:00 [11236]  <Information>  'Connect UpdateFolder : \\115.145.56.182\ViewRexUpdate' 
+
+2023-03-11 오후 1:36:01 [11236]  <Information>  '====== Start DisplayImages' 
+
+2023-03-11 오후 1:36:01 [11236]  <Information>  '_SetImageCollection' 
+
+2023-03-11 오후 1:36:01 [11236]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-11 오후 1:36:01 [11236]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-11 오후 1:36:01 [11236]  <Information>  '====== End DisplayImages' 
+
+2023-03-11 오후 1:36:01 [11236]  <Information>  '====== Start DisplayImages' 
+
+2023-03-11 오후 1:36:01 [11236]  <Information>  '_SetImageCollection' 
+
+2023-03-11 오후 1:36:01 [11236]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-03-11 오후 1:36:01 [11236]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-03-11 오후 1:36:01 [11236]  <Information>  '====== End DisplayImages' 
+
+2023-03-11 오후 1:36:41 [11236]  <Information>  '******* Application_Exit *******' 
+
+2023-03-11 오후 1:36:41 [11236]  <Information>  'BackgroundFrameLoader Termiate.' 
+

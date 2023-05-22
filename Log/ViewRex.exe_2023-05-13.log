@@ -1,0 +1,152 @@
+2023-05-13 오후 10:56:07 [2876]  <Information>  'Program Start' 
+
+2023-05-13 오후 10:56:07 [2876]  <Information>  'Open' 
+
+2023-05-13 오후 10:56:07 [2876]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2023-05-13 오후 10:56:07 [2876]  <Information>  'Server Version : 1.0 ' 
+
+2023-05-13 오후 10:56:07 [2876]  <Information>  'NeedUpdate : False ' 
+
+2023-05-13 오후 10:56:07 [2876]  <Information>  '******* Application_Startup *******' 
+
+2023-05-13 오후 10:56:08 [2876]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-05-13 오후 10:56:08 [2876]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-05-13 오후 10:56:09 [2876]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-05-13 오후 10:56:09 [2876]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-05-13 오후 10:56:09 [2876]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-05-13 오후 10:56:09 [2876]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-05-13 오후 10:56:10 [2876]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-05-13 오후 10:56:10 [2876]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-05-13 오후 10:56:10 [2876]  <Information>  '_SetImageCollection' 
+
+2023-05-13 오후 10:56:10 [2876]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-05-13 오후 10:56:10 [2876]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-05-13 오후 10:56:10 [2876]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-05-13 오후 10:56:10 [2876]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-05-13 오후 10:56:10 [2876]  <Information>  '_SetImageCollection' 
+
+2023-05-13 오후 10:56:10 [2876]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-05-13 오후 10:56:10 [2876]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-05-13 오후 10:56:10 [2876]  <Information>  'Open' 
+
+2023-05-13 오후 10:56:10 [2876]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2023-05-13 오후 10:56:10 [2876]  <Information>  '1. ConnectDB UserID : ' 
+
+2023-05-13 오후 10:56:10 [2876]  <Information>  '2. ConnectDB UserID : ' 
+
+2023-05-13 오후 10:56:34 [2876]  <Information>  'config numvalue : 2' 
+
+2023-05-13 오후 10:56:34 [2876]  <Information>  'PasswordChangeTerm : 0' 
+
+2023-05-13 오후 10:56:37 [2876]  <Information>  '_SetImageCollection' 
+
+2023-05-13 오후 10:56:37 [2876]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-05-13 오후 10:56:37 [2876]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-05-13 오후 10:56:37 [2876]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-05-13 오후 10:56:37 [2876]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-05-13 오후 10:56:37 [2876]  <Information>  '_SetImageCollection' 
+
+2023-05-13 오후 10:56:37 [2876]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-05-13 오후 10:56:37 [2876]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-05-13 오후 10:56:37 [2876]  <Information>  '_SetImageCollection' 
+
+2023-05-13 오후 10:56:37 [2876]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-05-13 오후 10:56:37 [2876]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-05-13 오후 10:56:37 [2876]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-05-13 오후 10:56:37 [2876]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-05-13 오후 10:56:37 [2876]  <Information>  '_SetImageCollection' 
+
+2023-05-13 오후 10:56:37 [2876]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-05-13 오후 10:56:37 [2876]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-05-13 오후 10:56:38 [2876]  <Information>  'Server Patches ver : 1' 
+
+2023-05-13 오후 10:56:38 [2876]  <Information>  'Local Patches ver : 0' 
+
+2023-05-13 오후 10:56:38 [2876]  <Information>  'Server Patches Path : \\115.145.56.182\ViewRexUpdate' 
+
+2023-05-13 오후 10:56:38 [2876]  <Information>  'Use NetworkShared' 
+
+2023-05-13 오후 10:56:38 [2876]  <Information>  'Connect UpdateFolder : \\115.145.56.182\ViewRexUpdate' 
+
+2023-05-13 오후 10:56:38 [2876]  <Information>  '====== Start DisplayImages' 
+
+2023-05-13 오후 10:56:38 [2876]  <Information>  '_SetImageCollection' 
+
+2023-05-13 오후 10:56:38 [2876]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-05-13 오후 10:56:38 [2876]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-05-13 오후 10:56:38 [2876]  <Information>  '====== End DisplayImages' 
+
+2023-05-13 오후 10:56:38 [2876]  <Information>  '====== Start DisplayImages' 
+
+2023-05-13 오후 10:56:38 [2876]  <Information>  '_SetImageCollection' 
+
+2023-05-13 오후 10:56:38 [2876]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-05-13 오후 10:56:38 [2876]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-05-13 오후 10:56:38 [2876]  <Information>  '====== End DisplayImages' 
+
+2023-05-13 오후 10:56:53 [2876]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Status != 9 ' 
+
+2023-05-13 오후 10:56:53 [2876]  <Information>  'startdate : 2022-06-01 오전 12:00:00' 
+
+2023-05-13 오후 10:56:53 [2876]  <Information>  'enddate : 2023-05-13 오후 11:59:59' 
+
+2023-05-13 오후 10:56:53 [2876]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-05-13 오후 10:56:53 [2876]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-05-13 오후 10:56:53 [2876]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-05-13 오후 10:56:53 [2876]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-05-13 오후 10:56:53 [2876]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-05-13 오후 10:57:07 [2876]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-05-13 오후 10:57:07 [2876]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-05-13 오후 10:57:07 [2876]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-05-13 오후 10:57:07 [2876]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-05-13 오후 10:57:07 [2876]  <Information>  'PatientGridSelectionChanged Arrive' 
+

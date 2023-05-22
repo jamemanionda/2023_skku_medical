@@ -1,0 +1,132 @@
+2022-12-28 오전 1:51:22 [12964]  <Information>  'Program Start' 
+
+2022-12-28 오전 1:51:22 [12964]  <Information>  'Open' 
+
+2022-12-28 오전 1:51:22 [12964]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2022-12-28 오전 1:51:22 [12964]  <Information>  'Server Version : 1.0 ' 
+
+2022-12-28 오전 1:51:22 [12964]  <Information>  'NeedUpdate : False ' 
+
+2022-12-28 오전 1:51:22 [12964]  <Information>  '******* Application_Startup *******' 
+
+2022-12-28 오전 1:51:23 [12964]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2022-12-28 오전 1:51:23 [12964]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2022-12-28 오전 1:51:24 [12964]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2022-12-28 오전 1:51:24 [12964]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2022-12-28 오전 1:51:24 [12964]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2022-12-28 오전 1:51:25 [12964]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2022-12-28 오전 1:51:25 [12964]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2022-12-28 오전 1:51:25 [12964]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2022-12-28 오전 1:51:25 [12964]  <Information>  '_SetImageCollection' 
+
+2022-12-28 오전 1:51:25 [12964]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2022-12-28 오전 1:51:25 [12964]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2022-12-28 오전 1:51:25 [12964]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2022-12-28 오전 1:51:25 [12964]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2022-12-28 오전 1:51:25 [12964]  <Information>  '_SetImageCollection' 
+
+2022-12-28 오전 1:51:25 [12964]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2022-12-28 오전 1:51:25 [12964]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2022-12-28 오전 1:51:25 [12964]  <Information>  'Open' 
+
+2022-12-28 오전 1:51:25 [12964]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2022-12-28 오전 1:51:25 [12964]  <Information>  '1. ConnectDB UserID : ' 
+
+2022-12-28 오전 1:51:25 [12964]  <Information>  '2. ConnectDB UserID : ' 
+
+2022-12-28 오전 1:51:31 [12964]  <Information>  'config numvalue : 2' 
+
+2022-12-28 오전 1:51:42 [12964]  <Information>  'config numvalue : 2' 
+
+2022-12-28 오전 1:51:42 [12964]  <Information>  'PasswordChangeTerm : 0' 
+
+2022-12-28 오전 1:51:44 [12964]  <Information>  '_SetImageCollection' 
+
+2022-12-28 오전 1:51:44 [12964]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2022-12-28 오전 1:51:44 [12964]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2022-12-28 오전 1:51:44 [12964]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2022-12-28 오전 1:51:44 [12964]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2022-12-28 오전 1:51:44 [12964]  <Information>  '_SetImageCollection' 
+
+2022-12-28 오전 1:51:44 [12964]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2022-12-28 오전 1:51:44 [12964]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2022-12-28 오전 1:51:44 [12964]  <Information>  '_SetImageCollection' 
+
+2022-12-28 오전 1:51:44 [12964]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2022-12-28 오전 1:51:44 [12964]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2022-12-28 오전 1:51:44 [12964]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2022-12-28 오전 1:51:45 [12964]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2022-12-28 오전 1:51:45 [12964]  <Information>  '_SetImageCollection' 
+
+2022-12-28 오전 1:51:45 [12964]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2022-12-28 오전 1:51:45 [12964]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2022-12-28 오전 1:51:45 [12964]  <Information>  'Server Patches ver : 1' 
+
+2022-12-28 오전 1:51:45 [12964]  <Information>  'Local Patches ver : 0' 
+
+2022-12-28 오전 1:51:45 [12964]  <Information>  'Server Patches Path : \\115.145.56.182\ViewRexUpdate' 
+
+2022-12-28 오전 1:51:45 [12964]  <Information>  'Use NetworkShared' 
+
+2022-12-28 오전 1:51:45 [12964]  <Information>  'Connect UpdateFolder : \\115.145.56.182\ViewRexUpdate' 
+
+2022-12-28 오전 1:51:46 [12964]  <Information>  '====== Start DisplayImages' 
+
+2022-12-28 오전 1:51:46 [12964]  <Information>  '_SetImageCollection' 
+
+2022-12-28 오전 1:51:46 [12964]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2022-12-28 오전 1:51:46 [12964]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2022-12-28 오전 1:51:46 [12964]  <Information>  '====== End DisplayImages' 
+
+2022-12-28 오전 1:51:46 [12964]  <Information>  '====== Start DisplayImages' 
+
+2022-12-28 오전 1:51:46 [12964]  <Information>  '_SetImageCollection' 
+
+2022-12-28 오전 1:51:46 [12964]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2022-12-28 오전 1:51:46 [12964]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2022-12-28 오전 1:51:46 [12964]  <Information>  '====== End DisplayImages' 
+
+2022-12-28 오전 1:59:25 [12964]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Status != 9 ' 
+
+2022-12-28 오전 1:59:25 [12964]  <Information>  'startdate : 2022-12-28 오전 12:00:00' 
+
+2022-12-28 오전 1:59:25 [12964]  <Information>  'enddate : 2022-12-28 오후 11:59:59' 
+
+2022-12-28 오전 11:07:50 [12964]  <Information>  '******* Application_Exit *******' 
+
+2022-12-28 오전 11:07:50 [12964]  <Information>  'BackgroundFrameLoader Termiate.' 
+

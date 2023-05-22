@@ -1,0 +1,572 @@
+2022-12-11 오전 12:34:46 [3860]  <Information>  'Program Start' 
+
+2022-12-11 오전 12:34:46 [3860]  <Information>  'Open' 
+
+2022-12-11 오전 12:34:46 [3860]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2022-12-11 오전 12:34:46 [3860]  <Information>  'Server Version : 1.0 ' 
+
+2022-12-11 오전 12:34:46 [3860]  <Information>  'NeedUpdate : False ' 
+
+2022-12-11 오전 12:34:46 [3860]  <Information>  '******* Application_Startup *******' 
+
+2022-12-11 오전 12:34:47 [3860]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2022-12-11 오전 12:34:47 [3860]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2022-12-11 오전 12:34:48 [3860]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2022-12-11 오전 12:34:48 [3860]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2022-12-11 오전 12:34:48 [3860]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2022-12-11 오전 12:34:48 [3860]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2022-12-11 오전 12:34:48 [3860]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2022-12-11 오전 12:34:48 [3860]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2022-12-11 오전 12:34:48 [3860]  <Information>  '_SetImageCollection' 
+
+2022-12-11 오전 12:34:48 [3860]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2022-12-11 오전 12:34:48 [3860]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2022-12-11 오전 12:34:48 [3860]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2022-12-11 오전 12:34:48 [3860]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2022-12-11 오전 12:34:48 [3860]  <Information>  '_SetImageCollection' 
+
+2022-12-11 오전 12:34:48 [3860]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2022-12-11 오전 12:34:48 [3860]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2022-12-11 오전 12:34:49 [3860]  <Information>  'Open' 
+
+2022-12-11 오전 12:34:49 [3860]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2022-12-11 오전 12:34:49 [3860]  <Information>  '1. ConnectDB UserID : ' 
+
+2022-12-11 오전 12:34:49 [3860]  <Information>  '2. ConnectDB UserID : ' 
+
+2022-12-11 오전 12:34:52 [3860]  <Information>  'config numvalue : 2' 
+
+2022-12-11 오전 12:34:58 [3860]  <Information>  'config numvalue : 2' 
+
+2022-12-11 오전 12:34:58 [3860]  <Information>  'PasswordChangeTerm : 0' 
+
+2022-12-11 오전 12:35:00 [3860]  <Information>  '_SetImageCollection' 
+
+2022-12-11 오전 12:35:00 [3860]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2022-12-11 오전 12:35:00 [3860]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2022-12-11 오전 12:35:00 [3860]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2022-12-11 오전 12:35:00 [3860]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2022-12-11 오전 12:35:00 [3860]  <Information>  '_SetImageCollection' 
+
+2022-12-11 오전 12:35:00 [3860]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2022-12-11 오전 12:35:00 [3860]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2022-12-11 오전 12:35:00 [3860]  <Information>  '_SetImageCollection' 
+
+2022-12-11 오전 12:35:00 [3860]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2022-12-11 오전 12:35:00 [3860]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2022-12-11 오전 12:35:00 [3860]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2022-12-11 오전 12:35:00 [3860]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2022-12-11 오전 12:35:00 [3860]  <Information>  '_SetImageCollection' 
+
+2022-12-11 오전 12:35:00 [3860]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2022-12-11 오전 12:35:00 [3860]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2022-12-11 오전 12:35:01 [3860]  <Information>  'Server Patches ver : 1' 
+
+2022-12-11 오전 12:35:01 [3860]  <Information>  'Local Patches ver : 0' 
+
+2022-12-11 오전 12:35:01 [3860]  <Information>  'Server Patches Path : \\115.145.56.182\ViewRexUpdate' 
+
+2022-12-11 오전 12:35:01 [3860]  <Information>  'Use NetworkShared' 
+
+2022-12-11 오전 12:35:01 [3860]  <Information>  'Connect UpdateFolder : \\115.145.56.182\ViewRexUpdate' 
+
+2022-12-11 오전 12:35:01 [3860]  <Information>  '====== Start DisplayImages' 
+
+2022-12-11 오전 12:35:01 [3860]  <Information>  '_SetImageCollection' 
+
+2022-12-11 오전 12:35:01 [3860]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2022-12-11 오전 12:35:01 [3860]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2022-12-11 오전 12:35:01 [3860]  <Information>  '====== End DisplayImages' 
+
+2022-12-11 오전 12:35:01 [3860]  <Information>  '====== Start DisplayImages' 
+
+2022-12-11 오전 12:35:01 [3860]  <Information>  '_SetImageCollection' 
+
+2022-12-11 오전 12:35:01 [3860]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2022-12-11 오전 12:35:01 [3860]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2022-12-11 오전 12:35:01 [3860]  <Information>  '====== End DisplayImages' 
+
+2022-12-11 오전 12:35:04 [3860]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Status != 9 ' 
+
+2022-12-11 오전 12:35:04 [3860]  <Information>  'startdate : 2022-12-11 오전 12:00:00' 
+
+2022-12-11 오전 12:35:04 [3860]  <Information>  'enddate : 2022-12-11 오후 11:59:59' 
+
+2022-12-11 오전 12:35:04 [3860]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2022-12-11 오전 12:35:04 [3860]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2022-12-11 오전 12:35:04 [3860]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2022-12-11 오전 12:35:04 [3860]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2022-12-11 오전 12:35:04 [3860]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2022-12-11 오전 12:35:06 [3860]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Status != 9 ' 
+
+2022-12-11 오전 12:35:06 [3860]  <Information>  'startdate : 2022-12-11 오전 12:00:00' 
+
+2022-12-11 오전 12:35:06 [3860]  <Information>  'enddate : 2022-12-11 오후 11:59:59' 
+
+2022-12-11 오전 12:35:06 [3860]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2022-12-11 오전 12:35:06 [3860]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2022-12-11 오전 12:35:06 [3860]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2022-12-11 오전 12:35:06 [3860]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2022-12-11 오전 12:35:06 [3860]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2022-12-11 오전 12:35:07 [3860]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2022-12-11 오전 12:35:07 [3860]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2022-12-11 오전 12:35:07 [3860]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2022-12-11 오전 12:35:07 [3860]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2022-12-11 오전 12:35:07 [3860]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2022-12-11 오전 12:35:08 [3860]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2022-12-11 오전 12:35:08 [3860]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2022-12-11 오전 12:35:08 [3860]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2022-12-11 오전 12:35:08 [3860]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2022-12-11 오전 12:35:08 [3860]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2022-12-11 오전 12:35:23 [3860]  <Information>  'config numvalue : 2' 
+
+2022-12-11 오전 12:35:29 [3860]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2022-12-11 오전 12:35:29 [3860]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2022-12-11 오전 12:35:29 [3860]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2022-12-11 오전 12:35:29 [3860]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2022-12-11 오전 12:35:29 [3860]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2022-12-11 오전 12:35:30 [3860]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2022-12-11 오전 12:35:30 [3860]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2022-12-11 오전 12:35:30 [3860]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2022-12-11 오전 12:35:30 [3860]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2022-12-11 오전 12:35:30 [3860]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2022-12-11 오전 12:35:37 [3860]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2022-12-11 오전 12:35:37 [3860]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2022-12-11 오전 12:35:37 [3860]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2022-12-11 오전 12:35:37 [3860]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2022-12-11 오전 12:35:37 [3860]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2022-12-11 오전 12:35:46 [3860]  <Information>  'config numvalue : 2' 
+
+2022-12-11 오전 12:36:11 [3860]  <Information>  'config numvalue : 2' 
+
+2022-12-11 오전 12:36:13 [3860]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2022-12-11 오전 12:36:13 [3860]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2022-12-11 오전 12:36:13 [3860]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2022-12-11 오전 12:36:13 [3860]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2022-12-11 오전 12:36:13 [3860]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2022-12-11 오전 12:36:26 [3860]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Status != 9 ' 
+
+2022-12-11 오전 12:36:26 [3860]  <Information>  'startdate : 2022-12-11 오전 12:00:00' 
+
+2022-12-11 오전 12:36:26 [3860]  <Information>  'enddate : 2022-12-11 오후 11:59:59' 
+
+2022-12-11 오전 12:36:26 [3860]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2022-12-11 오전 12:36:26 [3860]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2022-12-11 오전 12:36:26 [3860]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2022-12-11 오전 12:36:26 [3860]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2022-12-11 오전 12:36:26 [3860]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2022-12-11 오전 12:36:26 [3860]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Status != 9 ' 
+
+2022-12-11 오전 12:36:26 [3860]  <Information>  'startdate : 2022-12-11 오전 12:00:00' 
+
+2022-12-11 오전 12:36:26 [3860]  <Information>  'enddate : 2022-12-11 오후 11:59:59' 
+
+2022-12-11 오전 12:36:26 [3860]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2022-12-11 오전 12:36:26 [3860]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2022-12-11 오전 12:36:26 [3860]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2022-12-11 오전 12:36:26 [3860]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2022-12-11 오전 12:36:26 [3860]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2022-12-11 오전 12:36:27 [3860]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Status != 9 ' 
+
+2022-12-11 오전 12:36:27 [3860]  <Information>  'startdate : 2022-12-11 오전 12:00:00' 
+
+2022-12-11 오전 12:36:27 [3860]  <Information>  'enddate : 2022-12-11 오후 11:59:59' 
+
+2022-12-11 오전 12:36:27 [3860]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2022-12-11 오전 12:36:27 [3860]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2022-12-11 오전 12:36:27 [3860]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2022-12-11 오전 12:36:27 [3860]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2022-12-11 오전 12:36:27 [3860]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2022-12-11 오전 12:36:28 [3860]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2022-12-11 오전 12:36:28 [3860]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2022-12-11 오전 12:36:28 [3860]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2022-12-11 오전 12:36:28 [3860]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2022-12-11 오전 12:36:28 [3860]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2022-12-11 오전 12:36:28 [3860]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2022-12-11 오전 12:36:28 [3860]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2022-12-11 오전 12:36:28 [3860]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2022-12-11 오전 12:36:28 [3860]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2022-12-11 오전 12:36:28 [3860]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2022-12-11 오전 12:36:29 [3860]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2022-12-11 오전 12:36:29 [3860]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2022-12-11 오전 12:36:29 [3860]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2022-12-11 오전 12:36:29 [3860]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2022-12-11 오전 12:36:29 [3860]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2022-12-11 오전 12:36:35 [3860]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Status != 9 ' 
+
+2022-12-11 오전 12:36:35 [3860]  <Information>  'startdate : 2022-11-12 오전 12:00:00' 
+
+2022-12-11 오전 12:36:35 [3860]  <Information>  'enddate : 2022-12-11 오후 11:59:59' 
+
+2022-12-11 오전 12:36:35 [3860]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2022-12-11 오전 12:36:35 [3860]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2022-12-11 오전 12:36:35 [3860]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2022-12-11 오전 12:36:35 [3860]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2022-12-11 오전 12:36:35 [3860]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2022-12-11 오전 12:36:37 [3860]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2022-12-11 오전 12:36:37 [3860]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2022-12-11 오전 12:36:37 [3860]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2022-12-11 오전 12:36:37 [3860]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2022-12-11 오전 12:36:37 [3860]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2022-12-11 오전 12:36:38 [3860]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2022-12-11 오전 12:36:38 [3860]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2022-12-11 오전 12:36:38 [3860]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2022-12-11 오전 12:36:38 [3860]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2022-12-11 오전 12:36:38 [3860]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2022-12-11 오전 12:36:41 [3860]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2022-12-11 오전 12:36:41 [3860]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2022-12-11 오전 12:36:41 [3860]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2022-12-11 오전 12:36:41 [3860]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2022-12-11 오전 12:36:41 [3860]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2022-12-11 오전 12:37:04 [3860]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2022-12-11 오전 12:37:04 [3860]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2022-12-11 오전 12:37:04 [3860]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2022-12-11 오전 12:37:04 [3860]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2022-12-11 오전 12:37:05 [3860]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2022-12-11 오전 12:37:05 [3860]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2022-12-11 오전 12:37:18 [3860]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2022-12-11 오전 12:37:18 [3860]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2022-12-11 오전 12:37:18 [3860]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2022-12-11 오전 12:37:18 [3860]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2022-12-11 오전 12:37:18 [3860]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2022-12-11 오전 12:37:19 [3860]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2022-12-11 오전 12:37:19 [3860]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2022-12-11 오전 12:37:19 [3860]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2022-12-11 오전 12:37:19 [3860]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2022-12-11 오전 12:37:19 [3860]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2022-12-11 오전 12:37:28 [3860]  <Information>  '******* Application_Exit *******' 
+
+2022-12-11 오전 12:37:28 [3860]  <Information>  'BackgroundFrameLoader Termiate.' 
+
+2022-12-11 오전 12:39:27 [2396]  <Information>  'Program Start' 
+
+2022-12-11 오전 12:39:27 [2396]  <Information>  'Open' 
+
+2022-12-11 오전 12:39:27 [2396]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2022-12-11 오전 12:39:27 [2396]  <Information>  'Server Version : 1.0 ' 
+
+2022-12-11 오전 12:39:27 [2396]  <Information>  'NeedUpdate : False ' 
+
+2022-12-11 오전 12:39:27 [2396]  <Information>  '******* Application_Startup *******' 
+
+2022-12-11 오전 12:39:27 [2396]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2022-12-11 오전 12:39:27 [2396]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2022-12-11 오전 12:39:28 [2396]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2022-12-11 오전 12:39:28 [2396]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2022-12-11 오전 12:39:29 [2396]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2022-12-11 오전 12:39:29 [2396]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2022-12-11 오전 12:39:29 [2396]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2022-12-11 오전 12:39:29 [2396]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2022-12-11 오전 12:39:29 [2396]  <Information>  '_SetImageCollection' 
+
+2022-12-11 오전 12:39:29 [2396]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2022-12-11 오전 12:39:29 [2396]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2022-12-11 오전 12:39:29 [2396]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2022-12-11 오전 12:39:29 [2396]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2022-12-11 오전 12:39:29 [2396]  <Information>  '_SetImageCollection' 
+
+2022-12-11 오전 12:39:29 [2396]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2022-12-11 오전 12:39:29 [2396]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2022-12-11 오전 12:39:29 [2396]  <Information>  'Open' 
+
+2022-12-11 오전 12:39:29 [2396]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2022-12-11 오전 12:39:29 [2396]  <Information>  '1. ConnectDB UserID : ' 
+
+2022-12-11 오전 12:39:29 [2396]  <Information>  '2. ConnectDB UserID : ' 
+
+2022-12-11 오전 12:39:45 [2396]  <Information>  'config numvalue : 2' 
+
+2022-12-11 오전 12:39:45 [2396]  <Information>  'PasswordChangeTerm : 0' 
+
+2022-12-11 오전 12:39:47 [2396]  <Information>  '_SetImageCollection' 
+
+2022-12-11 오전 12:39:47 [2396]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2022-12-11 오전 12:39:47 [2396]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2022-12-11 오전 12:39:47 [2396]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2022-12-11 오전 12:39:47 [2396]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2022-12-11 오전 12:39:47 [2396]  <Information>  '_SetImageCollection' 
+
+2022-12-11 오전 12:39:47 [2396]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2022-12-11 오전 12:39:47 [2396]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2022-12-11 오전 12:39:47 [2396]  <Information>  '_SetImageCollection' 
+
+2022-12-11 오전 12:39:47 [2396]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2022-12-11 오전 12:39:47 [2396]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2022-12-11 오전 12:39:47 [2396]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2022-12-11 오전 12:39:48 [2396]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2022-12-11 오전 12:39:48 [2396]  <Information>  '_SetImageCollection' 
+
+2022-12-11 오전 12:39:48 [2396]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2022-12-11 오전 12:39:48 [2396]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2022-12-11 오전 12:39:48 [2396]  <Information>  'Server Patches ver : 1' 
+
+2022-12-11 오전 12:39:48 [2396]  <Information>  'Local Patches ver : 0' 
+
+2022-12-11 오전 12:39:48 [2396]  <Information>  'Server Patches Path : \\115.145.56.182\ViewRexUpdate' 
+
+2022-12-11 오전 12:39:48 [2396]  <Information>  'Use NetworkShared' 
+
+2022-12-11 오전 12:39:48 [2396]  <Information>  'Connect UpdateFolder : \\115.145.56.182\ViewRexUpdate' 
+
+2022-12-11 오전 12:39:48 [2396]  <Information>  '====== Start DisplayImages' 
+
+2022-12-11 오전 12:39:48 [2396]  <Information>  '_SetImageCollection' 
+
+2022-12-11 오전 12:39:48 [2396]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2022-12-11 오전 12:39:48 [2396]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2022-12-11 오전 12:39:48 [2396]  <Information>  '====== End DisplayImages' 
+
+2022-12-11 오전 12:39:48 [2396]  <Information>  '====== Start DisplayImages' 
+
+2022-12-11 오전 12:39:48 [2396]  <Information>  '_SetImageCollection' 
+
+2022-12-11 오전 12:39:48 [2396]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2022-12-11 오전 12:39:48 [2396]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2022-12-11 오전 12:39:48 [2396]  <Information>  '====== End DisplayImages' 
+
+2022-12-11 오전 12:42:32 [2396]  <Information>  '******* Application_Exit *******' 
+
+2022-12-11 오전 12:42:32 [2396]  <Information>  'BackgroundFrameLoader Termiate.' 
+

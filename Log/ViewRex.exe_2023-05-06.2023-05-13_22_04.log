@@ -1,0 +1,34 @@
+2023-05-10 오후 3:14:42 [9160]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Status != 9 ' 
+
+2023-05-10 오후 3:14:42 [9160]  <Information>  'startdate : 2022-05-11 오전 12:00:00' 
+
+2023-05-10 오후 3:14:42 [9160]  <Information>  'enddate : 2023-05-10 오후 11:59:59' 
+
+2023-05-10 오후 3:14:43 [9160]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-05-10 오후 3:14:43 [9160]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-05-10 오후 3:14:43 [9160]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-05-10 오후 3:14:43 [9160]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-05-10 오후 3:14:43 [9160]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-05-10 오후 3:14:58 [9160]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-05-10 오후 3:14:58 [9160]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-05-10 오후 3:14:58 [9160]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-05-10 오후 3:14:58 [9160]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-05-10 오후 3:14:58 [9160]  <Information>  'PatientGridSelectionChanged Arrive' 
+

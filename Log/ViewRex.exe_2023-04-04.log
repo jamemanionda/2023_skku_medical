@@ -1,0 +1,74 @@
+2023-04-05 오전 10:59:08 [808]  <Information>  'config numvalue : 2' 
+
+2023-04-05 오전 10:59:10 [808]  <Information>  'config numvalue : 2' 
+
+2023-04-05 오전 10:59:15 [808]  <Information>  'config numvalue : 2' 
+
+2023-04-05 오전 10:59:15 [808]  <Information>  'PasswordChangeTerm : 0' 
+
+2023-04-05 오전 10:59:18 [808]  <Information>  '_SetImageCollection' 
+
+2023-04-05 오전 10:59:18 [808]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-05 오전 10:59:18 [808]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-05 오전 10:59:18 [808]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-05 오전 10:59:18 [808]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-05 오전 10:59:18 [808]  <Information>  '_SetImageCollection' 
+
+2023-04-05 오전 10:59:18 [808]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-05 오전 10:59:18 [808]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-05 오전 10:59:18 [808]  <Information>  '_SetImageCollection' 
+
+2023-04-05 오전 10:59:18 [808]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-05 오전 10:59:18 [808]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-05 오전 10:59:18 [808]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-05 오전 10:59:18 [808]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-05 오전 10:59:18 [808]  <Information>  '_SetImageCollection' 
+
+2023-04-05 오전 10:59:18 [808]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-05 오전 10:59:18 [808]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-05 오전 10:59:19 [808]  <Information>  'Server Patches ver : 1' 
+
+2023-04-05 오전 10:59:19 [808]  <Information>  'Local Patches ver : 0' 
+
+2023-04-05 오전 10:59:19 [808]  <Information>  'Server Patches Path : \\115.145.56.182\ViewRexUpdate' 
+
+2023-04-05 오전 10:59:19 [808]  <Information>  'Use NetworkShared' 
+
+2023-04-05 오전 10:59:19 [808]  <Information>  'Connect UpdateFolder : \\115.145.56.182\ViewRexUpdate' 
+
+2023-04-05 오전 10:59:19 [808]  <Information>  '====== Start DisplayImages' 
+
+2023-04-05 오전 10:59:19 [808]  <Information>  '_SetImageCollection' 
+
+2023-04-05 오전 10:59:19 [808]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-05 오전 10:59:19 [808]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-05 오전 10:59:19 [808]  <Information>  '====== End DisplayImages' 
+
+2023-04-05 오전 10:59:19 [808]  <Information>  '====== Start DisplayImages' 
+
+2023-04-05 오전 10:59:19 [808]  <Information>  '_SetImageCollection' 
+
+2023-04-05 오전 10:59:19 [808]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-05 오전 10:59:19 [808]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-05 오전 10:59:19 [808]  <Information>  '====== End DisplayImages' 
+
+2023-04-05 오전 10:59:33 [808]  <Information>  '******* Application_Exit *******' 
+
+2023-04-05 오전 10:59:33 [808]  <Information>  'BackgroundFrameLoader Termiate.' 
+

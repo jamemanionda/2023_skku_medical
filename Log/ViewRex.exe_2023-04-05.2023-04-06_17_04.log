@@ -1,0 +1,260 @@
+2023-04-05 오전 10:59:38 [9640]  <Information>  'Program Start' 
+
+2023-04-05 오전 10:59:38 [9640]  <Information>  'Open' 
+
+2023-04-05 오전 10:59:38 [9640]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2023-04-05 오전 10:59:38 [9640]  <Information>  'Server Version : 1.0 ' 
+
+2023-04-05 오전 10:59:38 [9640]  <Information>  'NeedUpdate : False ' 
+
+2023-04-05 오전 10:59:38 [9640]  <Information>  '******* Application_Startup *******' 
+
+2023-04-05 오전 10:59:39 [9640]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-05 오전 10:59:39 [9640]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-04-05 오전 10:59:40 [9640]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-05 오전 10:59:40 [9640]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-05 오전 10:59:40 [9640]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-05 오전 10:59:40 [9640]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-04-05 오전 10:59:40 [9640]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-05 오전 10:59:40 [9640]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-05 오전 10:59:40 [9640]  <Information>  '_SetImageCollection' 
+
+2023-04-05 오전 10:59:40 [9640]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-05 오전 10:59:40 [9640]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-05 오전 10:59:40 [9640]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-05 오전 10:59:40 [9640]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-05 오전 10:59:40 [9640]  <Information>  '_SetImageCollection' 
+
+2023-04-05 오전 10:59:40 [9640]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-05 오전 10:59:40 [9640]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-05 오전 10:59:41 [9640]  <Information>  'Open' 
+
+2023-04-05 오전 10:59:41 [9640]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2023-04-05 오전 10:59:41 [9640]  <Information>  '1. ConnectDB UserID : ' 
+
+2023-04-05 오전 10:59:41 [9640]  <Information>  '2. ConnectDB UserID : ' 
+
+2023-04-05 오전 10:59:44 [14700]  <Information>  'Program Start' 
+
+2023-04-05 오전 10:59:44 [14700]  <Information>  'Open' 
+
+2023-04-05 오전 10:59:44 [14700]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2023-04-05 오전 10:59:44 [14700]  <Information>  'Server Version : 1.0 ' 
+
+2023-04-05 오전 10:59:44 [14700]  <Information>  'NeedUpdate : False ' 
+
+2023-04-05 오전 10:59:44 [14700]  <Information>  '******* Application_Startup *******' 
+
+2023-04-05 오전 10:59:45 [14700]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-05 오전 10:59:45 [14700]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-04-05 오전 10:59:46 [14700]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-05 오전 10:59:46 [14700]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-05 오전 10:59:46 [14700]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-05 오전 10:59:46 [14700]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2023-04-05 오전 10:59:46 [14700]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-05 오전 10:59:46 [14700]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-05 오전 10:59:46 [14700]  <Information>  '_SetImageCollection' 
+
+2023-04-05 오전 10:59:46 [14700]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-05 오전 10:59:46 [14700]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-05 오전 10:59:46 [14700]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-05 오전 10:59:46 [14700]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-05 오전 10:59:47 [14700]  <Information>  '_SetImageCollection' 
+
+2023-04-05 오전 10:59:47 [14700]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-05 오전 10:59:47 [14700]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-05 오전 10:59:47 [14700]  <Information>  'Open' 
+
+2023-04-05 오전 10:59:47 [14700]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2023-04-05 오전 10:59:47 [14700]  <Information>  '1. ConnectDB UserID : ' 
+
+2023-04-05 오전 10:59:47 [14700]  <Information>  '2. ConnectDB UserID : ' 
+
+2023-04-05 오전 10:59:51 [14700]  <Information>  'config numvalue : 2' 
+
+2023-04-05 오전 10:59:51 [14700]  <Information>  'PasswordChangeTerm : 0' 
+
+2023-04-05 오전 10:59:54 [14700]  <Information>  '_SetImageCollection' 
+
+2023-04-05 오전 10:59:54 [14700]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-05 오전 10:59:54 [14700]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-05 오전 10:59:54 [14700]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-05 오전 10:59:54 [14700]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-05 오전 10:59:54 [14700]  <Information>  '_SetImageCollection' 
+
+2023-04-05 오전 10:59:54 [14700]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-05 오전 10:59:54 [14700]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-05 오전 10:59:54 [14700]  <Information>  '_SetImageCollection' 
+
+2023-04-05 오전 10:59:54 [14700]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-05 오전 10:59:54 [14700]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-05 오전 10:59:54 [14700]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2023-04-05 오전 10:59:54 [14700]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2023-04-05 오전 10:59:54 [14700]  <Information>  '_SetImageCollection' 
+
+2023-04-05 오전 10:59:54 [14700]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-05 오전 10:59:54 [14700]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-05 오전 10:59:55 [14700]  <Information>  'Server Patches ver : 1' 
+
+2023-04-05 오전 10:59:55 [14700]  <Information>  'Local Patches ver : 0' 
+
+2023-04-05 오전 10:59:55 [14700]  <Information>  'Server Patches Path : \\115.145.56.182\ViewRexUpdate' 
+
+2023-04-05 오전 10:59:55 [14700]  <Information>  'Use NetworkShared' 
+
+2023-04-05 오전 10:59:55 [14700]  <Information>  'Connect UpdateFolder : \\115.145.56.182\ViewRexUpdate' 
+
+2023-04-05 오전 10:59:55 [14700]  <Information>  '====== Start DisplayImages' 
+
+2023-04-05 오전 10:59:55 [14700]  <Information>  '_SetImageCollection' 
+
+2023-04-05 오전 10:59:55 [14700]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-05 오전 10:59:55 [14700]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-05 오전 10:59:55 [14700]  <Information>  '====== End DisplayImages' 
+
+2023-04-05 오전 10:59:55 [14700]  <Information>  '====== Start DisplayImages' 
+
+2023-04-05 오전 10:59:55 [14700]  <Information>  '_SetImageCollection' 
+
+2023-04-05 오전 10:59:55 [14700]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2023-04-05 오전 10:59:55 [14700]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2023-04-05 오전 10:59:55 [14700]  <Information>  '====== End DisplayImages' 
+
+2023-04-05 오전 11:00:01 [14700]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Status != 9 ' 
+
+2023-04-05 오전 11:00:01 [14700]  <Information>  'startdate : 2023-04-05 오전 12:00:00' 
+
+2023-04-05 오전 11:00:01 [14700]  <Information>  'enddate : 2023-04-05 오후 11:59:59' 
+
+2023-04-05 오전 11:00:03 [14700]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Status != 9 ' 
+
+2023-04-05 오전 11:00:03 [14700]  <Information>  'startdate : 2023-04-05 오전 12:00:00' 
+
+2023-04-05 오전 11:00:03 [14700]  <Information>  'enddate : 2023-04-05 오후 11:59:59' 
+
+2023-04-05 오전 11:00:06 [14700]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Status != 9 ' 
+
+2023-04-05 오전 11:00:06 [14700]  <Information>  'startdate : 2023-04-05 오전 12:00:00' 
+
+2023-04-05 오전 11:00:06 [14700]  <Information>  'enddate : 2023-04-05 오후 11:59:59' 
+
+2023-04-05 오전 11:00:17 [14700]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Status != 9 ' 
+
+2023-04-05 오전 11:00:17 [14700]  <Information>  'startdate : 2023-03-07 오전 12:00:00' 
+
+2023-04-05 오전 11:00:17 [14700]  <Information>  'enddate : 2023-04-05 오후 11:59:59' 
+
+2023-04-05 오전 11:00:17 [14700]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-05 오전 11:00:17 [14700]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-04-05 오전 11:00:17 [14700]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-04-05 오전 11:00:17 [14700]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-04-05 오전 11:00:17 [14700]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-05 오전 11:00:18 [14700]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-05 오전 11:00:18 [14700]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-04-05 오전 11:00:18 [14700]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-04-05 오전 11:00:19 [14700]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-04-05 오전 11:00:19 [14700]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-05 오전 11:00:26 [14700]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-05 오전 11:00:26 [14700]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-05 오전 11:00:39 [14700]  <Information>  'Export file Start' 
+
+2023-04-05 오전 11:00:42 [14700]  <Information>  'Export AllowModality : ' 
+
+2023-04-05 오전 11:00:42 [14700]  <Information>  'Check study security' 
+
+2023-04-05 오전 11:00:42 [14700]  <Information>  'Get Series Count : 1' 
+
+2023-04-05 오전 11:00:42 [14700]  <Information>  'Export series count : 1' 
+
+2023-04-05 오전 11:00:42 [14700]  <Information>  'include overlay jpeg : True' 
+
+2023-04-05 오전 11:00:42 [14700]  <Information>  'ExportDicomWindow series count : 1' 
+
+2023-04-05 오전 11:00:42 [14700]  <Information>  'Export Root Path : ' 
+
+2023-04-05 오전 11:00:42 [14700]  <Information>  'ExportDicomWindow add fileDios count : Series oID - 187 , FileDios Count - 1' 
+
+2023-04-05 오전 11:00:50 [14700]  <Information>  'Export file end' 
+
+2023-04-05 오전 11:02:21 [14700]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-05 오전 11:02:21 [14700]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-04-05 오전 11:02:24 [14700]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-04-05 오전 11:02:24 [14700]  <Information>  'PatientGridSelectionChanged Arrive' 
+

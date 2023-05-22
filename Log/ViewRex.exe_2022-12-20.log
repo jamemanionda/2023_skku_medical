@@ -1,0 +1,56 @@
+2022-12-20 오전 9:44:10 [11632]  <Information>  'Program Start' 
+
+2022-12-20 오전 9:44:10 [11632]  <Information>  'Open' 
+
+2022-12-20 오전 9:44:10 [11632]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2022-12-20 오전 9:44:10 [11632]  <Information>  'Server Version : 1.0 ' 
+
+2022-12-20 오전 9:44:10 [11632]  <Information>  'NeedUpdate : False ' 
+
+2022-12-20 오전 9:44:10 [11632]  <Information>  '******* Application_Startup *******' 
+
+2022-12-20 오전 9:44:11 [11632]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2022-12-20 오전 9:44:11 [11632]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2022-12-20 오전 9:44:12 [11632]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2022-12-20 오전 9:44:13 [11632]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2022-12-20 오전 9:44:13 [11632]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2022-12-20 오전 9:44:13 [11632]  <Information>  'GridPanel.GridLayout - 10 / 10' 
+
+2022-12-20 오전 9:44:13 [11632]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2022-12-20 오전 9:44:13 [11632]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2022-12-20 오전 9:44:13 [11632]  <Information>  '_SetImageCollection' 
+
+2022-12-20 오전 9:44:13 [11632]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2022-12-20 오전 9:44:13 [11632]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2022-12-20 오전 9:44:13 [11632]  <Information>  'GridPanel.OnGridLayoutChanged' 
+
+2022-12-20 오전 9:44:13 [11632]  <Information>  'GridPanel.GridLayout - 1 / 1' 
+
+2022-12-20 오전 9:44:13 [11632]  <Information>  '_SetImageCollection' 
+
+2022-12-20 오전 9:44:13 [11632]  <Information>  'ImageGridControl._SetImageCollection.m_Controller is null - 1 / 1' 
+
+2022-12-20 오전 9:44:13 [11632]  <Information>  'GridPanel.GridLayout.Set - 1 / 1' 
+
+2022-12-20 오전 9:44:13 [11632]  <Information>  'Open' 
+
+2022-12-20 오전 9:44:13 [11632]  <Information>  'Get SqlConnectionString : MsSqlServer' 
+
+2022-12-20 오전 9:44:13 [11632]  <Information>  '1. ConnectDB UserID : ' 
+
+2022-12-20 오전 9:44:13 [11632]  <Information>  '2. ConnectDB UserID : ' 
+
+2022-12-20 오전 9:44:19 [11632]  <Information>  '******* Application_Exit *******' 
+
+2022-12-20 오전 9:44:19 [11632]  <Information>  'BackgroundFrameLoader Termiate.' 
+

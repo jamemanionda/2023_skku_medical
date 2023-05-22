@@ -1,0 +1,116 @@
+2023-03-26 오후 3:22:27 [11752]  <Information>  ' SELECT  COUNT(1) TotalCount 
+                                            FROM StudyInformation s, Patient p  
+                                        WHERE p.PatientID = s.PatientID  AND s.SaveDate BETWEEN @StartDate AND @EndDate  AND s.Status != 9 ' 
+
+2023-03-26 오후 3:22:27 [11752]  <Information>  'startdate : 2023-03-26 오전 12:00:00' 
+
+2023-03-26 오후 3:22:27 [11752]  <Information>  'enddate : 2023-03-26 오후 11:59:59' 
+
+2023-03-26 오후 3:22:27 [11752]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-26 오후 3:22:27 [11752]  <Information>  'GetStudyHistoryGrid Enter' 
+
+2023-03-26 오후 3:22:27 [11752]  <Information>  'GetStudyHistoryGrid Leave' 
+
+2023-03-26 오후 3:22:27 [11752]  <Information>  'GetPatient Info: SELECT PatientID, LastName, Sex,        BirthDate,  PersonalID, 
+                                           PWardName, PWard,    OrderDept,  OrderDeptName,    
+                                           ORDDRID, ORDDRNAME 
+                                     FROM Patient  WHERE ( PatientID = @PatientID OR LastName = @LastName ) AND Removed = 0 ' 
+
+2023-03-26 오후 3:22:27 [11752]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-26 오후 3:22:28 [11752]  <Information>  'PatientGridSelectionChanged Enter' 
+
+2023-03-26 오후 3:22:28 [11752]  <Information>  'PatientGridSelectionChanged Arrive' 
+
+2023-03-26 오후 3:22:55 [11752]  <Information>  'Export CD' 
+
+2023-03-26 오후 3:22:55 [11752]  <Information>  'Add dir data list : StudyKey(62), SeriesKey(191), FileCount(1)' 
+
+2023-03-26 오후 3:23:57 [11752]  <Information>  'ExportDicomWindow series count : 1' 
+
+2023-03-26 오후 3:23:57 [11752]  <Information>  'Export Root Path : ' 
+
+2023-03-26 오후 3:23:57 [11752]  <Information>  'ExportDicomWindow add fileDios count : Series oID - 191 , FileDios Count - 1' 
+
+2023-03-26 오후 3:24:08 [11752]  <Information>  'Start ExportLocal' 
+
+2023-03-26 오후 3:24:08 [11752]  <Information>  'ExportLocal : Load and save local file.' 
+
+2023-03-26 오후 3:24:08 [11752]  <Information>  'Make Dicom DIR' 
+
+2023-03-26 오후 3:24:08 [11752]  <Information>  'Save to local : StudyKey(62), SeriesKey(191), ImageCount(1)' 
+
+2023-03-26 오후 3:24:08 [11752]  <Information>  'Patient ID : 100006220' 
+
+2023-03-26 오후 3:24:08 [11752]  <Information>  'Modify Dicom infomation.' 
+
+2023-03-26 오후 3:24:08 [11752]  <Information>  'Modify SpecificCharacterSet' 
+
+2023-03-26 오후 3:24:08 [11752]  <Information>  'Modify StudyInstanceUID' 
+
+2023-03-26 오후 3:24:08 [11752]  <Information>  'Modify SeriesInstanceUID' 
+
+2023-03-26 오후 3:24:08 [11752]  <Information>  'Modify PatientID' 
+
+2023-03-26 오후 3:24:08 [11752]  <Information>  'Modify PatientSex' 
+
+2023-03-26 오후 3:24:08 [11752]  <Information>  'Modify StudyDescription' 
+
+2023-03-26 오후 3:24:08 [11752]  <Information>  'Modify SeriesDescription' 
+
+2023-03-26 오후 3:24:08 [11752]  <Information>  'Modify PatientName' 
+
+2023-03-26 오후 3:24:08 [11752]  <Information>  'Modify OtherPatientNames' 
+
+2023-03-26 오후 3:24:08 [11752]  <Information>  'Modify PatientBirthDate' 
+
+2023-03-26 오후 3:24:08 [11752]  <Information>  'Modify PatientAge : Leadtools.Dicom.DicomAgeValue' 
+
+2023-03-26 오후 3:24:08 [11752]  <Information>  'Add SOPInstanceUID to list : 1.3.6.1.4.1.19179.1.144240935922147.3.31382.65996' 
+
+2023-03-26 오후 3:24:08 [11752]  <Information>  'Modify InstanceNumber' 
+
+2023-03-26 오후 3:24:08 [11752]  <Information>  'InstitutionName : ''' 
+
+2023-03-26 오후 3:24:08 [11752]  <Information>  'Change DicomDataSet : \\115.145.56.182\Main_Storage\Storage1\2023\03\26\100006220\DR\VIEWREX\1\I000001_2096.dcm' 
+
+2023-03-26 오후 3:24:08 [11752]  <Information>  'Delete LUT Parameter' 
+
+2023-03-26 오후 3:24:08 [11752]  <Information>  'Create Series Folder' 
+
+2023-03-26 오후 3:24:08 [11752]  <Information>  'Create Series Folder : C:\Users\Administrator\Documents\혜수\DCMData\100006220\20220623\Series000' 
+
+2023-03-26 오후 3:24:08 [11752]  <Information>  'Export File Path : C:\Users\Administrator\Documents\혜수\DCMData\100006220\20220623\Series000\VR00001.dcm' 
+
+2023-03-26 오후 3:24:08 [11752]  <Information>  'Data Size : 5046214' 
+
+2023-03-26 오후 3:24:08 [11752]  <Information>  'Empty StudyInstanceUID : 1.2.40.0.13.2022070316211600 / 5046214' 
+
+2023-03-26 오후 3:24:08 [11752]  <Information>  'Save dicomdir' 
+
+2023-03-26 오후 3:24:09 [11752]  <Information>  'ExportLocal : After create Dicom Dir.' 
+
+2023-03-26 오후 3:24:09 [11752]  <Information>  '
+>> Requested Info
+StudyCount : 1
+SeriesCount : 1
+FileCount : 1
+
+>> Copy To Info
+StudyCount : 1
+SeriesCount : 1
+FileCount : 1
+
+>> DICOMDIR Info
+StudyCount : 1
+SeriesCount : 1
+FileCount : 1
+' 
+
+2023-03-26 오후 3:24:09 [11752]  <Information>  'End ExportLocal' 
+
+2023-03-26 오후 3:31:28 [11752]  <Information>  '******* Application_Exit *******' 
+
+2023-03-26 오후 3:31:28 [11752]  <Information>  'BackgroundFrameLoader Termiate.' 
+
