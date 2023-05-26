@@ -14,7 +14,7 @@ import socket
 class ViewRexLogDataFrame():
     def __init__(self):
         self.viewrexlogfile_folder = ''
-        self.viewrexlog_dataframe = pd.DataFrame(columns=['Computer Name', 'IP Address', 'Time', 'Action'])
+        self.viewrexlog_dataframe = pd.DataFrame(columns=['Computer Name', 'IP Address', 'Time', 'Action', 'Explaination'])
         self.index = 0
         self.viewrexlogfile_folder = 'C:\\TechHeim\\ViewRex3\\Log'      #로그 파일이 저장되는 기본 경로
         self.computer_name = socket.gethostname()
@@ -29,8 +29,6 @@ class ViewRexLogDataFrame():
             filename = os.path.basename(logfile)
             with open(logfile, 'r', encoding='UTF-8') as file:
                 for line in file:
-                    #if line == '\n':
-                    #    continue
                     text = line.split(' ', 4)
                     if len(text) <= 4:
                         continue
@@ -42,31 +40,34 @@ class ViewRexLogDataFrame():
 
                         Time = text[0] + ' ' + text[2] + ' ' + text[1]
                         Number = text[3]
-                        Action = text[4]
+                        Explaination = text[4]
 
                     if 'Modify Dicom infomation' in line:
-                        self.viewrexlog_dataframe.loc[self.index] = [self.computer_name, self.computer_ip, Time, 'Modify']
+                        self.viewrexlog_dataframe.loc[self.index] = [self.computer_name, self.computer_ip, Time, 'Modify', Explaination]
                         self.index += 1
 
                     elif 'FROM StudyInformation' in line:
-                        self.viewrexlog_dataframe.loc[self.index] = [self.computer_name, self.computer_ip, Time, 'Select']
+                        self.viewrexlog_dataframe.loc[self.index] = [self.computer_name, self.computer_ip, Time, 'Select', Explaination]
                         self.index += 1
 
                     elif 'FROM Patient' in line:
-                        self.viewrexlog_dataframe.loc[self.index] = [self.computer_name, self.computer_ip, Time, 'Select']
+                        self.viewrexlog_dataframe.loc[self.index] = [self.computer_name, self.computer_ip, Time, 'Select', Explaination]
                         self.index += 1
 
                     elif 'Export File Path' in line:
-                        self.viewrexlog_dataframe.loc[self.index] = [self.computer_name, self.computer_ip, Time, 'Export']
+                        self.viewrexlog_dataframe.loc[self.index] = [self.computer_name, self.computer_ip, Time, 'Export', Explaination]
                         self.index += 1
 
-        self.viewrexlog_dataframe['Time'] = pd.to_datetime(self.viewrexlog_dataframe['Time'])
-        self.viewrexlog_df = self.viewrexlog_dataframe.groupby([pd.Grouper(key='Time', freq='D'), 'Action'])['Action'].agg(['count'])
-        pd.set_option('display.max_columns', None)
-        pd.set_option('display.max_rows', None)
-        #print(self.viewrexlog_dataframe)
+                    #else:
+                        #self.viewrexlog_dataframe.loc[self.index] = [self.computer_name, self.computer_ip, None, None, Explaination]
+                        #self.index += 1
 
-        print(self.viewrexlog_df)
+        self.viewrexlog_dataframe['Time'] = pd.to_datetime(self.viewrexlog_dataframe['Time'])
+        self.viewrexlog_resultdf = self.viewrexlog_dataframe.groupby(['Computer Name', 'IP Address', pd.Grouper(key='Time', freq='D'), 'Action'])['Action'].agg(['count'])
+        pd.set_option('display.max_columns', None)
+        #pd.set_option('display.max_rows', None)
+
+        #print(self.viewrexlog_resultdf)
         #tmpsdf = tmpsdf.reset_index('Time')
 
         #testcount = self.viewrexdf_select.resample('D', on='Time').count()
@@ -81,7 +82,7 @@ class ViewRexLogDataFrame():
         filenum = 2
         while True:
             if tempviewrex_filename + '.xlsx' not in file_names:
-                self.viewrexlog_df.to_excel(tempviewrex_filename + '.xlsx', encoding='cp949')
+                self.viewrexlog_resultdf.to_excel(tempviewrex_filename + '.xlsx', encoding='cp949')
                 break
             else:
                 tempviewrex_filename = viewrexlog_filename + '(' + str(filenum) + ')'
@@ -89,4 +90,4 @@ class ViewRexLogDataFrame():
 
 test = ViewRexLogDataFrame()
 test.input_viewrexlogfile()
-test.export_log_to_excel()
+#test.export_log_to_excel()
