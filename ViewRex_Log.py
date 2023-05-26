@@ -29,9 +29,10 @@ class ViewRexLogDataFrame():
             filename = os.path.basename(logfile)
             with open(logfile, 'r', encoding='UTF-8') as file:
                 for line in file:
-                    text = line.split(' ', 4)
+                    text = line.split(' ', 4)       #띄어쓰기를 기준으로 나눔
                     if len(text) <= 4:
                         continue
+                    #datetime으로 만들기 위한 전처리 과정
                     if text[0] != '':
                         if text[1] == '오후':
                             text[1] = 'PM'
@@ -42,19 +43,19 @@ class ViewRexLogDataFrame():
                         Number = text[3]
                         Explaination = text[4]
 
-                    if 'Modify Dicom infomation' in line:
+                    if 'Modify Dicom infomation' in line:       #수정
                         self.viewrexlog_dataframe.loc[self.index] = [self.computer_name, self.computer_ip, Time, 'Modify', Explaination]
                         self.index += 1
 
-                    elif 'FROM StudyInformation' in line:
+                    elif 'FROM StudyInformation' in line:       #조회 1
                         self.viewrexlog_dataframe.loc[self.index] = [self.computer_name, self.computer_ip, Time, 'Select', Explaination]
                         self.index += 1
 
-                    elif 'FROM Patient' in line:
+                    elif 'FROM Patient' in line:                #조회 2
                         self.viewrexlog_dataframe.loc[self.index] = [self.computer_name, self.computer_ip, Time, 'Select', Explaination]
                         self.index += 1
 
-                    elif 'Export File Path' in line:
+                    elif 'Export File Path' in line:            #파일 추출
                         self.viewrexlog_dataframe.loc[self.index] = [self.computer_name, self.computer_ip, Time, 'Export', Explaination]
                         self.index += 1
 
@@ -63,6 +64,7 @@ class ViewRexLogDataFrame():
                         #self.index += 1
 
         self.viewrexlog_dataframe['Time'] = pd.to_datetime(self.viewrexlog_dataframe['Time'])
+        #일 단위로 행위 횟수 조회
         self.viewrexlog_resultdf = self.viewrexlog_dataframe.groupby(['Computer Name', 'IP Address', pd.Grouper(key='Time', freq='D'), 'Action'])['Action'].agg(['count'])
         pd.set_option('display.max_columns', None)
         #pd.set_option('display.max_rows', None)
