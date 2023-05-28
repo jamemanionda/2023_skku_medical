@@ -1,13 +1,15 @@
 import sys
-from PySide6.QtWidgets import QApplication, QWidget, QPushButton, QHBoxLayout, QMessageBox
-from dicom_first import FirstWindow
+
+from PyQt5.QtWidgets import QWidget, QPushButton, QHBoxLayout, QMessageBox, QApplication
+
+from dicom_main import DicomInformation
 from qt_material import apply_stylesheet
+
 class MyApp(QWidget):
     def __init__(self):
         super().__init__()
         self.initUI()
 
-        apply_stylesheet(self, 'light_pink.xml')
 
     def initUI(self):
         pacs_button = QPushButton('PACS', self)
@@ -31,7 +33,7 @@ class MyApp(QWidget):
         print('PACS button clicked')
         try:
 
-            self.a = FirstWindow() # aaaaa 클래스의 인스턴스 생성
+            self.a = DicomInformation() # aaaaa 클래스의 인스턴스 생성
             self.a.show() # 생성된 인스턴스의 show() 메소드 호출
         except Exception as e:
             print(f"Error occurred: {e}")
@@ -40,7 +42,7 @@ class MyApp(QWidget):
         print('DICOM button clicked')
         try:
 
-            self.a = FirstWindow() # aaaaa 클래스의 인스턴스 생성
+            self.a = DicomInformation() # aaaaa 클래스의 인스턴스 생성
             self.a.show() # 생성된 인스턴스의 show() 메소드 호출
         except Exception as e:
             print(f"Error occurred: {e}")

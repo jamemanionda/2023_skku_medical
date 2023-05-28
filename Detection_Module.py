@@ -1,4 +1,4 @@
-import UI_test
+
 
 #위변조 탐지
 class DetectionModule():
@@ -7,22 +7,35 @@ class DetectionModule():
         self.diff_vars = []
 
     #원본과 대조, 다른 값이 있다면 추가
-    def compare(self, a, b):
-        for key, value in a.__dict__.items():
-            if value != b.__dict__[key]:
-                self.diff_vars.append(key)
-        self.detection()
-
-    #위변조 여부 판별
-    def detection(self):
-        if len(self.diff_vars) == 0:
-            print("위조되지 않음")
+    def compare_data(self, a, b, path='', diffs=[]):
+        if isinstance(a, dict):
+            for key in a:
+                if key in b:
+                    new_path = f"{path}.{key}" if path else key
+                    self.compare_data(a[key], b[key], new_path)
+                else:
+                    print(f"Different key found at {path}: {key}")
+                    diff = {'path': f"{path}.{key}" if path else key, 'a': a[key], 'b': None}
+                    diffs.append(diff)
+        elif isinstance(a, list):
+            for i in range(min(len(a), len(b))):
+                new_path = f"{path}[{i}]" if path else f"[{i}]"
+                self.compare_data(a[i], b[i], new_path)
+            if len(a) != len(b):
+                print(f"Different list lengths found at {path}: {len(a)} != {len(b)}")
         else:
-            print("위조됨")
-            print("위조 추정 위치 : ", self.diff_vars)
+            if a != b:
+                print(f"Different value found at {path}: {a} != {b}")
+                diff = {'path': path, 'a': a, 'b': b}
+                diffs.append(diff)
+
+        return diffs
+
+
+
+
+
+
+
 
 #테스트
-a = UI_test.Dicom_Information()
-b = UI_test.Dicom_Information()
-c = DetectionModule()
-c.compare(a, b)

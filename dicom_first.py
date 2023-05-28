@@ -16,7 +16,7 @@ class FirstWindow(QMainWindow,Ui_Dialog):
 
 
               ).__init__(parent)
-        self.main = QUiLoader().load('main.ui', self)
+        self.main = QUiLoader().load('dicom.ui', self)
         self.setupUi(self)
         apply_stylesheet(self, 'light_pink.xml')
         self.setWindowTitle('DICOM')
