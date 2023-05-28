@@ -52,7 +52,7 @@ class DicomInformation2(QMainWindow,Ui_MainWindow):
 
         #UI 설정
         super(single_DicomInformation, self).__init__(parent)
-        self.main = QUiLoader().load('main.ui', self)
+        self.main = QUiLoader().load('dicom.ui', self)
         self.setupUi(self)
         apply_stylesheet(self, 'light_pink.xml')
 
