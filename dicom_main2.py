@@ -26,7 +26,7 @@ from PySide6.QtWidgets import QWidget, QMessageBox, QApplication, QTableWidget, 
 from PySide6.QtGui import QAction, QIcon, QPixmap, QImage
 from qt_material import apply_stylesheet
 
-from dicom_main import DicomInformation
+from dicom_main import single_DicomInformation
 from mainui import Ui_MainWindow
 import _5_metadata
 
@@ -51,7 +51,7 @@ class DicomInformation2(QMainWindow,Ui_MainWindow):
         self.institution_address=''
 
         #UI 설정
-        super(DicomInformation, self).__init__(parent)
+        super(single_DicomInformation, self).__init__(parent)
         self.main = QUiLoader().load('main.ui', self)
         self.setupUi(self)
         apply_stylesheet(self, 'light_pink.xml')
@@ -221,7 +221,7 @@ if __name__ == '__main__':
     #app = QApplication(sys.argv)
     app = QApplication(sys.argv)
 
-    ex = DicomInformation()
+    ex = single_DicomInformation()
 
 
     ex.show()

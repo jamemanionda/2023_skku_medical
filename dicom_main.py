@@ -14,24 +14,31 @@ import dicom as dicom
 import pydicom
 import os
 import sys
-from PyQt5.QtWidgets import QWidget
+
+
+from PyQt5.QtWidgets import QWidget, QMainWindow, QFileDialog
 from PyQt5.QtWidgets import QTreeWidget
 from PyQt5.QtCore import QVariant
 from PyQt5.QtWidgets import QTreeWidgetItem
 from PyQt5.QtWidgets import QApplication
 from PyQt5.QtCore import Qt
-from PySide6.QtUiTools import QUiLoader
-from PySide6.QtWidgets import QWidget, QMessageBox, QApplication, QTableWidget, QTableWidgetItem, QDialog, QFileDialog, \
-    QMainWindow, QTreeWidgetItem, QGraphicsPixmapItem, QGraphicsScene
-from PySide6.QtGui import QAction, QIcon, QPixmap, QImage
+
 from qt_material import apply_stylesheet
-from mainui import Ui_MainWindow
-from PySide6.QtCore import QSize
+from PyQt5 import uic
+#from mainui import Ui_MainWindow
 import _5_metadata
+form_class = uic.loadUiType("main.ui")[0]
+class single_DicomInformation(QMainWindow, form_class):
 
-class DicomInformation(QMainWindow,Ui_MainWindow):
+    def __init__(self):
 
-    def __init__(self, parent=None, openAction=None):
+
+        #UI 설정
+        super().__init__()
+        #super(single_DicomInformation, self).__init__(parent)
+
+        self.setupUi(self)
+        #apply_stylesheet(self, 'light_pink.xml')
         self.dicom_filepath = ''
         self.dicom_filename = ''
         self.file_meta_information_version = ''
@@ -48,13 +55,6 @@ class DicomInformation(QMainWindow,Ui_MainWindow):
         self.performing_physician_name=''
         self.institution_name=''
         self.institution_address=''
-
-        #UI 설정
-        super(DicomInformation, self).__init__(parent)
-        self.main = QUiLoader().load('main.ui', self)
-        self.setupUi(self)
-        apply_stylesheet(self, 'light_pink.xml')
-
         #메인 기능
         self.mainfunction()
 
@@ -62,18 +62,21 @@ class DicomInformation(QMainWindow,Ui_MainWindow):
 
     #파일 경로 입력
     def input_dicom(self):
-        #dicom_filename = QFileDialog.getOpenFileName(self, 'Open File', dir='C:')
-        #self.dicom_filepath = str(dicom_filename[0])
+        dicom_filename = QFileDialog.getOpenFileName(self, 'Open File', dir='C:')
+        self.dicom_filepath = str(dicom_filename[0])
         fileobject = self.dicom_filepath.split('/')
         self.dicom_filepath = "I000001_1937.dcm"
         file = fileobject[len(fileobject) - 1]
         self.fname = file
         #self.label.setText(file)
         #print(_5_metadata.extract_metadata(self.dicom_filepath))
+        self.anaylze.clicked.connect(self.analyze_start)
         self.get_dicom_data()
         self.output_dicom_data()
 
-
+    def analyze_start(self):
+        self.get_dicom_data()
+        self.output_dicom_data()
 
     #dicom파일 데이터 획득
     def get_dicom_data(self):
@@ -217,7 +220,7 @@ if __name__ == '__main__':
     #app = QApplication(sys.argv)
     app = QApplication(sys.argv)
 
-    ex = DicomInformation()
+    ex = single_DicomInformation()
 
 
     ex.show()
