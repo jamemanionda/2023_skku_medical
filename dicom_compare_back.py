@@ -25,7 +25,7 @@ from PySide6.QtWidgets import QWidget, QMessageBox, QApplication, QTableWidget, 
     QMainWindow, QTreeWidgetItem, QGraphicsPixmapItem, QGraphicsScene, QPushButton
 from PySide6.QtGui import QAction, QIcon, QPixmap, QImage
 from qt_material import apply_stylesheet
-from dicom_main import DicomInformation
+from dicom_main import single_DicomInformation
 from compare_ui import Ui_MainWindow
 from PySide6.QtCore import QSize
 
