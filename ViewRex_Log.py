@@ -90,6 +90,12 @@ class ViewRexLogDataFrame():
                 tempviewrex_filename = viewrexlog_filename + '(' + str(filenum) + ')'
                 filenum += 1
 
+    def detail_information(self, action, startdate, enddate=datetime.today()):
+        temp_df = self.viewrexlog_dataframe.set_index('Time')
+        detailveiw_df = temp_df[startdate:enddate]
+        return detailveiw_df
+
+
 test = ViewRexLogDataFrame()
 test.input_viewrexlogfile()
 #test.export_log_to_excel()
