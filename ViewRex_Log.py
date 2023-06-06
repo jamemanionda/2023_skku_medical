@@ -64,16 +64,19 @@ class ViewRexLogDataFrame():
                         #self.index += 1
 
         self.viewrexlog_dataframe['Time'] = pd.to_datetime(self.viewrexlog_dataframe['Time'])
-        #일 단위로 행위 횟수 조회
+
+
+    def auto_log(self):        #일 단위로 행위 횟수 조회
         self.viewrexlog_resultdf = self.viewrexlog_dataframe.groupby(['Computer Name', 'IP Address', pd.Grouper(key='Time', freq='D'), 'Action'])['Action'].agg(['count'])
-        pd.set_option('display.max_columns', None)
-        #pd.set_option('display.max_rows', None)
+        #pd.set_option('display.max_columns', None)
+        return self.viewrexlog_resultdf
 
-        #print(self.viewrexlog_resultdf)
-        #tmpsdf = tmpsdf.reset_index('Time')
-
-        #testcount = self.viewrexdf_select.resample('D', on='Time').count()
-        #print(testcount)
+    def manual_log(self, starttime, endtime=datetime.today()):
+        self.viewrexlog_resultdf = self.viewrexlog_dataframe.groupby(['Computer Name', 'IP Address', pd.Grouper(key='Time', freq='D'), 'Action'])[
+            'Action'].agg(['count'])
+        self.viewrexlog_resultdf = self.viewrexlog_resultdf[starttime, endtime]
+        # pd.set_option('display.max_columns', None)
+        return self.viewrexlog_resultdf
 
     #excel로 추출
     def export_log_to_excel(self):
@@ -92,10 +95,11 @@ class ViewRexLogDataFrame():
 
     def detail_information(self, action, startdate, enddate=datetime.today()):
         temp_df = self.viewrexlog_dataframe.set_index('Time')
-        detailveiw_df = temp_df[startdate:enddate]
-        return detailveiw_df
+        temp_df = temp_df[startdate:enddate]
+        detailview_df = temp_df.loc[temp_df('Action') == action]
+        return detailview_df
 
 
-test = ViewRexLogDataFrame()
-test.input_viewrexlogfile()
+#test = ViewRexLogDataFrame()
+#test.input_viewrexlogfile()
 #test.export_log_to_excel()
