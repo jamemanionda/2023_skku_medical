@@ -116,7 +116,7 @@ class ViewRexLogDataFrame(QMainWindow, form_class):
 
 
     def detail_information(self):
-        action = self.chooseaction
+        action = str(self.chooseaction.currentText())
         startdate = self.choosedate.dateTime()
         enddate = startdate.addDays(1)
         startdate = startdate.toString('yyyy-MM-dd HH:mm')
@@ -124,9 +124,9 @@ class ViewRexLogDataFrame(QMainWindow, form_class):
 
         temp_df = self.viewrexlog_dataframe.set_index('Time')
         temp_df = temp_df[startdate:enddate]
-        detailview_df = temp_df.loc[temp_df('Action') == action]
-        print(detailview_df)
-        #self.create_table_widget(detailview_df, widget=self.tableWidget)
+        detailview_df = temp_df[temp_df['Action'] == action]
+        #print(detailview_df)
+        self.create_table_widget(detailview_df, widget=self.tableWidget)
 
     def create_table_widget(self, df, widget):
         widget.setRowCount(len(df.index))
