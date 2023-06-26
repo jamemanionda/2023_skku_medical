@@ -18,11 +18,9 @@ form_class = uic.loadUiType('pacs_log.ui')[0]
 class ViewRexLogDataFrame(QMainWindow, form_class):
     def __init__(self):
         self.viewrexlogfile_folder = ''
-        self.viewrexlog_dataframe = pd.DataFrame(columns=['Computer Name', 'IP Address', 'Time', 'Action', 'Explaination'])
+        self.viewrexlog_dataframe = pd.DataFrame(columns=['Time', 'Action', 'Explaination'])
         self.index = 0
         self.viewrexlogfile_folder = 'C:\\TechHeim\\ViewRex3\\Log'      #로그 파일이 저장되는 기본 경로
-        self.computer_name = socket.gethostname()
-        self.computer_ip = socket.gethostbyname(self.computer_name)
 
         super().__init__()
         self.setupUi(self)
@@ -66,19 +64,19 @@ class ViewRexLogDataFrame(QMainWindow, form_class):
                             Explaination = text[4]
 
                         if 'Modify Dicom infomation' in line:
-                            self.viewrexlog_dataframe.loc[self.index] = [self.computer_name, self.computer_ip, Time, 'Modify', Explaination]
+                            self.viewrexlog_dataframe.loc[self.index] = [Time, 'Modify', Explaination]
                             self.index += 1
 
                         elif 'FROM StudyInformation' in line:
-                            self.viewrexlog_dataframe.loc[self.index] = [self.computer_name, self.computer_ip, Time, 'Select', Explaination]
+                            self.viewrexlog_dataframe.loc[self.index] = [Time, 'Select', Explaination]
                             self.index += 1
 
                         elif 'FROM Patient' in line:
-                            self.viewrexlog_dataframe.loc[self.index] = [self.computer_name, self.computer_ip, Time, 'Select', Explaination]
+                            self.viewrexlog_dataframe.loc[self.index] = [Time, 'Select', Explaination]
                             self.index += 1
 
                         elif 'Export File Path' in line:
-                            self.viewrexlog_dataframe.loc[self.index] = [self.computer_name, self.computer_ip, Time, 'Export', Explaination]
+                            self.viewrexlog_dataframe.loc[self.index] = [Time, 'Export', Explaination]
                             self.index += 1
 
                         #else:
@@ -87,7 +85,7 @@ class ViewRexLogDataFrame(QMainWindow, form_class):
 
         #self.viewrexlog_dataframe.index = self.viewrexlog_dataframe.index + 1
         self.viewrexlog_dataframe['Time'] = pd.to_datetime(self.viewrexlog_dataframe['Time'])
-        self.viewrexlog_resultdf = self.viewrexlog_dataframe.groupby(['Computer Name', 'IP Address', pd.Grouper(key='Time', freq='D'), 'Action'])['Action'].agg(['count'])
+        self.viewrexlog_resultdf = self.viewrexlog_dataframe.groupby([pd.Grouper(key='Time', freq='D'), 'Action'])['Action'].agg(['count'])
         pd.set_option('display.max_columns', None)
 
         self.create_table_widget(self.viewrexlog_resultdf, widget = self.tableWidget)
@@ -121,22 +119,22 @@ class ViewRexLogDataFrame(QMainWindow, form_class):
                             Explaination = text[4]
 
                         if 'Modify Dicom infomation' in line:
-                            self.viewrexlog_dataframe.loc[self.index] = [self.computer_name, self.computer_ip, Time,
+                            self.viewrexlog_dataframe.loc[self.index] = [Time,
                                                                          'Modify', Explaination]
                             self.index += 1
 
                         elif 'FROM StudyInformation' in line:
-                            self.viewrexlog_dataframe.loc[self.index] = [self.computer_name, self.computer_ip, Time,
+                            self.viewrexlog_dataframe.loc[self.index] = [Time,
                                                                          'Select', Explaination]
                             self.index += 1
 
                         elif 'FROM Patient' in line:
-                            self.viewrexlog_dataframe.loc[self.index] = [self.computer_name, self.computer_ip, Time,
+                            self.viewrexlog_dataframe.loc[self.index] = [Time,
                                                                          'Select', Explaination]
                             self.index += 1
 
                         elif 'Export File Path' in line:
-                            self.viewrexlog_dataframe.loc[self.index] = [self.computer_name, self.computer_ip, Time,
+                            self.viewrexlog_dataframe.loc[self.index] = [Time,
                                                                          'Export', Explaination]
                             self.index += 1
 
