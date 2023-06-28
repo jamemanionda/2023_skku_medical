@@ -23,7 +23,7 @@ class ViewRexLogDataFrame(QMainWindow, form_class):
         self.viewrexlogfile_folder = 'C:\\TechHeim\\ViewRex3\\Log'      #로그 파일이 저장되는 기본 경로
         self.computer_name = socket.gethostname()
         self.computer_ip = socket.gethostbyname(self.computer_name)
-
+        self.date_valid = True
         super().__init__()
         self.setupUi(self)
         #self.df = self.input_viewrexlogfile()
@@ -92,13 +92,13 @@ class ViewRexLogDataFrame(QMainWindow, form_class):
 
         self.create_table_widget(self.viewrexlog_resultdf, widget = self.tableWidget)
 
-    def manualExtract(self, startdate, enddate):
-        if True:  # Default 경로가 아닌 다른 경로에 파일이 저장되어 있을 경우, 조건문 추가 필요
-            self.viewrexlogfile_folder = 'C:\\Users\\skku-dfl\\OneDrive - 성균관대학교\\문서\\SKKU_DFL\\DICOM\\Log'  # 실제 로그파일의 폴더를 받을 수 있도록 변경할 것
-        self.viewrexlogfile_path = self.viewrexlogfile_folder + "\\ViewRex.exe_*.log"
+    def manualExtract(self):
+        fname = QFileDialog.getOpenFileNames(self, "File Load", 'C:\\TechHeim\\ViewRex3\\Log',
+                                             'All File(*);; Text File(*.txt);; Log file(*.log)')
+
         textline = []
-        for logfile in glob.glob(self.viewrexlogfile_path):
-            filename = os.path.basename(logfile)
+        for logfile in fname[0]:
+            logfile = logfile.replace('/', '\\')
             with open(logfile, 'r', encoding='UTF-8') as file:
                 for line in file:
                     textline.append(line)
@@ -145,19 +145,13 @@ class ViewRexLogDataFrame(QMainWindow, form_class):
                         # self.index += 1
 
         # self.viewrexlog_dataframe.index = self.viewrexlog_dataframe.index + 1
-        startdate = self.choosedate.dateTime()
-        enddate = startdate.addDays(1)
-        startdate = startdate.toString('yyyy-MM-dd HH:mm')
-        enddate = enddate.toString('yyyy-MM-dd HH:mm')
-
         self.viewrexlog_dataframe['Time'] = pd.to_datetime(self.viewrexlog_dataframe['Time'])
-        temp_df = self.viewrexlog_dataframe.set_index('Time')
-        temp_df = temp_df[startdate:enddate]
-        self.viewrexlog_resultdf = temp_df.groupby(['Computer Name', 'IP Address', pd.Grouper(key='Time', freq='D'), 'Action'])[
+        self.viewrexlog_resultdf = \
+        self.viewrexlog_dataframe.groupby(['Computer Name', 'IP Address', pd.Grouper(key='Time', freq='D'), 'Action'])[
             'Action'].agg(['count'])
         pd.set_option('display.max_columns', None)
 
-        return self.viewrexlog_resultdf
+        self.create_table_widget(self.viewrexlog_resultdf, widget=self.tableWidget)
 
     #excel로 추출
     def export_log_to_excel(self):
@@ -178,16 +172,18 @@ class ViewRexLogDataFrame(QMainWindow, form_class):
 
     def detail_information(self):
         action = str(self.chooseaction.currentText())
-        startdate = self.choosedate.dateTime()
-        enddate = startdate.addDays(1)
-        startdate = startdate.toString('yyyy-MM-dd HH:mm')
-        enddate = enddate.toString('yyyy-MM-dd HH:mm')
+        sd = self.sdate.dateTime()
+        ed = self.edate.dateTime()
+        startdate = sd.toString('yyyy-MM-dd HH:mm')
+        enddate = ed.toString('yyyy-MM-dd HH:mm')
 
-        temp_df = self.viewrexlog_dataframe.set_index('Time')
-        temp_df = temp_df[startdate:enddate]
-        detailview_df = temp_df[temp_df['Action'] == action]
-        #print(detailview_df)
-        self.create_table_widget(detailview_df, widget=self.tableWidget)
+
+        if sd < ed:
+            temp_df = self.viewrexlog_dataframe.set_index('Time')
+            temp_df = temp_df[startdate:enddate]
+            detailview_df = temp_df[temp_df['Action'] == action]
+            #print(detailview_df)
+            self.create_table_widget(detailview_df, widget=self.tableWidget)
 
     def create_table_widget(self, df, widget):
         widget.setRowCount(len(df.index))
