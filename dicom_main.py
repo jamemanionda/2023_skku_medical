@@ -71,44 +71,50 @@ class DicomInformation(QMainWindow, form_class):
         #UI 설정
         super().__init__() #super(DicomInformation, self).__init__(parent)
         self.setupUi(self)
-
-        #메인 기능
-        self.mainfunction()
+        self.fileSelect.clicked.connect(self.input_dicom_file1)
+        self.fileSelect2.clicked.connect(self.input_dicom_file2)
+        self.analyze_btn.clicked.connect(self.compare)
 
 
 
     #파일 경로 입력
-    def input_dicom(self):
-        dicom_filename = QFileDialog.getOpenFileName(self, 'Open File')
-        self.dicom_filepath = str(dicom_filename[0])
-        fileobject = self.dicom_filepath.split('/')
+    def input_dicom_file1(self):
+        dicom_filename = QFileDialog.getOpenFileName(self, 'File Load', '',
+                                                     'All File(*);; Dicom File(*.dcm)')
+        dcmfile = dicom_filename[0]
+        self.dicom_filepath = dcmfile.replace('/', '\\')
+        self.fileInput1.setText(self.dicom_filepath)
 
-        self.dicom_filepath = "I000001_1937.dcm"
-        self.dicom_filepath2 = "VR00001.dcm"
-        file = fileobject[len(fileobject) - 1]
-        self.fname = file
-
+    def input_dicom_file2(self):
+        dicom_filename = QFileDialog.getOpenFileName(self, 'File Load', '',
+                                                         'All File(*);; Dicom File(*.dcm)')
+        dcmfile = dicom_filename[0]
+        self.dicom_filepath2 = dcmfile.replace('/', '\\')
+        self.fileInput2.setText(self.dicom_filepath2)
 
         #self.label.setText(file)
         #print(_5_metadata.extract_metadata(self.dicom_filepath))
 
-
+    def compare(self):
         data1, dcm1 = self.get_dicom_data(self.dicom_filepath)
         data2, dcm2 = self.get_dicom_data(self.dicom_filepath2) #0322
         c = DetectionModule()
 
 
         diffs = c.compare_data(data1, data2)
+        print(diffs)
+        if len(diffs) == 0:
+            self.file_isForgery_text.setText('위변조 의심 행위가 없습니다')
+        else:
+            #self.file_isForgery_text.setText('위변조 의심 행위가 없습니다')
+            self.file_isForgery_text.setText(diffs)
 
-        if diffs == None :
-            self.file_isForgery_text.setText('위변조 의심 행위가 없습니다')
-        else :
-            self.file_isForgery_text.setText('위변조 의심 행위가 없습니다')
-        self.file_isForgery_text.setText(str(diffs[1][1:2]))
         image1 = self.tagview2(data1, self.TagInfo1_Widget, dcm1)
         image2 = self.tagview2(data2, self.TagInfo2_Widget, dcm2)
+
         scene = self.setDicomImage(image1)
         scene2 = self.setDicomImage(image2)
+
         self.screen1_Widget.setScene(scene)
         self.screen2_Widget.setScene(scene2)
         #self.screen1_Widget.fitInView(QSize(200, 200), Qt.KeepAspectRatio)
@@ -129,13 +135,11 @@ class DicomInformation(QMainWindow, form_class):
         institution1 = Institution_1(dcm)
 
         data = self.tagview(file, patient1, institution1)
-
         return data, dcm
 
 
 
-    def mainfunction(self):
-        self.fileSelect.clicked.connect(self.input_dicom)
+
 
 
 
@@ -158,6 +162,8 @@ class DicomInformation(QMainWindow, form_class):
         self.FileInfo1_Widget.setColumnCount(2)
         self.FileInfo2_Widget.setColumnCount(2)
 
+
+
         # 0303 sy
         #pixmap = QPixmap(self.dicom_filepath)
         #print('1')
@@ -167,7 +173,8 @@ class DicomInformation(QMainWindow, form_class):
         #print('3')
         #scene.addItem(item)
         #print('4')
-        return  data
+        print(data)
+        return data
 
     def tagview2(self, data, treeWidget, dcm):  # 0322
         for d in data:

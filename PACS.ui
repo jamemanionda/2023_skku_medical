@@ -39,28 +39,6 @@
     </rect>
    </property>
   </widget>
-  <widget class="QWidget" name="verticalLayoutWidget">
-   <property name="geometry">
-    <rect>
-     <x>150</x>
-     <y>100</y>
-     <width>621</width>
-     <height>171</height>
-    </rect>
-   </property>
-   <layout class="QVBoxLayout" name="verticalLayout"/>
-  </widget>
-  <widget class="QWidget" name="verticalLayoutWidget_2">
-   <property name="geometry">
-    <rect>
-     <x>150</x>
-     <y>280</y>
-     <width>621</width>
-     <height>191</height>
-    </rect>
-   </property>
-   <layout class="QVBoxLayout" name="verticalLayout_2"/>
-  </widget>
   <widget class="QComboBox" name="date_box">
    <property name="geometry">
     <rect>
@@ -89,7 +67,7 @@
     <string>inquire_btn</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
+  <widget class="QPushButton" name="DB_btn">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -102,7 +80,7 @@
     <string>Connect_DB_btn</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="Connect_Log_btn">
+  <widget class="QPushButton" name="Log_btn">
    <property name="geometry">
     <rect>
      <x>300</x>
@@ -129,6 +107,26 @@
    </property>
    <property name="text">
     <string>IP : </string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="Logtable">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>100</y>
+     <width>631</width>
+     <height>181</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="DBtable">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>290</y>
+     <width>631</width>
+     <height>181</height>
+    </rect>
    </property>
   </widget>
  </widget>

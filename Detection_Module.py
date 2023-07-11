@@ -14,24 +14,36 @@ class DetectionModule():
                     new_path = f"{path}.{key}" if path else key
                     self.compare_data(a[key], b[key], new_path)
                 else:
-                    print(f"Different key found at {path}: {key}")
+                    #print(f"Different key found at {path}: {key}")
                     diff = {'path': f"{path}.{key}" if path else key, 'a': a[key], 'b': None}
                     diffs.append(diff)
         elif isinstance(a, list):
             for i in range(min(len(a), len(b))):
                 new_path = f"{path}[{i}]" if path else f"[{i}]"
                 self.compare_data(a[i], b[i], new_path)
-            if len(a) != len(b):
-                print(f"Different list lengths found at {path}: {len(a)} != {len(b)}")
+            #if len(a) != len(b):
+                #print(f"Different list lengths found at {path}: {len(a)} != {len(b)}")
         else:
             if a != b:
-                print(f"Different value found at {path}: {a} != {b}")
+                #print(f"Different value found at {path}: {a} != {b}")
                 diff = {'path': path, 'a': a, 'b': b}
                 diffs.append(diff)
 
         return diffs
 
+    def compare(self, a, b):
+        for key, value in a.__dict__.items():
+            if value != b.__dict__[key]:
+                self.diff_vars.append(key)
+        #self.detection()
+        return self.diff_vars
 
+    def detection(self):
+        if len(self.diff_vars) == 0:
+            print("위조되지 않음")
+        else:
+            print("위조됨")
+            print("위조 추정 위치 : ", self.diff_vars)
 
 
 

@@ -12,11 +12,14 @@ from tabulate import tabulate
 import socket
 from PyQt5.QtWidgets import *
 from PyQt5 import uic
+import pacs_main
 
 form_class = uic.loadUiType('pacs_log.ui')[0]
 
 class ViewRexLogDataFrame(QMainWindow, form_class):
     def __init__(self):
+        self.pacs_ui = uic.loadUi('PACS.ui')
+        self.pacs_ui.Logtable.setVisible(False)
         self.viewrexlogfile_folder = ''
         self.viewrexlog_dataframe = pd.DataFrame(columns=['Computer Name', 'IP Address', 'Time', 'Action', 'Explaination'])
         self.index = 0
@@ -26,6 +29,7 @@ class ViewRexLogDataFrame(QMainWindow, form_class):
         self.date_valid = True
         super().__init__()
         self.setupUi(self)
+
         #self.df = self.input_viewrexlogfile()
         #self.create_table_widget(self.df, widget = self.tableWidget)
 
@@ -91,6 +95,7 @@ class ViewRexLogDataFrame(QMainWindow, form_class):
         pd.set_option('display.max_columns', None)
 
         self.create_table_widget(self.viewrexlog_resultdf, widget = self.tableWidget)
+        self.tossview = self.viewrexlog_resultdf
 
     def manualExtract(self):
         fname = QFileDialog.getOpenFileNames(self, "File Load", 'C:\\TechHeim\\ViewRex3\\Log',
@@ -146,12 +151,12 @@ class ViewRexLogDataFrame(QMainWindow, form_class):
 
         # self.viewrexlog_dataframe.index = self.viewrexlog_dataframe.index + 1
         self.viewrexlog_dataframe['Time'] = pd.to_datetime(self.viewrexlog_dataframe['Time'])
-        self.viewrexlog_resultdf = \
-        self.viewrexlog_dataframe.groupby(['Computer Name', 'IP Address', pd.Grouper(key='Time', freq='D'), 'Action'])[
+        self.viewrexlog_resultdf = self.viewrexlog_dataframe.groupby(['Computer Name', 'IP Address', pd.Grouper(key='Time', freq='D'), 'Action'])[
             'Action'].agg(['count'])
         pd.set_option('display.max_columns', None)
 
         self.create_table_widget(self.viewrexlog_resultdf, widget=self.tableWidget)
+        self.tossview = self.viewrexlog_resultdf
 
     #excel로 추출
     def export_log_to_excel(self):
@@ -182,6 +187,7 @@ class ViewRexLogDataFrame(QMainWindow, form_class):
             temp_df = self.viewrexlog_dataframe.set_index('Time')
             temp_df = temp_df[startdate:enddate]
             detailview_df = temp_df[temp_df['Action'] == action]
+            self.tossview = detailview_df
             #print(detailview_df)
             self.create_table_widget(detailview_df, widget=self.tableWidget)
 
@@ -198,10 +204,16 @@ class ViewRexLogDataFrame(QMainWindow, form_class):
                 widget.setItem(row_index, col_index, item)
 
     def accept(self):
-        exit()
+        try:
+            self.b = pacs_main.Pacs_main()  # aaaaa 클래스의 인스턴스 생성
+            self.b.show_log(self.tossview)
+            self.b.show()  # 생성된 인스턴스의 show() 메소드 호출
+        except Exception as e:
+            print(f"Error occurred: {e}")
+        self.close()
 
     def reject(self):
-        exit()
+        self.close()
 
 
 

@@ -120,15 +120,15 @@ alternate-background-color: rgb(170, 255, 127);</string>
       <property name="sizeConstraint">
        <enum>QLayout::SetFixedSize</enum>
       </property>
-      <item row="3" column="0">
-       <widget class="QLabel" name="screen2">
+      <item row="0" column="2">
+       <widget class="QLabel" name="FileInfo1_label">
         <property name="text">
-         <string>screen2_label</string>
+         <string>FileInfo1_label</string>
         </property>
        </widget>
       </item>
-      <item row="4" column="0">
-       <widget class="QGraphicsView" name="screen2_Widget">
+      <item row="2" column="0">
+       <widget class="QGraphicsView" name="screen1_Widget">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
           <horstretch>0</horstretch>
@@ -137,10 +137,13 @@ alternate-background-color: rgb(170, 255, 127);</string>
         </property>
        </widget>
       </item>
-      <item row="0" column="0">
-       <widget class="QLabel" name="screen1">
-        <property name="text">
-         <string>screen1_label</string>
+      <item row="5" column="0">
+       <widget class="QGraphicsView" name="screen2_Widget">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
         </property>
        </widget>
       </item>
@@ -151,44 +154,7 @@ alternate-background-color: rgb(170, 255, 127);</string>
         </property>
        </widget>
       </item>
-      <item row="3" column="2">
-       <widget class="QLabel" name="FileInformation1_label_2">
-        <property name="text">
-         <string>FileInfo2_label</string>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="1">
-       <widget class="QTreeWidget" name="TagInfo1_Widget">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="contextMenuPolicy">
-         <enum>Qt::ActionsContextMenu</enum>
-        </property>
-        <column>
-         <property name="text">
-          <string notr="true">1</string>
-         </property>
-        </column>
-        <column>
-         <property name="text">
-          <string>2</string>
-         </property>
-        </column>
-       </widget>
-      </item>
-      <item row="3" column="1">
-       <widget class="QLabel" name="TagInfo2_label">
-        <property name="text">
-         <string>TagInfo2_label</string>
-        </property>
-       </widget>
-      </item>
-      <item row="4" column="2">
+      <item row="5" column="2">
        <widget class="QTableWidget" name="FileInfo2_Widget">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
@@ -203,14 +169,28 @@ alternate-background-color: rgb(170, 255, 127);</string>
         </property>
        </widget>
       </item>
-      <item row="0" column="2">
-       <widget class="QLabel" name="FileInfo1_label">
+      <item row="3" column="0">
+       <widget class="QLabel" name="screen2">
         <property name="text">
-         <string>FileInfo1_label</string>
+         <string>screen2_label</string>
         </property>
        </widget>
       </item>
-      <item row="4" column="1">
+      <item row="3" column="2">
+       <widget class="QLabel" name="FileInformation1_label_2">
+        <property name="text">
+         <string>FileInfo2_label</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="screen1">
+        <property name="text">
+         <string>screen1_label</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
        <widget class="QTreeWidget" name="TagInfo2_Widget">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
@@ -248,13 +228,33 @@ alternate-background-color: rgb(170, 255, 127);</string>
         </property>
        </widget>
       </item>
-      <item row="2" column="0">
-       <widget class="QGraphicsView" name="screen1_Widget">
+      <item row="2" column="1">
+       <widget class="QTreeWidget" name="TagInfo1_Widget">
         <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+         <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
+        </property>
+        <property name="contextMenuPolicy">
+         <enum>Qt::ActionsContextMenu</enum>
+        </property>
+        <column>
+         <property name="text">
+          <string notr="true">1</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </column>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLabel" name="TagInfo2_label">
+        <property name="text">
+         <string>TagInfo2_label</string>
         </property>
        </widget>
       </item>
@@ -364,7 +364,7 @@ border-color: rgb(0, 0, 0);border-width:1px;border-style:solid;
      <x>0</x>
      <y>0</y>
      <width>994</width>
-     <height>21</height>
+     <height>22</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">
