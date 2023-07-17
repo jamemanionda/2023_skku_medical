@@ -20,36 +20,37 @@ from PyQt5.QtWidgets import QWidget, QMainWindow, QFileDialog, QMessageBox
 from PyQt5.QtWidgets import QTreeWidget
 from PyQt5.QtCore import QVariant
 from PyQt5.QtWidgets import QTreeWidgetItem
-from PyQt5.QtWidgets import QApplication
+from PyQt5.QtWidgets import QApplication, QListWidgetItem, QListWidget
 from PyQt5.QtCore import Qt
 import report
 from qt_material import apply_stylesheet
 from PyQt5 import uic
+import dicom_main
 #from mainui import Ui_MainWindow
 import _5_metadata
 form_class = uic.loadUiType("dicomANDpacs.ui")[0]
 class dicomandpacsmain(QMainWindow, form_class):
-
     def __init__(self):
-
-
         #UI 설정
         super().__init__()
         #super(single_DicomInformation, self).__init__(parent)
-
+        self.dicom_filepath = []
+        self.dicom_filename = []
+        self.Qlist = QListWidget()
         self.setupUi(self)
         #apply_stylesheet(self, 'light_pink.xml')
-        self.dicom_filepath = ''
-        self.dicom_filename = ''
         self.addressip = '192.168.0.1'
         self.fname = 'hello'
         #메인 기능
         #self.mainfunction()
 
         self.pushButton.clicked.connect(lambda: self.makeReport())
+        self.Qlist.itemClicked.connect(self.dcmlistClicked)
     def makeReport(self):
         self.show_popup_ok('report', '보고서를 만드시겠습니까?')
-
+    def update_dcmlist(self, list):
+        for file in len(list):
+            self.dcmlist.addItem(QListWidgetItem(file))
     def show_popup_ok(self, title: str, content: str):
         msg = QMessageBox()
         msg.setWindowTitle(title)
@@ -73,6 +74,14 @@ class dicomandpacsmain(QMainWindow, form_class):
             current = os.getcwd()
             path = current + '/'+self.realpath
             os.startfile(path)
+
+    def dcmlistClicked(self, item):
+        self.dcm = dicom_main.DicomInformation()
+        for file in len(self.dicom_filepath):
+            if item == os.path.basename(file):
+                data, dcm = self.dcm.get_dicom_data(file)
+                tempimg = self.dcm.tagview2(data, self.tagtree, dcm)
+                self.dcm.fileview(file, self.fileinfotree)
 
     #dicom파일 데이터 획득
     #def get_dicom_data(self):

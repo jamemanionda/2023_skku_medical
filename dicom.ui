@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>994</width>
-    <height>785</height>
+    <width>828</width>
+    <height>686</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,7 +20,7 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>760</x>
+      <x>610</x>
       <y>20</y>
       <width>91</width>
       <height>23</height>
@@ -38,8 +38,8 @@
      <rect>
       <x>20</x>
       <y>100</y>
-      <width>941</width>
-      <height>621</height>
+      <width>782</width>
+      <height>498</height>
      </rect>
     </property>
     <property name="orientation">
@@ -79,7 +79,7 @@
        </widget>
       </item>
       <item row="1" column="2">
-       <widget class="QLabel" name="label_8">
+       <widget class="QLabel" name="file_Forgery_Position_text">
         <property name="text">
          <string>file_Forgery_Position_text</string>
         </property>
@@ -127,16 +127,6 @@ alternate-background-color: rgb(170, 255, 127);</string>
         </property>
        </widget>
       </item>
-      <item row="2" column="0">
-       <widget class="QGraphicsView" name="screen1_Widget">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-       </widget>
-      </item>
       <item row="5" column="0">
        <widget class="QGraphicsView" name="screen2_Widget">
         <property name="sizePolicy">
@@ -144,49 +134,6 @@ alternate-background-color: rgb(170, 255, 127);</string>
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="1">
-       <widget class="QLabel" name="TagInfo1_label">
-        <property name="text">
-         <string>TagInfo1_label</string>
-        </property>
-       </widget>
-      </item>
-      <item row="5" column="2">
-       <widget class="QTableWidget" name="FileInfo2_Widget">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
-        </property>
-        <property name="font">
-         <font>
-          <pointsize>7</pointsize>
-         </font>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="0">
-       <widget class="QLabel" name="screen2">
-        <property name="text">
-         <string>screen2_label</string>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="2">
-       <widget class="QLabel" name="FileInformation1_label_2">
-        <property name="text">
-         <string>FileInfo2_label</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="0">
-       <widget class="QLabel" name="screen1">
-        <property name="text">
-         <string>screen1_label</string>
         </property>
        </widget>
       </item>
@@ -213,19 +160,31 @@ alternate-background-color: rgb(170, 255, 127);</string>
         </column>
        </widget>
       </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="screen1">
+        <property name="text">
+         <string>screen1_label</string>
+        </property>
+       </widget>
+      </item>
       <item row="2" column="2">
-       <widget class="QTableWidget" name="FileInfo1_Widget">
-        <property name="sizePolicy">
-         <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
-          <horstretch>0</horstretch>
-          <verstretch>0</verstretch>
-         </sizepolicy>
+       <widget class="QTreeWidget" name="FileInfo1_Widget">
+        <property name="contextMenuPolicy">
+         <enum>Qt::ActionsContextMenu</enum>
         </property>
-        <property name="font">
-         <font>
-          <pointsize>7</pointsize>
-         </font>
+        <property name="columnCount">
+         <number>2</number>
         </property>
+        <column>
+         <property name="text">
+          <string/>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string notr="true">2</string>
+         </property>
+        </column>
        </widget>
       </item>
       <item row="2" column="1">
@@ -251,7 +210,58 @@ alternate-background-color: rgb(170, 255, 127);</string>
         </column>
        </widget>
       </item>
-      <item row="4" column="1">
+      <item row="5" column="2">
+       <widget class="QTreeWidget" name="FileInfo2_Widget">
+        <property name="contextMenuPolicy">
+         <enum>Qt::ActionsContextMenu</enum>
+        </property>
+        <property name="columnCount">
+         <number>2</number>
+        </property>
+        <column>
+         <property name="text">
+          <string/>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string notr="true">2</string>
+         </property>
+        </column>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="screen2">
+        <property name="text">
+         <string>screen2_label</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QLabel" name="FileInformation1_label_2">
+        <property name="text">
+         <string>FileInfo2_label</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="TagInfo1_label">
+        <property name="text">
+         <string>TagInfo1_label</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QGraphicsView" name="screen1_Widget">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
        <widget class="QLabel" name="TagInfo2_label">
         <property name="text">
          <string>TagInfo2_label</string>
@@ -293,7 +303,7 @@ alternate-background-color: rgb(170, 255, 127);</string>
     </property>
     <property name="geometry">
      <rect>
-      <x>760</x>
+      <x>610</x>
       <y>50</y>
       <width>91</width>
       <height>23</height>
@@ -311,7 +321,7 @@ alternate-background-color: rgb(170, 255, 127);</string>
      <rect>
       <x>90</x>
       <y>50</y>
-      <width>661</width>
+      <width>511</width>
       <height>16</height>
      </rect>
     </property>
@@ -330,7 +340,7 @@ border-color: rgb(0, 0, 0);border-width:1px;border-style:solid;
      <rect>
       <x>90</x>
       <y>20</y>
-      <width>661</width>
+      <width>511</width>
       <height>16</height>
      </rect>
     </property>
@@ -347,7 +357,7 @@ border-color: rgb(0, 0, 0);border-width:1px;border-style:solid;
    <widget class="QPushButton" name="analyze_btn">
     <property name="geometry">
      <rect>
-      <x>870</x>
+      <x>720</x>
       <y>20</y>
       <width>75</width>
       <height>51</height>
@@ -357,13 +367,26 @@ border-color: rgb(0, 0, 0);border-width:1px;border-style:solid;
      <string>analyze_btn</string>
     </property>
    </widget>
+   <widget class="QDialogButtonBox" name="buttonBox">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>610</y>
+      <width>156</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="standardButtons">
+     <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>994</width>
+     <width>828</width>
      <height>22</height>
     </rect>
    </property>

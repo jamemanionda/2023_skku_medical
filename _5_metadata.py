@@ -2,12 +2,13 @@ import struct
 import os.path
 import time
 
-def extract_dicom_signature(filepath):
+def extract_dicom_metadata(filepath):
     # 파일의 MAC 타임 정보 추출
     mtime = os.path.getmtime(filepath) # 수정 시간 (Modification time)
     atime = os.path.getatime(filepath) # 접근 시간 (Access time)
     ctime = os.path.getctime(filepath) # 생성 시간 (Creation time)
-
+    fsize = os.path.getsize(filepath)
+    return mtime, atime, ctime, fsize
 
 
 def extract_dicom_signature(filename):

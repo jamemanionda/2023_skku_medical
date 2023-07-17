@@ -23,8 +23,10 @@ class Pacs_main(QMainWindow, form_class):
 
     def connect_DB(self):
         self.DB = PACS_DB.Ui_Dialog()
-        self.DB.show()
-        self.close()
+        Dialog = QDialog()
+        self.DB.setupUi(Dialog)
+        Dialog.show()
+        app.exec_()
     def connect_Log(self):
         self.log = PACS_log.ViewRexLogDataFrame()
         self.log.show()
@@ -37,7 +39,7 @@ class Pacs_main(QMainWindow, form_class):
         self.create_table_widget(df, widget=self.DBtable)
 
     def accept(self):
-        exit()
+        self.close()
 
     def reject(self):
         self.close()

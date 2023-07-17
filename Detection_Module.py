@@ -7,7 +7,7 @@ class DetectionModule():
         self.diff_vars = []
 
     #원본과 대조, 다른 값이 있다면 추가
-    def compare_data(self, a, b, path='', diffs=[]):
+    def compare_data(self, a, b, path=''):
         if isinstance(a, dict):
             for key in a:
                 if key in b:
@@ -16,7 +16,7 @@ class DetectionModule():
                 else:
                     print(f"Different key found at {path}: {key}")
                     diff = {'path': f"{path}.{key}" if path else key, 'a': a[key], 'b': None}
-                    diffs.append(diff)
+                    self.diff_vars.append(diff)
         elif isinstance(a, list):
             for i in range(min(len(a), len(b))):
                 new_path = f"{path}[{i}]" if path else f"[{i}]"
@@ -27,9 +27,9 @@ class DetectionModule():
             if a != b:
                 print(f"Different value found at {path}: {a} != {b}")
                 diff = {'path': path, 'a': a, 'b': b}
-                diffs.append(diff)
+                self.diff_vars.append(diff)
 
-        return diffs
+        return self.diff_vars
 
 
 

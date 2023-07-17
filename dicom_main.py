@@ -22,7 +22,7 @@ from PyQt5.QtCore import QVariant, QSize
 from PyQt5.QtWidgets import QTreeWidgetItem
 from PyQt5.QtWidgets import QApplication
 from PyQt5.QtCore import Qt
-
+import dicomANDpacs
 from Detection_Module import DetectionModule
 import _5_metadata
 
@@ -50,23 +50,7 @@ class Patient_1():
 class DicomInformation(QMainWindow, form_class):
 
     def __init__(self, parent=None, openAction=None):
-        dicom_filepath = ''
-        dicom_filename = ''
-        file_meta_information_version = ''
-        media_storage_sop_class_uid = ''
-        media_storage_sop_instance_uid = ''
-        patient_name = ''
-        patient_id = ''
-        patient_sex = ''
-        patient_birthday = ''
-        patient_age = ''
-        patient_height = ''
-        patient_weight = ''
-        series_date = ''
-        performing_physician_name=''
-        institution_name=''
-        institution_address=''
-
+        self.filepath_list = []
 
         #UI 설정
         super().__init__() #super(DicomInformation, self).__init__(parent)
@@ -76,22 +60,24 @@ class DicomInformation(QMainWindow, form_class):
         self.analyze_btn.clicked.connect(self.compare)
 
 
-
     #파일 경로 입력
     def input_dicom_file1(self):
         dicom_filename = QFileDialog.getOpenFileName(self, 'File Load', '',
-                                                     'All File(*);; Dicom File(*.dcm)')
+                                                     'Dicom File(*.dcm);; All File(*)')
         dcmfile = dicom_filename[0]
         self.dicom_filepath = dcmfile.replace('/', '\\')
         self.fileInput1.setText(self.dicom_filepath)
+        if self.dicom_filepath not in self.filepath_list:
+            self.filepath_list.append(self.dicom_filepath)
 
     def input_dicom_file2(self):
         dicom_filename = QFileDialog.getOpenFileName(self, 'File Load', '',
-                                                         'All File(*);; Dicom File(*.dcm)')
+                                                         'Dicom File(*.dcm);; All File(*)')
         dcmfile = dicom_filename[0]
         self.dicom_filepath2 = dcmfile.replace('/', '\\')
         self.fileInput2.setText(self.dicom_filepath2)
-
+        if self.dicom_filepath2 not in self.filepath_list:
+            self.filepath_list.append(self.dicom_filepath2)
         #self.label.setText(file)
         #print(_5_metadata.extract_metadata(self.dicom_filepath))
 
@@ -102,12 +88,18 @@ class DicomInformation(QMainWindow, form_class):
 
 
         diffs = c.compare_data(data1, data2)
-        print(diffs)
+        #object_values = [item["key"] for item in diffs]
+
         if len(diffs) == 0:
             self.file_isForgery_text.setText('위변조 의심 행위가 없습니다')
         else:
-            #self.file_isForgery_text.setText('위변조 의심 행위가 없습니다')
-            self.file_isForgery_text.setText(diffs)
+            self.file_isForgery_text.setText('위변조 의심 행위가 있습니다')
+            self.file_Forgery_Position_text.setText(str(diffs))
+
+        self.TagInfo1_Widget.clear()
+        self.TagInfo2_Widget.clear()
+        self.FileInfo1_Widget.clear()
+        self.FileInfo2_Widget.clear()
 
         image1 = self.tagview2(data1, self.TagInfo1_Widget, dcm1)
         image2 = self.tagview2(data2, self.TagInfo2_Widget, dcm2)
@@ -117,6 +109,9 @@ class DicomInformation(QMainWindow, form_class):
 
         self.screen1_Widget.setScene(scene)
         self.screen2_Widget.setScene(scene2)
+
+        self.fileview(self.dicom_filepath, self.FileInfo1_Widget)
+        self.fileview(self.dicom_filepath2, self.FileInfo2_Widget)
         #self.screen1_Widget.fitInView(QSize(200, 200), Qt.KeepAspectRatio)
         #self.screen2_Widget.fitInView(QSize(200, 200), Qt.KeepAspectRatio)
 
@@ -158,22 +153,7 @@ class DicomInformation(QMainWindow, form_class):
              "objects": [("Institution Name", institution.institution_name),
                          ("Institution Address", institution.institution_address)]},
         ]
-        # QTreeView 생성 및 설정
-        self.FileInfo1_Widget.setColumnCount(2)
-        self.FileInfo2_Widget.setColumnCount(2)
 
-
-
-        # 0303 sy
-        #pixmap = QPixmap(self.dicom_filepath)
-        #print('1')
-        #scene = QGraphicsScene()
-        #print('2')
-        #item = QGraphicsPixmapItem(pixmap)
-        #print('3')
-        #scene.addItem(item)
-        #print('4')
-        print(data)
         return data
 
     def tagview2(self, data, treeWidget, dcm):  # 0322
@@ -209,9 +189,31 @@ class DicomInformation(QMainWindow, form_class):
 
         return scene
 
+    def fileview(self, fpath, treeWidget):
+        fdata = [
+            {"type": "Time",
+             "objects": [("Creation Time", str(os.path.getctime(fpath))), ("Access Time", str(os.path.getatime(fpath))),
+                         ("Modification Time", str(os.path.getmtime(fpath)))]},
+            {"type": "Information",
+             "objects": [("File Path", fpath), ("File Name", str(os.path.basename(fpath))),
+                         ("File Size", str(os.path.getsize(fpath)) + "Byte")]},
+        ]
+
+        for d in fdata:
+            parent = self.add_tree_root(d['type'], "", treeWidget)
+            for child in d['objects']:
+                self.add_tree_child(parent, *child)
+
+    def accept(self):
+        self.dnp = dicomANDpacs.dicomandpacsmain()
+        self.dnp.show()
+        self.dnp.dicom_filepath = self.filepath_list
+        self.dnp.update_dcmlist(self.filepath_list)
 
 
 
+    def reject(self):
+        self.close()
 
 
 if __name__ == '__main__':
