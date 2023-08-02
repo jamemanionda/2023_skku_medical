@@ -6,6 +6,7 @@
  #이은지
  수정 2차 : GUI 연결(pyside import 추가,
 """
+import datetime
 import sys
 
 import dicom as dicom
@@ -49,16 +50,19 @@ class Patient_1():
         self.performing_physician_name = str(dcm.get("PerformingPhysicianName"))  # 주치의
 class DicomInformation(QMainWindow, form_class):
 
-    def __init__(self, parent=None, openAction=None):
+    def __init__(self):
         self.filepath_list = []
 
         #UI 설정
         super().__init__() #super(DicomInformation, self).__init__(parent)
         self.setupUi(self)
+
         self.fileSelect.clicked.connect(self.input_dicom_file1)
         self.fileSelect2.clicked.connect(self.input_dicom_file2)
         self.analyze_btn.clicked.connect(self.compare)
 
+        self.OK_btn.clicked.connect(self.accept)
+        self.Cancel_btn.clicked.connect(self.reject)
 
     #파일 경로 입력
     def input_dicom_file1(self):
@@ -190,10 +194,13 @@ class DicomInformation(QMainWindow, form_class):
         return scene
 
     def fileview(self, fpath, treeWidget):
+        ctime = datetime.datetime.fromtimestamp(os.path.getctime(fpath))
+        atime = datetime.datetime.fromtimestamp(os.path.getatime(fpath))
+        mtime = datetime.datetime.fromtimestamp(os.path.getmtime(fpath))
         fdata = [
             {"type": "Time",
-             "objects": [("Creation Time", str(os.path.getctime(fpath))), ("Access Time", str(os.path.getatime(fpath))),
-                         ("Modification Time", str(os.path.getmtime(fpath)))]},
+             "objects": [("Creation Time", str(ctime)), ("Access Time", str(atime)),
+                         ("Modification Time", str(mtime))]},
             {"type": "Information",
              "objects": [("File Path", fpath), ("File Name", str(os.path.basename(fpath))),
                          ("File Size", str(os.path.getsize(fpath)) + "Byte")]},
@@ -206,11 +213,10 @@ class DicomInformation(QMainWindow, form_class):
 
     def accept(self):
         self.dnp = dicomANDpacs.dicomandpacsmain()
-        self.dnp.show()
-        self.dnp.dicom_filepath = self.filepath_list
         self.dnp.update_dcmlist(self.filepath_list)
-
-
+        self.dnp.show()
+        #self.dnp.dicom_filepath = self.filepath_list
+        self.close()
 
     def reject(self):
         self.close()
@@ -225,4 +231,4 @@ if __name__ == '__main__':
 
     ex.show()
 
-    app.exec()
+    app.exec_()

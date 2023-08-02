@@ -12,6 +12,7 @@ from tabulate import tabulate
 import socket
 from PyQt5.QtWidgets import *
 from PyQt5 import uic
+import pacs_main
 
 form_class = uic.loadUiType('pacs_log.ui')[0]
 
@@ -92,6 +93,7 @@ class ViewRexLogDataFrame(QMainWindow, form_class):
         pd.set_option('display.max_columns', None)
 
         self.create_table_widget(self.viewrexlog_resultdf, widget = self.tableWidget)
+        self.tossview = self.viewrexlog_resultdf
 
     def manualExtract(self):
         self.viewrexlogfile_folder = ''
@@ -147,11 +149,11 @@ class ViewRexLogDataFrame(QMainWindow, form_class):
 
         # self.viewrexlog_dataframe.index = self.viewrexlog_dataframe.index + 1
         self.viewrexlog_dataframe['Time'] = pd.to_datetime(self.viewrexlog_dataframe['Time'])
-        self.viewrexlog_resultdf = \
-        self.viewrexlog_dataframe.groupby([pd.Grouper(key='Time', freq='D'), 'Action'])['Action'].agg(['count'])
+        self.viewrexlog_resultdf = self.viewrexlog_dataframe.groupby([pd.Grouper(key='Time', freq='D'), 'Action'])['Action'].agg(['count'])
         pd.set_option('display.max_columns', None)
 
         self.create_table_widget(self.viewrexlog_resultdf, widget=self.tableWidget)
+        self.tossview = self.viewrexlog_resultdf
 
     #excel로 추출
     def export_log_to_excel(self):
@@ -184,6 +186,7 @@ class ViewRexLogDataFrame(QMainWindow, form_class):
             detailview_df = temp_df[temp_df['Action'] == action]
             #print(detailview_df)
             self.create_table_widget(detailview_df, widget=self.tableWidget)
+            self.tossview = detailview_df
 
     def create_table_widget(self, df, widget):
         widget.setRowCount(len(df.index))
@@ -198,7 +201,8 @@ class ViewRexLogDataFrame(QMainWindow, form_class):
                 widget.setItem(row_index, col_index, item)
 
     def accept(self):
-        exit()
+        pacs_main.show_log(self.tossview)
+        self.close()
 
     def reject(self):
         exit()

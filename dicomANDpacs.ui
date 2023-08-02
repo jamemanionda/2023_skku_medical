@@ -202,82 +202,6 @@ alternate-background-color: rgb(170, 255, 127);</string>
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QComboBox" name="comboBox">
-   <property name="geometry">
-    <rect>
-     <x>380</x>
-     <y>490</y>
-     <width>361</width>
-     <height>22</height>
-    </rect>
-   </property>
-   <item>
-    <property name="text">
-     <string>192.168.0.1</string>
-    </property>
-   </item>
-  </widget>
-  <widget class="QWidget" name="formLayoutWidget">
-   <property name="geometry">
-    <rect>
-     <x>100</x>
-     <y>470</y>
-     <width>251</width>
-     <height>331</height>
-    </rect>
-   </property>
-   <layout class="QFormLayout" name="formLayout">
-    <item row="0" column="0">
-     <widget class="QRadioButton" name="radioButton">
-      <property name="text">
-       <string>Patient ID</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="0">
-     <widget class="QRadioButton" name="radioButton_2">
-      <property name="text">
-       <string>시간</string>
-      </property>
-     </widget>
-    </item>
-    <item row="2" column="0">
-     <widget class="QRadioButton" name="radioButton_3">
-      <property name="text">
-       <string>IP</string>
-      </property>
-     </widget>
-    </item>
-    <item row="3" column="0">
-     <widget class="QRadioButton" name="radioButton_4">
-      <property name="text">
-       <string>행위</string>
-      </property>
-     </widget>
-    </item>
-    <item row="4" column="0">
-     <widget class="QRadioButton" name="radioButton_5">
-      <property name="text">
-       <string>추가</string>
-      </property>
-     </widget>
-    </item>
-    <item row="5" column="0">
-     <widget class="QRadioButton" name="radioButton_6">
-      <property name="text">
-       <string>추가</string>
-      </property>
-     </widget>
-    </item>
-    <item row="6" column="0">
-     <widget class="QRadioButton" name="radioButton_7">
-      <property name="text">
-       <string>RadioButton</string>
-      </property>
-     </widget>
-    </item>
-   </layout>
-  </widget>
   <widget class="QTreeWidget" name="fileinfotree">
    <property name="geometry">
     <rect>
@@ -300,6 +224,16 @@ alternate-background-color: rgb(170, 255, 127);</string>
      <string notr="true">2</string>
     </property>
    </column>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>105</x>
+     <y>451</y>
+     <width>881</width>
+     <height>351</height>
+    </rect>
+   </property>
   </widget>
  </widget>
  <resources/>

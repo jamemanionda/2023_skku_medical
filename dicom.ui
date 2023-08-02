@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>828</width>
-    <height>686</height>
+    <width>816</width>
+    <height>685</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -367,17 +367,30 @@ border-color: rgb(0, 0, 0);border-width:1px;border-style:solid;
      <string>analyze_btn</string>
     </property>
    </widget>
-   <widget class="QDialogButtonBox" name="buttonBox">
+   <widget class="QPushButton" name="OK_btn">
     <property name="geometry">
      <rect>
-      <x>640</x>
+      <x>650</x>
       <y>610</y>
-      <width>156</width>
+      <width>75</width>
       <height>24</height>
      </rect>
     </property>
-    <property name="standardButtons">
-     <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+    <property name="text">
+     <string>OK</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Cancel_btn">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>610</y>
+      <width>75</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cancel</string>
     </property>
    </widget>
   </widget>
@@ -386,7 +399,7 @@ border-color: rgb(0, 0, 0);border-width:1px;border-style:solid;
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>828</width>
+     <width>816</width>
      <height>22</height>
     </rect>
    </property>
