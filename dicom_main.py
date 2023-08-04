@@ -89,7 +89,7 @@ class DicomInformation(QMainWindow, form_class):
         data1, dcm1 = self.get_dicom_data(self.dicom_filepath)
         data2, dcm2 = self.get_dicom_data(self.dicom_filepath2) #0322
         c = DetectionModule()
-
+        self.file_Forgery_Position_text.setText('')
 
         diffs = c.compare_data(data1, data2)
         #object_values = [item["key"] for item in diffs]

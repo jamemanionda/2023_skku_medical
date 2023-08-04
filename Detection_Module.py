@@ -26,7 +26,9 @@ class DetectionModule():
         else:
             if a != b:
                 print(f"Different value found at {path}: {a} != {b}")
-                diff = {'path': path, 'a': a, 'b': b}
+                a_key = a[0] if isinstance(a, tuple) else None
+                #diff = {'path': path, 'a': a, 'b': b}
+                diff = a_key
                 self.diff_vars.append(diff)
 
         return self.diff_vars
