@@ -25,7 +25,7 @@ from PyQt5.QtWidgets import QApplication
 from PyQt5.QtCore import Qt
 import dicomANDpacs
 from Detection_Module import DetectionModule
-import _5_metadata
+
 
 form_class = uic.loadUiType("dicom.ui")[0]
 class Institution_1():

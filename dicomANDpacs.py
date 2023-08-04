@@ -28,7 +28,7 @@ import report
 from qt_material import apply_stylesheet
 from PyQt5 import uic
 #from mainui import Ui_MainWindow
-import _5_metadata
+
 form_class = uic.loadUiType("dicomANDpacs.ui")[0]
 class Institution_1():
     def __init__(self, dcm):
