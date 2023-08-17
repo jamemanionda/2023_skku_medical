@@ -61,7 +61,7 @@ class dicomandpacsmain(QMainWindow, form_class):
         self.setupUi(self)
         #apply_stylesheet(self, 'light_pink.xml')
         self.addressip = '192.168.0.1'
-        self.fname = 'hello'
+        #self.fname = 'hello'
         #메인 기능
         #self.mainfunction()
         self.update_dcmlist(self.dicom_filename)
@@ -84,7 +84,7 @@ class dicomandpacsmain(QMainWindow, form_class):
         msg.setStyleSheet('font: 25 11pt "KoPubWorldDotum";background-color: rgb(255, 255, 255);')
         result = msg.exec_()
         if result == QMessageBox.Ok:
-            self.realpath = report.make_docx(self.addressip, self.fname, self.fname)
+            self.realpath = report.make_docx(self.addressip, self.file, self.file)
             self.open_file('report', '보고서를 열어보시겠습니까?')
 
 
@@ -97,19 +97,19 @@ class dicomandpacsmain(QMainWindow, form_class):
         result = msg.exec_()
         if result == QMessageBox.Ok:
             current = os.getcwd()
-            path = current + '/'+self.realpath
+            path = self.realpath
             os.startfile(path)
 
     def dcmlistClicked(self, item):
         self.tagtree.clear()
         self.fileinfotree.clear()
-        filenum = self.dcmlist.currentRow()
+        self.filenum = self.dcmlist.currentRow()
 
-        file = self.dicom_filepath[filenum]
+        self.file = self.dicom_filepath[self.filenum]
 
-        data, dcm, patient = self.get_dicom_data(file)
+        data, dcm, patient = self.get_dicom_data(self.file)
         self.tagview2(data, self.tagtree, dcm)
-        self.fileview(file, self.fileinfotree)
+        self.fileview(self.file, self.fileinfotree)
 
         self.dicomExtract(str(self.dcmlist.currentItem()), patient)
 
@@ -211,7 +211,7 @@ class dicomandpacsmain(QMainWindow, form_class):
                             Number = text[3]
                             Explaination = text[4]
 
-                            if patient.patient_id in Explaination or patient.patient_name in Explaination:
+                            if patient.patient_id in Explaination or patient.patient_name in Explaination or item in Explaination:
                                 if 'Modify Dicom infomation' in line:
                                     self.viewrexlog_dataframe.loc[self.index] = [Time, 'Modify', Explaination]
                                     self.index += 1

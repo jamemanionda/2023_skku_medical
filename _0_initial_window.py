@@ -2,7 +2,7 @@ import sys
 
 from PyQt5.QtWidgets import QWidget, QPushButton, QHBoxLayout, QMessageBox, QApplication
 
-from dicom_main import DicomInformation
+from dicom_main2 import DicomInformation
 from pacs_main import Pacs_main
 from qt_material import apply_stylesheet
 

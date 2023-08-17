@@ -108,11 +108,11 @@ class DicomInformation(QMainWindow, form_class):
         image1 = self.tagview2(data1, self.TagInfo1_Widget, dcm1)
         image2 = self.tagview2(data2, self.TagInfo2_Widget, dcm2)
 
-        scene = self.setDicomImage(image1)
-        scene2 = self.setDicomImage(image2)
-
-        self.screen1_Widget.setScene(scene)
-        self.screen2_Widget.setScene(scene2)
+        #하위 4줄 #제거
+        #scene = self.setDicomImage(image1)
+        #scene2 = self.setDicomImage(image2)
+        #self.screen1_Widget.setScene(scene)
+        #self.screen2_Widget.setScene(scene2)
 
         self.fileview(self.dicom_filepath, self.FileInfo1_Widget)
         self.fileview(self.dicom_filepath2, self.FileInfo2_Widget)
@@ -167,11 +167,11 @@ class DicomInformation(QMainWindow, form_class):
                 self.add_tree_child(parent, *child)
 
         from PyQt5.QtGui import QImage
-        dicomImage = QImage(dcm.pixel_array, dcm.pixel_array.shape[1], dcm.pixel_array.shape[0],
-                            QImage.Format_Grayscale8)
-
+        #하위 4줄 #제거
+        #dicomImage = QImage(dcm.pixel_array, dcm.pixel_array.shape[1], dcm.pixel_array.shape[0],
+        #                    QImage.Format_Grayscale8)
         #self.display_video_in_dicom_view()
-        return dicomImage
+        #return dicomImage
 
 
     def add_tree_root(self, name: str, description: str, treewidget):

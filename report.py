@@ -74,7 +74,7 @@ def make_docx(mod, name, name_list) -> None:
     title = 'Medical 분석보고서'
     sub_title = name
     current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    dicom_filename = '- 파일명 : '
+    dicom_filename = '- 파일명 : ' + name
     score = '50'
     mod = 0
     # if count > 1: #리스트를 문자열로 변환하는 작업
@@ -186,6 +186,10 @@ def make_docx(mod, name, name_list) -> None:
     result_table.style = 'Table Grid'
     result_table.rows.style = "borderColor:red;background-color:gray"#'Table Grid'
 
+    first_row = result_table.rows[0].cells
+    first_row[0].text = name_list[0]
+
+
 
 
 
@@ -280,7 +284,7 @@ def make_docx(mod, name, name_list) -> None:
     alert = document.add_paragraph('\n\n\n주의 : 이 시스템은 직접 서버나 DICOM, PACS의 데이터를 변경할 수 없습니다.\n')
     paragraph_format = alert.paragraph_format
     paragraph_format.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    reportPath = 'Reports/docx'  + '/' + sub_title + '.docx'
+    reportPath = sub_title + '.docx'
     document.save(reportPath)
     msg = QMessageBox()
     msg.setWindowTitle("완료")
