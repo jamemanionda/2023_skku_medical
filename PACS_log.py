@@ -42,6 +42,7 @@ class ViewRexLogDataFrame(QMainWindow, form_class):
     #'C:\\'+'컴퓨터이름'+''
     #모든 ViewRex 로그 파일을 불러옴
     def autoExtract(self):
+        lasttime = 0
         if True:        #Default 경로가 아닌 다른 경로에 파일이 저장되어 있을 경우, 조건문 추가 필요
             self.viewrexlogfile_folder = 'C:\\Users\\skku-dfl\\OneDrive - 성균관대학교\\문서\\SKKU_DFL\\DICOM\\Log'    #실제 로그파일의 폴더를 받을 수 있도록 변경할 것
         self.viewrexlogfile_path = self.viewrexlogfile_folder + "\\ViewRex.exe_*.log"
@@ -67,7 +68,13 @@ class ViewRexLogDataFrame(QMainWindow, form_class):
 
                             Time = text[0] + ' ' + text[2] + ' ' + text[1]
                             Number = text[3]
-                            Explaination = text[4]
+                            explaination = text[4]
+                            temp = explaination.split(' ', 3)
+                            Explaination = temp[3]
+                            if lasttime == Time:
+                                continue
+                            else:
+                                lasttime = Time
 
                         if 'Modify Dicom infomation' in line:
                             self.viewrexlog_dataframe.loc[self.index] = [Time, 'Modify', Explaination]
@@ -96,6 +103,7 @@ class ViewRexLogDataFrame(QMainWindow, form_class):
 
         self.create_table_widget(self.viewrexlog_resultdf, widget = self.tableWidget)
         self.tossview = self.viewrexlog_resultdf
+        print(self.tossview)
 
     def manualExtract(self):
         fname = QFileDialog.getOpenFileNames(self, "File Load", 'C:\\TechHeim\\ViewRex3\\Log',
@@ -157,6 +165,7 @@ class ViewRexLogDataFrame(QMainWindow, form_class):
 
         self.create_table_widget(self.viewrexlog_resultdf, widget=self.tableWidget)
         self.tossview = self.viewrexlog_resultdf
+        print(self.viewrexlog_resultdf)
 
     #excel로 추출
     def export_log_to_excel(self):
@@ -190,6 +199,8 @@ class ViewRexLogDataFrame(QMainWindow, form_class):
             self.tossview = detailview_df
             #print(detailview_df)
             self.create_table_widget(detailview_df, widget=self.tableWidget)
+
+            print(detailview_df)
 
     def create_table_widget(self, df, widget):
         widget.setRowCount(len(df.index))
