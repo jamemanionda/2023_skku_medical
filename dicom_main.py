@@ -1,4 +1,5 @@
 """
+ 레포트 버튼 뒤에있는 버전
  2023.02.23 # 박재현
  수정1차 : DICOM 분석
  수정3차 : DICOM Tag 주석으로 추가
@@ -13,6 +14,8 @@ import dicom as dicom
 #pip install pydicom
 
 import pydicom
+
+
 import os
 import sys
 
@@ -45,6 +48,7 @@ class Patient_1():
         self.patient_age = str(dcm.get("PatientAge"))  # 환자 나이
         self.patient_height = str(dcm.get("PatientSize"))  # 환자 키
         self.patient_weight = str(dcm.get("PatientWeight"))  # 환자 몸무게
+        self.study_date = str(dcm.get("SeriesDate"))  # 진료 시작 날짜(추정)
         self.series_date = str(dcm.get("SeriesDate"))  # 진료 시작 날짜(추정)
         # 이 외의 알레르기, 흡연, 임신 등 기타 상태 확인 가능
         self.performing_physician_name = str(dcm.get("PerformingPhysicianName"))  # 주치의
@@ -151,7 +155,7 @@ class DicomInformation(QMainWindow, form_class):
              "objects": [("Patient Name", patient.patient_name), ("Patient ID", patient.patient_id),
                          ("Patient Sex", patient.patient_sex), ("Patient Birthday", patient.patient_birthday),
                          ("Patient Age", patient.patient_age), ("Patient Height", patient.patient_height),
-                         ("Patient Weight", patient.patient_weight), ("Series Date", patient.series_date),
+                         ("Patient Weight", patient.patient_weight), ("Series Date", patient.series_date),("Study Date", patient.study_date),
                          ("Performing Physician's Name", patient.performing_physician_name)]},
             {"type": "Institution",
              "objects": [("Institution Name", institution.institution_name),

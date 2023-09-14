@@ -9,8 +9,10 @@
 import datetime
 import glob
 import sys
+import datetime
+from collections import Counter
 
-import dicom as dicom
+#import dicom as dicom
 import pandas as pd
 #pip install pydicom
 
@@ -48,7 +50,10 @@ class Patient_1():
         self.patient_age = str(dcm.get("PatientAge"))  # 환자 나이
         self.patient_height = str(dcm.get("PatientSize"))  # 환자 키
         self.patient_weight = str(dcm.get("PatientWeight"))  # 환자 몸무게
+        self.study_date = str(dcm.get("StudyDate"))  # 진료 시작 날짜(추정)
         self.series_date = str(dcm.get("SeriesDate"))  # 진료 시작 날짜(추정)
+        self.acquisition_date = str(dcm.get("AcquisitionDate"))
+        self.content_date = str(dcm.get("ContentDate"))
         # 이 외의 알레르기, 흡연, 임신 등 기타 상태 확인 가능
         self.performing_physician_name = str(dcm.get("PerformingPhysicianName"))  # 주치의
 class DicomInformation(QMainWindow, form_class):
@@ -122,14 +127,55 @@ class DicomInformation(QMainWindow, form_class):
         #self.label.setText(file)
         #print(_5_metadata.extract_metadata(self.dicom_filepath))
 
+    def extract_DA(self, a):
+        values = []
+
+        strr = ['Study Date', 'Series Date', 'Content Date']
+        for i in strr :
+            result = [tup[1] for tup in a if tup[0] == i][0]
+            values.append(result)
+        return values
+
+    def detection_DA(self, values):
+
+        date1, date2, date3 = values
+        counter = Counter([date1, date2, date3])
+
+        if counter.most_common(1)[0][1] == 3:
+            print("이 파일의 date 값은 이상없습니다.")
+        else:
+            most_common_values = counter.most_common(2)
+            common_value, count = most_common_values[0]
+            changed_value, _ = most_common_values[1]
+            print(f"원본파일의 날짜는 {common_value} 값으로 예상됩니다.")
+            print(f"{changed_value} 값으로 변경된 것으로 예상됩니다.")
+
+            return common_value, changed_value
+
+
+
     def compare(self):
         data1, dcm1, patient1 = self.get_dicom_data(self.dicom_filepath)
         data2, dcm2, patient2 = self.get_dicom_data(self.dicom_filepath2) #0322
         c = DetectionModule()
         self.file_Forgery_Position_text.setText('')
-
         self.diffs = c.compare_data(data1, data2)
-        #object_values = [item["key"] for item in diffs]
+
+        values = self.extract_DA(data1[1]['objects'])
+        a = self.detection_DA(values)
+        if a is not None:
+
+            diff = 'a에서' + a
+
+            self.diff_vars.append(diff)
+
+        values = self.extract_DA(data2[1]['objects'])
+
+        if self.detection_DA(values):
+            diff = 'a에서' + self.detection_DA(values)
+
+            self.diff_vars.append(diff)
+
 
         if len(self.diffs) == 0:
             self.file_isForgery_text.setText('위변조 의심 행위가 없습니다')
@@ -146,15 +192,15 @@ class DicomInformation(QMainWindow, form_class):
         image2 = self.tagview2(data2, self.TagInfo2_Widget, dcm2)
 
         #하위 4줄 #제거
-        #scene = self.setDicomImage(image1)
-        #scene2 = self.setDicomImage(image2)
-        #self.screen1_Widget.setScene(scene)
-        #self.screen2_Widget.setScene(scene2)
+        scene = self.setDicomImage(image1)
+        scene2 = self.setDicomImage(image2)
+        self.screen1_Widget.setScene(scene)
+        self.screen2_Widget.setScene(scene2)
 
         self.fileview(self.dicom_filepath, self.FileInfo1_Widget)
         self.fileview(self.dicom_filepath2, self.FileInfo2_Widget)
-        #self.screen1_Widget.fitInView(QSize(200, 200), Qt.KeepAspectRatio)
-        #self.screen2_Widget.fitInView(QSize(200, 200), Qt.KeepAspectRatio)
+        # self.screen1_Widget.fitInView(QSize(200, 200), Qt.KeepAspectRatio)
+        # self.screen2_Widget.fitInView(QSize(200, 200), Qt.KeepAspectRatio)
 
         self.file1 = str(os.path.basename(self.dicom_filepath))
         self.file2 = str(os.path.basename(self.dicom_filepath2))
@@ -239,11 +285,6 @@ class DicomInformation(QMainWindow, form_class):
         return data, dcm, patient1
 
 
-
-
-
-
-
     def tagview(self, file, patient, institution): #0322
         data = [
             {"type": "File",
@@ -253,7 +294,7 @@ class DicomInformation(QMainWindow, form_class):
              "objects": [("Patient Name", patient.patient_name), ("Patient ID", patient.patient_id),
                          ("Patient Sex", patient.patient_sex), ("Patient Birthday", patient.patient_birthday),
                          ("Patient Age", patient.patient_age), ("Patient Height", patient.patient_height),
-                         ("Patient Weight", patient.patient_weight), ("Series Date", patient.series_date),
+                         ("Patient Weight", patient.patient_weight), ("Series Date", patient.series_date),("Study Date", patient.study_date),("Acquisition Date", patient.acquisition_date), ("Content Date", patient.content_date),
                          ("Performing Physician's Name", patient.performing_physician_name)]},
             {"type": "Institution",
              "objects": [("Institution Name", institution.institution_name),
@@ -270,10 +311,10 @@ class DicomInformation(QMainWindow, form_class):
 
         from PyQt5.QtGui import QImage
         #하위 4줄 #제거
-        #dicomImage = QImage(dcm.pixel_array, dcm.pixel_array.shape[1], dcm.pixel_array.shape[0],
-        #                    QImage.Format_Grayscale8)
+        dicomImage = QImage(dcm.pixel_array, dcm.pixel_array.shape[1], dcm.pixel_array.shape[0],
+                           QImage.Format_Grayscale8)
         #self.display_video_in_dicom_view()
-        #return dicomImage
+        return dicomImage
 
 
     def add_tree_root(self, name: str, description: str, treewidget):
