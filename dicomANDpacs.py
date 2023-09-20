@@ -9,7 +9,7 @@
 import glob
 import sys
 
-import dicom as dicom
+#import dicom as dicom
 import pandas as pd
 #pip install pydicom
 
@@ -212,21 +212,12 @@ class dicomandpacsmain(QMainWindow, form_class):
                             Explaination = text[4]
 
                             if patient.patient_id in Explaination or patient.patient_name in Explaination or item in Explaination:
-                                if 'Modify Dicom infomation' in line:
-                                    self.viewrexlog_dataframe.loc[self.index] = [Time, 'Modify', Explaination]
-                                    self.index += 1
+                                if 'Modify Dicom infomation' or 'FROM StudyInformation' or 'FROM Patient' or 'Export File Path' in line:
+                                    self.viewrexlogAnalyze(Time, Explaination)
 
-                                elif 'FROM StudyInformation' in line:
-                                    self.viewrexlog_dataframe.loc[self.index] = [Time, 'Select', Explaination]
-                                    self.index += 1
-
-                                elif 'FROM Patient' in line:
-                                    self.viewrexlog_dataframe.loc[self.index] = [Time, 'Select', Explaination]
-                                    self.index += 1
-
-                                elif 'Export File Path' in line:
-                                    self.viewrexlog_dataframe.loc[self.index] = [Time, 'Export', Explaination]
-                                    self.index += 1
+    def viewrexlogAnalyze(self, Time, Explaination):
+        self.viewrexlog_dataframe.loc[self.index] = [Time, 'Modify', Explaination]
+        self.index += 1
 
 
 
