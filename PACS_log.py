@@ -131,7 +131,13 @@ class ViewRexLogDataFrame(QMainWindow, form_class):
 
                             Time = text[0] + ' ' + text[2] + ' ' + text[1]
                             Number = text[3]
-                            Explaination = text[4]
+                            explaination = text[4]
+                            temp = explaination.split(' ', 3)
+                            Explaination = temp[3]
+                            if lasttime == Time:
+                                continue
+                            else:
+                                lasttime = Time
 
                         if 'Modify Dicom infomation' in line:
                             self.viewrexlog_dataframe.loc[self.index] = [Time,
