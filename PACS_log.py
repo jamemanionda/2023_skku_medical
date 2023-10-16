@@ -22,7 +22,9 @@ class ViewRexLogDataFrame(QMainWindow, form_class):
         self.pacs_ui.Logtable.setVisible(False)
         self.viewrexlogfile_folder = ''
         self.viewrexlog_dataframe = pd.DataFrame(columns=['Time', 'Action', 'Explaination'])
+        self.viewrexallog = pd.DataFrame(columns=['Time', 'Action', 'Explaination'])
         self.index = 0
+        self.index2 = 0
         self.viewrexlogfile_folder = 'C:\\TechHeim\\ViewRex3\\Log'      #로그 파일이 저장되는 기본 경로
         self.computer_name = socket.gethostname()
         self.computer_ip = socket.gethostbyname(self.computer_name)
@@ -44,7 +46,7 @@ class ViewRexLogDataFrame(QMainWindow, form_class):
     def autoExtract(self):
         lasttime = 0
         if True:        #Default 경로가 아닌 다른 경로에 파일이 저장되어 있을 경우, 조건문 추가 필요
-            self.viewrexlogfile_folder = 'C:\\Users\\skku-dfl\\OneDrive - 성균관대학교\\문서\\SKKU_DFL\\DICOM\\Log'    #실제 로그파일의 폴더를 받을 수 있도록 변경할 것
+            self.viewrexlogfile_folder = 'C:\\Users\\SKKU-DF\\PycharmProjects\\2023_skku_medical\\Log'    #실제 로그파일의 폴더를 받을 수 있도록 변경할 것
         self.viewrexlogfile_path = self.viewrexlogfile_folder + "\\ViewRex.exe_*.log"
         textline = []
         for logfile in glob.glob(self.viewrexlogfile_path):
@@ -76,25 +78,35 @@ class ViewRexLogDataFrame(QMainWindow, form_class):
                             else:
                                 lasttime = Time
 
+
+
                         if 'Modify Dicom infomation' in line:
                             self.viewrexlog_dataframe.loc[self.index] = [Time, 'Modify', Explaination]
+                            self.viewrexallog.loc[self.index] = [Time, 'Modify', Explaination]
                             self.index += 1
+                            self.index2 += 1
 
                         elif 'FROM StudyInformation' in line:
                             self.viewrexlog_dataframe.loc[self.index] = [Time, 'Select', Explaination]
+                            self.viewrexallog.loc[self.index] = [Time, 'Modify', Explaination]
                             self.index += 1
+                            self.index2 += 1
 
                         elif 'FROM Patient' in line:
                             self.viewrexlog_dataframe.loc[self.index] = [Time, 'Select', Explaination]
+                            self.viewrexallog.loc[self.index] = [Time, 'Modify', Explaination]
                             self.index += 1
+                            self.index2 += 1
 
                         elif 'Export File Path' in line:
                             self.viewrexlog_dataframe.loc[self.index] = [Time, 'Export', Explaination]
+                            self.viewrexallog.loc[self.index] = [Time, 'Modify', Explaination]
                             self.index += 1
+                            self.index2 += 1
 
-                        #else:
-                            #self.viewrexlog_dataframe.loc[self.index] = [self.computer_name, self.computer_ip, None, None, Explaination]
-                            #self.index += 1
+                        else:
+                            self.viewrexallog.loc[self.index2] = [Time, 'etc', Explaination]
+                            self.index2 += 1
 
         #self.viewrexlog_dataframe.index = self.viewrexlog_dataframe.index + 1
         self.viewrexlog_dataframe['Time'] = pd.to_datetime(self.viewrexlog_dataframe['Time'])
@@ -106,6 +118,7 @@ class ViewRexLogDataFrame(QMainWindow, form_class):
         print(self.tossview)
 
     def manualExtract(self):
+        lasttime = 0
         fname = QFileDialog.getOpenFileNames(self, "File Load", 'C:\\TechHeim\\ViewRex3\\Log',
                                              'All File(*);; Text File(*.txt);; Log file(*.log)')
 

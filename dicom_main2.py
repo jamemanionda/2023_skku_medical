@@ -8,6 +8,7 @@
 """
 import datetime
 import glob
+import hashlib
 import sys
 import datetime
 from collections import Counter
@@ -28,8 +29,9 @@ from PyQt5.QtWidgets import QTreeWidgetItem
 from PyQt5.QtWidgets import QApplication
 from PyQt5.QtCore import Qt
 import dicomANDpacs
-import report2
 from Detection_Module import DetectionModule
+
+import report2
 
 
 form_class = uic.loadUiType("dicom2.ui")[0]
@@ -79,31 +81,19 @@ class DicomInformation(QMainWindow, form_class):
         self.OK_btn.clicked.connect(self.accept)
         self.Cancel_btn.clicked.connect(self.reject)
 
-    def makeReport(self):
-        self.show_popup_ok('report', '보고서를 만드시겠습니까?')
 
-    def show_popup_ok(self, title: str, content: str):
-        msg = QMessageBox()
-        msg.setWindowTitle(title)
-        msg.setText(content)
-        msg.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
-        msg.setStyleSheet('font: 25 11pt "KoPubWorldDotum";background-color: rgb(255, 255, 255);')
-        result = msg.exec_()
-        if result == QMessageBox.Ok:
-            self.realpath = report2.make_docx(self.addressip, self.file1, self.file2, self.diffs)
-            self.open_file('report', '보고서를 열어보시겠습니까?')
 
-    def open_file(self, title: str, content: str):
-        msg = QMessageBox()
-        msg.setWindowTitle(title)
-        msg.setText(content)
-        msg.setStandardButtons(QMessageBox.Ok | QMessageBox.Cancel)
-        msg.setStyleSheet('font: 25 11pt "KoPubWorldDotum";background-color: rgb(255, 255, 255);')
-        result = msg.exec_()
-        if result == QMessageBox.Ok:
-            current = os.getcwd()
-            path = self.realpath
-            os.startfile(path)
+    def get_file_sha256(self, file_path):
+        """Return the SHA256 hash of a file."""
+        sha256 = hashlib.sha256()
+        with open(file_path, 'rb') as f:
+            for chunk in iter(lambda: f.read(4096), b''):
+                sha256.update(chunk)
+        return sha256.hexdigest()
+
+
+
+
 
 
     #파일 경로 입력
@@ -147,16 +137,21 @@ class DicomInformation(QMainWindow, form_class):
             most_common_values = counter.most_common(2)
             common_value, count = most_common_values[0]
             changed_value, _ = most_common_values[1]
-            print(f"원본파일의 날짜는 {common_value} 값으로 예상됩니다.")
-            print(f"{changed_value} 값으로 변경된 것으로 예상됩니다.")
+            self.label_3.setText(f'It is suspected that the original file\'s date changed from <span style="color:red; font-weight:bold">{common_value}</span> to <span style="color:red; font-weight:bold">{changed_value}</span>.')
 
             return common_value, changed_value
 
 
 
     def compare(self):
+
         data1, dcm1, patient1 = self.get_dicom_data(self.dicom_filepath)
         data2, dcm2, patient2 = self.get_dicom_data(self.dicom_filepath2) #0322
+
+        self.patient1 = patient1
+        self.patient2 = patient2
+        self.dicom_filehash1 = self.get_file_sha256(self.dicom_filepath)
+        self.dicom_filehash2 = self.get_file_sha256(self.dicom_filepath2)
         c = DetectionModule()
         self.file_Forgery_Position_text.setText('')
         self.diffs = c.compare_data(data1, data2)
@@ -164,23 +159,36 @@ class DicomInformation(QMainWindow, form_class):
         values = self.extract_DA(data1[1]['objects'])
         a = self.detection_DA(values)
         if a is not None:
-
-            diff = 'a에서' + a
-
-            self.diff_vars.append(diff)
+            if isinstance(a, tuple):
+                a = ' '.join(a)
+                diff = 'a에서' + str(a)
+            else :
+                diff = 'a에서' + a
+            try:
+                self.diff_vars.append(diff)
+            except Exception  as e :
+                print(e)
 
         values = self.extract_DA(data2[1]['objects'])
 
         if self.detection_DA(values):
-            diff = 'a에서' + self.detection_DA(values)
 
-            self.diff_vars.append(diff)
+            if isinstance(values, tuple) or isinstance(values, list):
+                a = ' '.join(values)
+                diff = 'a에서' + str(a)
+            else:
+                diff = 'a에서' + values
+            try:
+                self.diff_vars.append(diff)
+            except Exception as e:
+                print(e)
 
 
         if len(self.diffs) == 0:
-            self.file_isForgery_text.setText('위변조 의심 행위가 없습니다')
+            self.file_isForgery_text.setText('There is <span style="color:red; font-weight:bold">no suspected</span> tampering')
+
         else:
-            self.file_isForgery_text.setText('위변조 의심 행위가 있습니다')
+            self.file_isForgery_text.setText('There is <span style="color:red; font-weight:bold">suspected</span> tampering')
             self.file_Forgery_Position_text.setText(str(self.diffs))
 
         self.TagInfo1_Widget.clear()
@@ -197,7 +205,7 @@ class DicomInformation(QMainWindow, form_class):
         self.screen1_Widget.setScene(scene)
         self.screen2_Widget.setScene(scene2)
 
-        self.fileview(self.dicom_filepath, self.FileInfo1_Widget)
+        self.patient1_ctime = self.fileview(self.dicom_filepath, self.FileInfo1_Widget)
         self.fileview(self.dicom_filepath2, self.FileInfo2_Widget)
         # self.screen1_Widget.fitInView(QSize(200, 200), Qt.KeepAspectRatio)
         # self.screen2_Widget.fitInView(QSize(200, 200), Qt.KeepAspectRatio)
@@ -353,6 +361,8 @@ class DicomInformation(QMainWindow, form_class):
             parent = self.add_tree_root(d['type'], "", treeWidget)
             for child in d['objects']:
                 self.add_tree_child(parent, *child)
+
+        return mtime
 
     def create_table_widget(self, df, widget):
         widget.setRowCount(len(df.index))

@@ -8,6 +8,7 @@ from docx import Document
 from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_BREAK  # 오류나도 정상작동
 from docx.shared import Inches, Pt, RGBColor
 from datetime import datetime
+import pandas as pd
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 # 자동 문서 작업은 이 소스코드에서 할 것.
@@ -65,12 +66,30 @@ def feat_importance(imgPath,document):
     plot_feature.add_picture(imgPath, width=Inches(7.7), height=Inches(2.8))
     paragraph_format.left_indent = Pt(-65)
 
+def integrityloganddicom(dicommodule, log, name1):
+    if log.log.viewrexallog['Explaination'].str.contains(dicommodule.patient1.patient_id).any():
+        matching_explanations = log.log.viewrexallog[log.log.viewrexallog['Explaination'].str.contains(dicommodule.patient1.patient_id)]['Time']
+        for explanationtime in matching_explanations:
+            print(explanationtime)
+            ctime = dicommodule.patient1_ctime
+            if ctime == explanationtime:
+                print("해당파일은", explanationtime, "에 조작되었습니다")
+            else :
+                print("로그에 해당파일에 대한 수정행위는 있지만, 일치하는 시간은 없습니다.")
+    else :
+        print("There are no matching logs.")
 
-def make_docx(mod, name1, name2, list) -> None:
-    title = 'Medical 분석보고서'
+
+#self.addressip, self.file1, self.file2, self.diffs,
+#mod, name1, name2, list, dicommodule, logmodule
+def make_docx(dicommodule, logmodule) -> None:
+    name1 = dicommodule.file1
+    name2 = dicommodule.file2
+    list = dicommodule.diffs
+    title = 'Medical Forgery Analysis Report'
     sub_title = name1
     current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    dicom_filename = '- 파일명 : ' + name1
+    dicom_filename = '- Filename : ' + name1
     score = '50'
     mod = 0
     # if count > 1: #리스트를 문자열로 변환하는 작업
@@ -90,10 +109,10 @@ def make_docx(mod, name1, name2, list) -> None:
 
 
 
-    time = document.add_paragraph('보고서 생성 일시 : ' + current_time )
+    time = document.add_paragraph('Report Create Time : ' + current_time )
     paragraph_format = time.paragraph_format
     paragraph_format.alignment = WD_ALIGN_PARAGRAPH.RIGHT
-    hash = document.add_paragraph('보고서 생성 일시 : ' + current_time )
+    hash = document.add_paragraph('File hash : ' + dicommodule.dicom_filehash1)
     paragraph_format = hash.paragraph_format
     paragraph_format.alignment = WD_ALIGN_PARAGRAPH.RIGHT
 
@@ -107,7 +126,7 @@ def make_docx(mod, name1, name2, list) -> None:
     """FStyle = paragraph.styles['Normal']
     FStyle.font.bold = True"""
 
-    use_algorithm = document.add_paragraph('[파일정보]')
+    use_algorithm = document.add_paragraph('[File information]')
     paragraph_format = use_algorithm.paragraph_format
     paragraph_format.alignment = WD_ALIGN_PARAGRAPH.LEFT
     p_spacing_left(paragraph_format)
@@ -135,27 +154,21 @@ def make_docx(mod, name1, name2, list) -> None:
 
 
     if mod == 0:
-        explain_model.add_run('→ DICOM 변조가 의심됩니다. ')
+        explain_model.add_run('→ The DICOM is suspected of being tampered with.')
     elif mod == 1:
-        explain_model.add_run('→ PACS에서 의심되는 행위를 발견하였습니다.\n')
-    elif mod == 2:
-        explain_model.add_run('→ DecisionTree 모델은 파일의 PE구조를 분석하고 각 특성에 대한 예/아니오 에 대한 질문을 이어나가면서 악성코드의 여부를 찾는 알고리즘 입니다.\n')
-    elif mod == 3:
-        explain_model.add_run('→ RandomForest 모델은 DecisionTree를 랜덤하게 만들어 각 DecisionTree의 판별을 이용하여 최종 악성코드 여부를 판별합니다.\n')
-    elif mod == 4:
-        explain_model.add_run('→ DNN 모델은 파일의 PE구조를 분석하여 4개의 층으로 이루어진 신경망을 이용하여 방정식을 만들고 학습한 뒤 확률을 추출하여 악성코드의 여부를 판별합니다. \n')
+        explain_model.add_run('→ Suspicious activity was detected in the PACS.')
 
     paragraph_format.left_indent = Pt(5)
     p_spacing_low_left(paragraph_format)
 
-    write_score = document.add_paragraph('[정확도]')
+    write_score = document.add_paragraph('[Accuracy]')
     paragraph_format = write_score.paragraph_format
     p_spacing_left(paragraph_format)
 
     write_score1 = document.add_paragraph(str(score))
     paragraph_format = write_score1.paragraph_format
 
-    result = document.add_paragraph('[분석 결과]')
+    result = document.add_paragraph('[Result]')
     paragraph_format = result.paragraph_format
     p_spacing_left(paragraph_format)
     # paragraph_format.keep_with_next = True
@@ -183,10 +196,10 @@ def make_docx(mod, name1, name2, list) -> None:
     result_table.rows.style = "borderColor:red;background-color:gray"#'Table Grid'
 
     hdr_cells = result_table.rows[0].cells
-    hdr_cells[0].text = '파일 명'
+    hdr_cells[0].text = 'Filename'
     p = hdr_cells[0].paragraphs[0]
     p.alignment = docx.enum.text.WD_ALIGN_PARAGRAPH.CENTER
-    hdr_cells[1].text = '변조 위치'
+    hdr_cells[1].text = 'Forgery Position'
     p = hdr_cells[1].paragraphs[0]
     p.alignment = docx.enum.text.WD_ALIGN_PARAGRAPH.CENTER
 
@@ -195,7 +208,7 @@ def make_docx(mod, name1, name2, list) -> None:
 
     firstfile[0].text = name1
     secondfile[0].text = name2
-    firstfile[1].text = list
+    firstfile[1].text = ','.join(list)
     #write_alert = result.add_run('\t전체 검사 결과는 Reports/csv_list/Results 디렉토리에 저장됩니다.')
     #write_alert.font.size = docx.shared.Pt(9)
     #write_alert.font.style = 'color:Gray'
@@ -211,7 +224,10 @@ def make_docx(mod, name1, name2, list) -> None:
     paragraph_format.alignment = WD_ALIGN_PARAGRAPH.LEFT
 
 
-
+    mapping = document.add_paragraph('[Combine Result]')
+    paragraph_format = mapping.paragraph_format
+    p_spacing_left(paragraph_format)
+    integrityloganddicom(dicommodule, logmodule, name1)
 
 
     a = explain_model.add_run()
@@ -273,14 +289,19 @@ def make_docx(mod, name1, name2, list) -> None:
 
 
 
-    alert = document.add_paragraph('\n\n\n주의 : 이 시스템은 직접 서버나 DICOM, PACS의 데이터를 변경할 수 없습니다.\n')
+    alert = document.add_paragraph('\n\n\nCaution: This system cannot directly modify the data of the server, DICOM, or PACS.\n')
     paragraph_format = alert.paragraph_format
     paragraph_format.alignment = WD_ALIGN_PARAGRAPH.CENTER
+
+
+
+
     reportPath = sub_title + '.docx'
     document.save(reportPath)
+
     msg = QMessageBox()
-    msg.setWindowTitle("완료")
-    msg.setText("보고서가 생성되었습니다.")
+    msg.setWindowTitle("Complete")
+    msg.setText("The report has been generated.")
     msg.setStyleSheet('font: 25 11pt "KoPubWorldDotum";background-color: rgb(255, 255, 255);')
 
     msg.exec_()
